@@ -1,0 +1,2001 @@
+gpa,family_income,parents_education,is_orphan,is_displaced,region,parent_occupation,gap_years,high_school_type,has_verification,gender,faculty,scholarship_eligible
+23.7,159,Secondary,0,1,Galgaduud,Unemployed,5,Private,1,Male,Agri,0
+62.3,1472,Primary,1,0,Nugaal,Unemployed,4,Private,1,Male,CS,0
+66.8,79,Secondary,1,1,Lower Shabelle,Teacher,2,Public,1,Female,CS,1
+4.0,231,Secondary,0,0,Hiran,Farmer,4,Public,1,Male,Medicine,0
+16.2,447,University,0,0,Nugaal,Farmer,2,Private,1,Female,Eng,0
+70.2,703,Primary,0,0,Galgaduud,Business,1,Private,1,Female,Agri,0
+55.0,913,None,0,0,Galgaduud,Farmer,3,Private,1,Male,Eng,0
+89.9,968,Primary,0,0,Hiran,Unemployed,2,Private,1,Female,Medicine,0
+94.2,82,University,0,0,Hiran,Teacher,3,Private,0,Female,Medicine,0
+68.8,1260,University,0,0,Hiran,Teacher,2,Public,0,Male,Agri,0
+44.5,533,Primary,0,0,Banadir,Business,1,Public,1,Male,Medicine,0
+61.2,1223,Secondary,1,0,Gedo,Teacher,0,Private,1,Female,Eng,0
+32.6,1139,University,1,0,Banadir,Business,2,Private,1,Male,Eng,0
+69.6,1916,University,0,0,Bari,Farmer,3,Private,1,Male,Medicine,0
+38.3,1420,None,1,1,Gedo,Farmer,5,Private,1,Male,Eng,0
+66.1,920,University,0,0,Banadir,Teacher,1,Private,1,Female,Agri,0
+61.0,558,Secondary,1,0,Hiran,Teacher,1,Public,1,Male,Eng,0
+10.9,751,None,1,1,Lower Shabelle,Business,0,Public,1,Male,Agri,0
+8.2,1978,Secondary,1,0,Lower Shabelle,Teacher,3,Public,1,Female,Medicine,0
+18.1,1614,None,0,1,Galgaduud,Farmer,3,Public,1,Female,CS,0
+37.2,1184,Primary,1,0,Banadir,Unemployed,3,Private,1,Male,Agri,0
+16.1,683,None,1,1,Lower Shabelle,Business,4,Public,1,Female,CS,0
+93.5,446,Primary,0,1,Gedo,Business,2,Private,0,Female,Agri,0
+40.5,677,Secondary,1,0,Galgaduud,Teacher,5,Public,0,Male,Eng,0
+69.9,1313,Secondary,1,0,Nugaal,Unemployed,1,Public,1,Male,Eng,0
+90.2,439,Primary,1,1,Hiran,Unemployed,4,Public,1,Male,CS,1
+42.3,1651,University,1,1,Hiran,Unemployed,3,Public,1,Male,Eng,0
+62.7,242,Primary,0,0,Nugaal,Unemployed,4,Public,1,Female,CS,1
+97.5,1426,Secondary,1,0,Hiran,Farmer,3,Private,1,Female,CS,0
+67.5,615,None,0,0,Gedo,Unemployed,5,Private,1,Male,Medicine,0
+74.5,1307,Secondary,0,0,Banadir,Teacher,4,Private,1,Male,Medicine,0
+48.1,320,University,0,0,Banadir,Farmer,0,Private,1,Male,CS,0
+17.1,1478,University,1,1,Nugaal,Business,1,Public,1,Female,CS,0
+41.2,963,Secondary,1,1,Bari,Teacher,0,Public,1,Male,CS,0
+85.1,1684,Primary,0,0,Bari,Farmer,0,Private,1,Female,Medicine,0
+61.7,1789,Secondary,0,0,Banadir,Unemployed,3,Public,1,Female,Medicine,0
+39.7,1496,Secondary,0,0,Lower Shabelle,Business,1,Private,1,Male,Eng,0
+70.4,1649,Primary,0,1,Banadir,Unemployed,0,Private,1,Male,Eng,0
+85.1,593,University,1,0,Galgaduud,Unemployed,3,Public,1,Female,CS,0
+33.0,1694,University,0,0,Lower Shabelle,Business,1,Public,0,Female,Agri,0
+44.0,1663,Secondary,0,0,Banadir,Unemployed,3,Public,1,Male,Medicine,0
+45.5,237,None,0,0,Gedo,Business,3,Private,0,Male,CS,0
+25.3,1474,University,0,1,Hiran,Unemployed,5,Public,1,Male,CS,0
+19.5,1710,Primary,0,0,Gedo,Farmer,2,Private,0,Female,Medicine,0
+25.4,131,Primary,0,1,Hiran,Unemployed,3,Private,1,Male,Medicine,0
+68.5,594,None,1,0,Bari,Unemployed,4,Private,1,Female,Medicine,0
+84.4,150,Primary,0,0,Banadir,Farmer,2,Private,1,Male,Eng,1
+87.7,1205,Secondary,0,0,Hiran,Teacher,5,Public,0,Male,Agri,0
+42.2,281,University,0,0,Bari,Business,4,Public,0,Male,Eng,0
+74.2,1518,Primary,0,0,Galgaduud,Business,4,Public,1,Female,CS,0
+93.4,516,University,1,0,Lower Shabelle,Teacher,1,Public,1,Female,Eng,0
+3.6,534,University,0,0,Hiran,Farmer,2,Public,1,Female,Eng,0
+59.1,1672,Primary,0,1,Lower Shabelle,Business,0,Private,1,Male,CS,0
+34.8,916,Primary,0,0,Galgaduud,Farmer,4,Public,1,Male,Agri,0
+65.5,1124,University,0,0,Banadir,Business,5,Private,1,Female,Eng,0
+43.9,655,Secondary,0,0,Hiran,Unemployed,3,Private,1,Female,CS,0
+81.0,481,Secondary,0,0,Bari,Business,5,Public,1,Male,Agri,0
+27.4,1082,None,0,1,Hiran,Business,5,Public,1,Female,Medicine,0
+62.4,637,University,0,0,Galgaduud,Teacher,5,Private,1,Female,CS,0
+8.9,1153,Secondary,0,0,Hiran,Farmer,0,Public,1,Male,CS,0
+58.0,318,None,0,1,Nugaal,Business,4,Private,0,Female,CS,0
+58.3,1678,None,0,1,Hiran,Unemployed,2,Private,1,Male,CS,0
+61.1,217,Secondary,0,1,Lower Shabelle,Teacher,0,Public,1,Female,CS,1
+54.7,1147,University,1,0,Bari,Unemployed,3,Private,1,Male,Agri,0
+76.5,1468,None,1,0,Banadir,Farmer,1,Private,1,Female,Eng,0
+6.4,1871,University,1,1,Nugaal,Unemployed,5,Public,1,Female,Agri,0
+55.5,1132,Secondary,1,0,Nugaal,Farmer,4,Private,1,Male,Medicine,0
+23.4,1509,Secondary,0,0,Gedo,Teacher,5,Private,1,Female,Agri,0
+77.0,1108,Secondary,1,0,Gedo,Farmer,0,Private,1,Male,Agri,0
+93.0,1627,None,0,0,Gedo,Business,0,Public,1,Female,CS,0
+37.7,306,Secondary,0,1,Galgaduud,Teacher,5,Public,1,Male,Medicine,0
+94.1,1721,University,0,0,Lower Shabelle,Business,3,Private,1,Male,Medicine,0
+18.2,103,University,0,0,Banadir,Farmer,4,Private,1,Female,Medicine,0
+73.3,1599,Primary,0,0,Hiran,Unemployed,1,Private,1,Female,Agri,0
+57.6,798,Secondary,1,0,Nugaal,Teacher,0,Private,1,Female,Agri,0
+90.1,1163,University,0,0,Galgaduud,Farmer,4,Public,1,Male,Agri,0
+72.1,1344,University,0,0,Banadir,Unemployed,4,Public,1,Male,Eng,0
+29.9,1163,Secondary,0,1,Nugaal,Farmer,0,Private,1,Male,Medicine,0
+70.7,1191,Primary,0,0,Banadir,Farmer,1,Public,1,Female,Eng,0
+19.1,426,University,0,0,Nugaal,Unemployed,3,Public,1,Male,CS,0
+37.4,436,Secondary,1,1,Galgaduud,Unemployed,1,Private,1,Male,Agri,0
+78.4,992,Primary,0,0,Galgaduud,Farmer,0,Public,1,Female,Eng,0
+79.2,603,University,0,1,Galgaduud,Teacher,4,Private,1,Male,Agri,0
+67.5,1868,Secondary,1,0,Gedo,Business,1,Private,0,Male,Medicine,0
+24.8,904,None,1,0,Galgaduud,Farmer,4,Public,1,Female,CS,0
+38.5,1127,Secondary,0,0,Hiran,Unemployed,3,Private,1,Female,Eng,0
+24.0,1907,None,0,0,Banadir,Farmer,3,Private,0,Male,Medicine,0
+75.3,274,Secondary,0,1,Hiran,Teacher,2,Private,1,Male,Medicine,1
+94.3,785,None,1,1,Galgaduud,Unemployed,0,Public,0,Male,CS,0
+48.0,850,Primary,0,0,Bari,Farmer,5,Private,1,Female,Eng,0
+50.2,576,Secondary,0,0,Banadir,Unemployed,2,Public,1,Female,CS,0
+37.3,487,Primary,0,1,Hiran,Business,5,Public,1,Male,Medicine,0
+81.8,560,Secondary,1,1,Banadir,Farmer,3,Public,1,Female,CS,0
+69.9,645,University,1,0,Lower Shabelle,Unemployed,0,Public,0,Male,Medicine,0
+54.3,835,None,1,1,Banadir,Farmer,0,Private,1,Female,Agri,0
+98.3,1296,None,1,0,Hiran,Business,3,Private,0,Male,Agri,0
+13.0,1997,University,1,1,Nugaal,Teacher,0,Private,1,Male,Eng,0
+54.6,1264,None,1,0,Hiran,Farmer,4,Private,1,Male,Eng,0
+9.6,1087,Secondary,1,1,Hiran,Farmer,5,Private,1,Male,CS,0
+94.8,366,None,0,0,Hiran,Unemployed,0,Public,1,Male,CS,1
+22.5,1259,University,0,1,Bari,Teacher,0,Public,1,Female,Medicine,0
+45.1,1440,None,1,0,Gedo,Business,2,Public,1,Female,CS,0
+87.6,687,None,1,0,Lower Shabelle,Farmer,2,Private,1,Male,Eng,0
+51.9,62,University,1,0,Banadir,Teacher,0,Public,0,Male,CS,0
+33.9,1104,Secondary,1,0,Bari,Teacher,3,Private,0,Female,Medicine,0
+69.9,593,Primary,0,1,Gedo,Business,2,Private,0,Male,Medicine,0
+76.0,169,Secondary,1,1,Galgaduud,Farmer,4,Public,1,Male,CS,1
+23.8,665,None,0,1,Bari,Business,2,Private,0,Female,CS,0
+49.2,96,University,0,1,Bari,Teacher,0,Public,0,Female,Agri,0
+31.5,1678,Secondary,0,1,Galgaduud,Teacher,3,Public,1,Female,Eng,0
+66.0,263,Secondary,0,0,Nugaal,Farmer,1,Private,1,Male,Eng,1
+77.4,1694,Secondary,0,0,Hiran,Business,4,Private,1,Female,Medicine,0
+49.2,927,None,0,0,Galgaduud,Unemployed,4,Private,1,Male,Agri,0
+65.1,1027,Secondary,1,0,Bari,Teacher,1,Public,0,Male,Medicine,0
+3.5,1877,None,0,0,Banadir,Business,5,Public,0,Male,CS,0
+38.9,1368,Primary,0,0,Nugaal,Farmer,4,Public,1,Male,Agri,0
+13.0,178,University,0,1,Lower Shabelle,Teacher,5,Public,1,Male,Agri,0
+96.0,1459,Primary,1,0,Banadir,Farmer,3,Public,1,Male,Medicine,0
+74.8,1944,University,0,0,Galgaduud,Farmer,2,Public,0,Female,CS,0
+32.0,684,University,0,0,Hiran,Teacher,1,Public,1,Female,Medicine,0
+41.3,1653,University,0,1,Bari,Business,3,Private,1,Female,Medicine,0
+12.4,1706,Secondary,1,0,Nugaal,Unemployed,1,Public,1,Male,Agri,0
+77.2,1413,None,0,1,Banadir,Farmer,4,Public,0,Female,CS,0
+57.4,1659,None,1,0,Lower Shabelle,Unemployed,2,Private,1,Male,Medicine,0
+77.5,1006,Secondary,0,1,Bari,Teacher,2,Public,0,Male,CS,0
+72.1,1526,University,0,0,Banadir,Teacher,3,Public,0,Female,Medicine,0
+82.8,606,Secondary,0,0,Nugaal,Teacher,1,Private,0,Female,CS,0
+16.7,469,University,0,0,Nugaal,Teacher,3,Public,1,Female,CS,0
+15.3,668,Primary,0,0,Galgaduud,Business,0,Public,1,Male,CS,0
+13.3,554,University,0,0,Galgaduud,Business,2,Public,1,Female,Medicine,0
+36.6,112,University,1,0,Lower Shabelle,Farmer,1,Private,1,Female,Medicine,0
+7.0,804,Primary,0,0,Nugaal,Farmer,0,Private,1,Male,CS,0
+76.3,1533,None,0,1,Banadir,Unemployed,0,Public,1,Male,CS,0
+18.2,775,Primary,0,0,Hiran,Business,0,Private,0,Female,CS,0
+12.1,680,Primary,1,0,Nugaal,Business,0,Private,0,Female,Medicine,0
+43.5,975,University,1,0,Galgaduud,Teacher,4,Private,1,Female,Agri,0
+40.3,377,None,0,0,Banadir,Business,1,Private,1,Female,Medicine,0
+58.2,683,Primary,0,0,Lower Shabelle,Farmer,4,Public,1,Male,Medicine,0
+63.5,1652,University,0,0,Gedo,Unemployed,1,Private,1,Female,Agri,0
+6.7,220,None,0,0,Hiran,Business,3,Public,1,Female,Medicine,0
+30.0,1694,None,0,0,Gedo,Farmer,1,Public,0,Male,Agri,0
+86.4,455,University,1,0,Banadir,Business,0,Private,1,Female,Medicine,1
+95.7,525,Secondary,1,0,Galgaduud,Unemployed,1,Public,1,Female,CS,0
+83.5,59,University,1,0,Galgaduud,Business,0,Private,0,Male,CS,0
+83.2,382,None,0,0,Banadir,Business,5,Private,1,Male,Medicine,0
+29.0,1466,Secondary,0,0,Lower Shabelle,Farmer,0,Public,1,Male,CS,0
+35.3,1454,None,0,0,Gedo,Business,0,Private,1,Male,Agri,0
+96.5,801,None,1,0,Gedo,Farmer,3,Private,1,Female,Medicine,0
+25.2,1917,Primary,0,0,Galgaduud,Business,4,Private,1,Male,Medicine,0
+85.1,381,Secondary,0,0,Nugaal,Unemployed,5,Public,1,Female,Eng,1
+61.8,317,None,0,0,Banadir,Unemployed,5,Private,0,Female,Medicine,0
+85.0,579,University,1,0,Lower Shabelle,Unemployed,4,Public,1,Male,Agri,0
+12.9,658,University,0,0,Hiran,Business,3,Private,0,Male,Agri,0
+96.1,268,University,1,0,Bari,Business,5,Private,0,Male,Eng,0
+64.0,329,Primary,0,1,Banadir,Farmer,1,Private,1,Male,CS,1
+54.0,183,None,0,0,Gedo,Farmer,0,Private,1,Female,Agri,1
+24.8,549,Secondary,0,0,Lower Shabelle,Unemployed,0,Private,1,Female,CS,0
+87.4,219,None,0,0,Banadir,Unemployed,2,Private,1,Male,CS,1
+84.3,1415,None,0,0,Lower Shabelle,Farmer,2,Private,1,Male,CS,0
+8.0,1229,Primary,0,0,Bari,Farmer,0,Public,1,Female,Eng,0
+87.5,817,University,1,0,Banadir,Teacher,5,Private,1,Female,CS,0
+69.6,262,University,0,0,Gedo,Business,4,Public,1,Male,Agri,0
+85.1,553,University,0,0,Banadir,Teacher,5,Private,1,Male,Eng,0
+89.1,877,University,0,0,Banadir,Farmer,0,Public,1,Male,Medicine,0
+39.2,1601,University,0,1,Banadir,Teacher,3,Private,1,Male,Agri,0
+48.6,87,Secondary,1,0,Lower Shabelle,Unemployed,2,Private,1,Male,CS,0
+9.9,1326,None,0,0,Galgaduud,Business,3,Public,1,Female,Agri,0
+93.1,1372,Secondary,1,0,Nugaal,Unemployed,1,Private,1,Male,Eng,0
+87.3,1402,Primary,0,0,Bari,Business,3,Private,1,Female,CS,0
+27.7,1142,Secondary,1,0,Bari,Business,0,Public,1,Female,CS,0
+45.5,248,Secondary,0,0,Nugaal,Unemployed,5,Public,1,Male,Eng,0
+11.5,854,None,1,1,Bari,Farmer,4,Public,1,Male,Eng,0
+62.0,86,Primary,1,0,Hiran,Unemployed,0,Public,1,Female,Eng,1
+68.2,1725,None,1,0,Banadir,Unemployed,2,Private,0,Female,Agri,0
+47.2,1861,Secondary,0,0,Banadir,Teacher,4,Private,1,Male,Agri,0
+54.2,1015,Secondary,0,0,Bari,Teacher,2,Private,1,Male,Agri,0
+58.4,1796,Secondary,0,0,Hiran,Teacher,0,Private,1,Female,Medicine,0
+43.0,984,University,0,1,Gedo,Teacher,5,Public,0,Female,Medicine,0
+85.4,1962,University,1,0,Bari,Teacher,5,Public,1,Female,Medicine,0
+44.5,1802,None,1,1,Banadir,Farmer,5,Public,0,Male,Eng,0
+7.2,586,None,1,1,Galgaduud,Business,3,Private,1,Female,Medicine,0
+49.9,108,University,0,1,Bari,Teacher,4,Private,1,Female,CS,0
+30.9,466,University,0,0,Hiran,Teacher,4,Public,1,Male,Eng,0
+60.4,1091,Primary,0,1,Lower Shabelle,Business,0,Private,0,Male,Medicine,0
+97.4,679,Primary,1,0,Gedo,Business,4,Public,0,Male,Medicine,0
+98.6,1748,Primary,1,0,Gedo,Business,2,Public,0,Female,Eng,0
+39.0,1968,Secondary,1,0,Lower Shabelle,Business,2,Private,0,Female,CS,0
+0.7,255,None,0,0,Nugaal,Unemployed,2,Private,1,Female,Eng,0
+32.3,213,Primary,0,1,Hiran,Unemployed,0,Private,1,Female,CS,0
+50.9,1960,None,1,0,Banadir,Unemployed,3,Public,1,Male,CS,0
+47.9,804,Secondary,0,1,Nugaal,Teacher,4,Public,1,Male,CS,0
+69.4,1340,University,0,0,Nugaal,Farmer,4,Public,1,Male,CS,0
+15.3,1162,University,1,1,Bari,Teacher,0,Private,1,Male,CS,0
+32.9,581,Secondary,0,0,Lower Shabelle,Unemployed,5,Public,0,Female,Medicine,0
+54.2,304,University,0,0,Lower Shabelle,Farmer,0,Public,1,Female,Eng,1
+52.2,518,None,0,1,Lower Shabelle,Business,5,Public,1,Male,CS,0
+25.7,276,Secondary,0,1,Nugaal,Farmer,0,Public,1,Male,CS,0
+37.3,1148,University,1,1,Nugaal,Farmer,5,Private,1,Male,Eng,0
+71.1,1285,None,0,0,Bari,Farmer,4,Public,1,Male,Agri,0
+15.7,1945,Secondary,0,1,Banadir,Farmer,4,Private,1,Female,CS,0
+8.0,1983,None,0,0,Banadir,Unemployed,2,Private,1,Male,Medicine,0
+77.6,1922,Secondary,0,1,Banadir,Teacher,1,Private,1,Female,Medicine,0
+6.3,1221,Secondary,0,0,Banadir,Unemployed,0,Public,1,Male,Medicine,0
+99.9,735,University,0,1,Lower Shabelle,Teacher,1,Private,0,Female,CS,0
+63.7,863,None,1,0,Banadir,Business,4,Public,1,Male,CS,0
+96.0,424,Primary,1,0,Hiran,Farmer,2,Public,1,Female,Eng,1
+81.9,829,Primary,0,0,Bari,Unemployed,2,Public,1,Female,CS,0
+74.6,54,None,1,0,Bari,Unemployed,5,Public,1,Male,Agri,1
+56.0,490,Primary,1,1,Galgaduud,Unemployed,5,Private,1,Female,Eng,1
+97.9,1393,None,0,0,Lower Shabelle,Business,4,Public,1,Female,Agri,0
+64.7,289,University,0,0,Banadir,Teacher,0,Private,0,Female,CS,0
+3.5,83,Primary,1,0,Nugaal,Farmer,0,Public,1,Female,CS,0
+20.9,1480,University,0,0,Bari,Farmer,0,Private,0,Female,CS,0
+54.7,305,Secondary,0,0,Lower Shabelle,Teacher,0,Public,0,Male,Agri,0
+88.9,919,None,0,0,Bari,Unemployed,5,Public,0,Female,Eng,0
+0.4,1188,Secondary,0,1,Hiran,Farmer,5,Public,1,Male,Agri,0
+92.4,588,Secondary,0,1,Lower Shabelle,Teacher,4,Public,1,Male,Medicine,0
+48.0,1180,Primary,1,0,Hiran,Business,0,Public,1,Male,Medicine,0
+48.8,962,Secondary,0,0,Galgaduud,Teacher,3,Public,0,Male,Agri,0
+13.2,425,Secondary,0,0,Banadir,Business,5,Private,1,Male,CS,0
+42.3,820,None,0,0,Banadir,Unemployed,2,Private,1,Male,Eng,0
+90.9,445,None,0,0,Galgaduud,Unemployed,2,Public,1,Male,Agri,1
+40.3,1873,University,0,1,Bari,Unemployed,2,Private,1,Male,CS,0
+32.3,101,None,0,0,Nugaal,Business,1,Private,1,Female,Eng,0
+49.0,442,University,0,1,Gedo,Teacher,5,Private,1,Female,CS,0
+62.2,1068,Secondary,1,0,Bari,Teacher,1,Public,0,Female,CS,0
+25.0,108,None,0,0,Banadir,Unemployed,1,Public,1,Male,CS,0
+58.4,1240,Secondary,0,0,Nugaal,Teacher,3,Private,1,Female,CS,0
+64.8,526,University,1,1,Banadir,Farmer,5,Public,1,Female,CS,0
+23.9,269,University,1,0,Nugaal,Teacher,2,Private,1,Male,CS,0
+11.9,623,Secondary,1,0,Banadir,Business,0,Private,0,Female,Eng,0
+69.9,493,Secondary,1,0,Nugaal,Farmer,2,Private,1,Female,Eng,1
+71.7,786,Secondary,0,1,Gedo,Farmer,5,Public,1,Female,Agri,0
+29.1,1527,Primary,1,0,Galgaduud,Farmer,3,Private,1,Female,Medicine,0
+89.8,1033,University,0,0,Banadir,Unemployed,3,Public,1,Female,Eng,0
+67.3,137,Primary,0,1,Nugaal,Unemployed,0,Private,1,Male,Agri,1
+34.3,1761,University,0,0,Banadir,Business,5,Private,1,Male,Eng,0
+4.0,212,Primary,0,0,Hiran,Farmer,5,Public,0,Male,CS,0
+32.5,847,Secondary,0,0,Banadir,Farmer,5,Public,0,Female,Medicine,0
+88.6,1232,Primary,1,1,Bari,Business,0,Private,1,Male,CS,0
+9.5,1411,None,1,0,Hiran,Farmer,4,Private,0,Male,Eng,0
+68.3,1581,Primary,1,0,Banadir,Unemployed,0,Public,0,Female,Medicine,0
+76.8,978,Primary,0,1,Hiran,Business,2,Private,0,Female,Agri,0
+33.6,1585,Primary,0,0,Lower Shabelle,Business,2,Private,1,Male,Agri,0
+64.9,341,University,0,0,Galgaduud,Business,2,Public,0,Female,Medicine,0
+21.9,1377,None,1,0,Lower Shabelle,Business,4,Public,1,Male,Medicine,0
+73.0,1023,Primary,0,1,Banadir,Farmer,5,Private,1,Female,Medicine,0
+62.8,1695,University,0,0,Galgaduud,Unemployed,3,Private,1,Male,Agri,0
+38.7,251,Secondary,0,0,Bari,Farmer,4,Private,0,Female,Eng,0
+57.9,1831,Secondary,0,0,Galgaduud,Teacher,1,Public,1,Female,CS,0
+15.0,271,Secondary,1,0,Gedo,Teacher,4,Public,1,Male,Medicine,0
+99.0,1784,Secondary,0,0,Nugaal,Teacher,0,Private,1,Male,Eng,0
+31.8,1036,Secondary,0,0,Galgaduud,Unemployed,2,Public,0,Male,Agri,0
+96.1,993,Primary,0,0,Lower Shabelle,Unemployed,2,Private,1,Male,Eng,0
+39.9,1323,University,0,1,Galgaduud,Teacher,3,Private,1,Female,CS,0
+0.4,395,None,0,1,Lower Shabelle,Business,1,Private,0,Female,CS,0
+24.4,1287,University,1,0,Hiran,Unemployed,1,Public,1,Female,CS,0
+51.9,486,Secondary,0,0,Bari,Unemployed,1,Private,1,Male,Agri,1
+96.3,1936,Primary,1,1,Bari,Farmer,0,Private,1,Female,Medicine,0
+27.3,1645,University,0,1,Lower Shabelle,Teacher,1,Private,1,Male,Medicine,0
+39.6,342,University,0,0,Banadir,Teacher,5,Public,1,Female,Medicine,0
+77.5,1186,University,0,1,Hiran,Unemployed,5,Private,1,Female,Medicine,0
+22.5,1372,Secondary,1,0,Nugaal,Teacher,2,Private,0,Female,CS,0
+87.5,469,Secondary,0,0,Bari,Unemployed,3,Public,1,Male,Agri,1
+47.7,123,Secondary,0,0,Nugaal,Teacher,3,Public,0,Female,Medicine,0
+44.7,1109,None,0,0,Galgaduud,Farmer,3,Public,0,Female,Agri,0
+74.3,1558,Secondary,0,0,Nugaal,Teacher,0,Public,1,Female,Eng,0
+12.7,1500,University,0,1,Banadir,Unemployed,1,Private,1,Male,Agri,0
+74.3,1535,Secondary,0,0,Bari,Business,0,Private,1,Male,Eng,0
+45.2,1436,Secondary,0,0,Banadir,Business,5,Public,0,Male,Eng,0
+63.1,1429,Secondary,0,0,Galgaduud,Unemployed,3,Public,1,Male,Agri,0
+20.3,134,None,0,0,Bari,Unemployed,2,Private,1,Male,Medicine,0
+47.5,977,University,0,0,Gedo,Teacher,5,Public,0,Female,Agri,0
+93.4,990,Secondary,0,0,Bari,Business,4,Private,1,Male,Eng,0
+84.8,1684,Secondary,0,1,Lower Shabelle,Unemployed,3,Public,1,Female,Eng,0
+76.5,1993,University,0,1,Bari,Business,1,Private,1,Male,Agri,0
+18.9,1709,Secondary,0,1,Banadir,Unemployed,2,Public,0,Male,Medicine,0
+72.8,256,Primary,0,1,Galgaduud,Farmer,5,Private,1,Male,Agri,1
+58.6,200,University,1,1,Galgaduud,Farmer,2,Public,1,Female,CS,1
+17.4,623,Primary,1,0,Banadir,Business,4,Private,1,Male,CS,0
+50.0,61,University,0,1,Hiran,Unemployed,4,Public,1,Male,Eng,1
+32.1,1387,University,0,0,Bari,Business,0,Public,1,Female,Agri,0
+74.9,233,Secondary,1,0,Nugaal,Farmer,3,Private,1,Male,CS,1
+14.9,1718,University,0,1,Hiran,Farmer,1,Private,1,Male,Eng,0
+36.7,1081,None,0,0,Banadir,Business,0,Public,1,Male,Eng,0
+11.6,1587,University,0,0,Gedo,Teacher,5,Public,1,Male,Medicine,0
+4.8,1523,Primary,0,1,Lower Shabelle,Farmer,2,Private,1,Male,Agri,0
+92.8,263,Primary,0,1,Banadir,Business,3,Private,1,Female,Agri,1
+87.6,376,University,0,0,Lower Shabelle,Business,5,Private,1,Female,Eng,0
+93.2,101,Secondary,0,0,Bari,Business,3,Private,1,Male,Agri,1
+80.5,975,Secondary,0,1,Galgaduud,Teacher,2,Public,1,Female,Eng,0
+14.0,1243,University,1,0,Gedo,Teacher,3,Private,0,Female,Medicine,0
+44.8,278,Primary,0,1,Banadir,Farmer,4,Public,1,Male,Medicine,0
+61.1,1788,None,1,0,Gedo,Business,5,Private,1,Female,CS,0
+12.1,1768,Secondary,1,0,Lower Shabelle,Teacher,1,Private,1,Male,CS,0
+67.3,447,None,0,0,Bari,Business,3,Public,0,Female,CS,0
+39.8,94,University,0,1,Hiran,Teacher,3,Private,1,Male,CS,0
+9.9,1429,University,1,1,Gedo,Farmer,5,Public,1,Female,Agri,0
+46.4,644,University,0,0,Bari,Farmer,2,Private,1,Male,CS,0
+52.6,360,None,0,0,Banadir,Farmer,1,Private,0,Female,Agri,0
+28.1,285,Primary,0,1,Hiran,Business,1,Public,1,Male,CS,0
+32.5,1661,Primary,0,1,Hiran,Farmer,5,Private,1,Male,Eng,0
+8.0,1925,None,0,0,Banadir,Unemployed,1,Public,1,Female,Medicine,0
+37.5,985,Primary,1,1,Nugaal,Business,5,Public,1,Female,Agri,0
+56.2,976,Primary,0,1,Nugaal,Business,1,Public,1,Female,Medicine,0
+1.9,1632,Primary,0,0,Lower Shabelle,Business,3,Public,1,Female,Medicine,0
+64.7,937,University,0,1,Galgaduud,Business,5,Public,1,Male,Medicine,0
+95.1,1892,Primary,0,0,Hiran,Unemployed,5,Private,1,Female,CS,0
+71.9,271,Primary,0,1,Hiran,Unemployed,3,Public,1,Female,CS,1
+97.4,652,Primary,0,0,Banadir,Farmer,5,Private,1,Female,Eng,0
+98.1,378,None,0,0,Galgaduud,Farmer,0,Public,1,Male,CS,1
+75.5,682,None,0,1,Bari,Business,3,Public,1,Male,Medicine,0
+91.4,358,Secondary,0,0,Hiran,Farmer,3,Public,1,Male,Agri,1
+24.0,469,University,1,0,Hiran,Teacher,4,Public,1,Female,Agri,0
+46.0,812,Secondary,0,0,Galgaduud,Business,4,Private,1,Female,Agri,0
+23.9,1518,Secondary,0,1,Bari,Unemployed,2,Public,1,Female,Medicine,0
+5.1,304,University,0,0,Banadir,Teacher,2,Private,1,Male,Medicine,0
+27.8,959,Secondary,1,1,Galgaduud,Teacher,5,Public,1,Female,Agri,0
+54.9,1222,University,0,0,Galgaduud,Business,0,Private,1,Male,CS,0
+26.6,889,Secondary,1,1,Gedo,Farmer,2,Private,0,Male,Medicine,0
+28.6,222,University,1,0,Lower Shabelle,Farmer,5,Public,1,Female,CS,0
+87.6,714,University,0,0,Bari,Business,4,Private,0,Male,CS,0
+40.0,1193,Primary,1,1,Nugaal,Farmer,3,Private,1,Female,Agri,0
+42.1,1915,University,0,1,Galgaduud,Teacher,4,Private,1,Male,CS,0
+39.1,738,University,0,0,Galgaduud,Teacher,5,Private,1,Female,CS,0
+97.1,1450,Primary,0,0,Nugaal,Business,5,Private,1,Female,Eng,0
+78.9,576,Secondary,1,0,Gedo,Teacher,2,Private,1,Female,Eng,0
+98.0,840,Primary,0,1,Lower Shabelle,Unemployed,2,Private,0,Male,Agri,0
+24.4,1914,Secondary,0,0,Galgaduud,Business,4,Public,1,Male,Eng,0
+84.0,820,Secondary,0,0,Nugaal,Business,0,Private,1,Male,Medicine,0
+35.6,597,Primary,0,1,Banadir,Farmer,2,Public,1,Male,Agri,0
+46.8,1272,None,1,0,Gedo,Farmer,3,Private,1,Male,CS,0
+15.7,987,University,0,0,Hiran,Teacher,5,Private,1,Female,Agri,0
+77.0,1898,University,1,0,Galgaduud,Farmer,0,Public,1,Female,Agri,0
+48.1,1245,University,1,1,Gedo,Unemployed,0,Public,1,Female,CS,0
+3.2,766,Secondary,0,0,Hiran,Teacher,1,Private,1,Male,Agri,0
+80.6,1931,None,0,0,Banadir,Unemployed,1,Private,0,Female,Agri,0
+23.0,249,University,0,0,Nugaal,Teacher,0,Public,1,Female,Agri,0
+86.9,1081,Primary,1,0,Hiran,Unemployed,4,Public,0,Female,Eng,0
+59.2,894,Secondary,1,0,Galgaduud,Business,5,Public,1,Male,Medicine,0
+35.9,417,Primary,0,0,Bari,Business,5,Private,0,Male,Agri,0
+62.2,105,Secondary,1,1,Nugaal,Business,1,Private,1,Male,CS,1
+3.5,450,University,1,0,Gedo,Business,4,Private,1,Female,Eng,0
+39.9,204,University,1,0,Banadir,Farmer,0,Private,1,Female,Agri,0
+13.6,891,Secondary,1,0,Nugaal,Teacher,4,Private,1,Female,CS,0
+33.9,1114,Secondary,1,0,Gedo,Unemployed,2,Public,1,Female,Agri,0
+91.5,115,University,0,1,Lower Shabelle,Farmer,0,Public,1,Female,Eng,1
+21.0,917,Primary,1,0,Galgaduud,Farmer,4,Public,0,Female,CS,0
+39.3,746,University,0,1,Galgaduud,Farmer,2,Private,1,Male,Eng,0
+62.8,324,Secondary,0,0,Lower Shabelle,Unemployed,2,Public,1,Male,Agri,1
+96.8,1062,Primary,0,0,Lower Shabelle,Business,5,Private,1,Female,Medicine,0
+46.8,1316,None,0,0,Hiran,Unemployed,2,Private,0,Female,CS,0
+74.5,1464,None,0,0,Hiran,Farmer,4,Private,1,Male,CS,0
+80.1,179,University,0,0,Galgaduud,Teacher,2,Private,1,Female,Agri,1
+24.9,1744,Secondary,0,0,Banadir,Farmer,0,Public,0,Female,Eng,0
+35.8,1948,None,0,0,Galgaduud,Farmer,3,Public,1,Female,Eng,0
+31.0,229,University,0,0,Gedo,Teacher,4,Public,1,Female,Eng,0
+33.4,1112,Secondary,1,0,Bari,Unemployed,2,Private,1,Male,Medicine,0
+29.7,1655,Primary,1,0,Hiran,Business,5,Private,0,Female,Eng,0
+41.4,1440,Secondary,0,1,Lower Shabelle,Unemployed,1,Public,1,Female,CS,0
+7.1,1052,University,0,1,Hiran,Teacher,0,Private,1,Male,CS,0
+41.6,1626,University,1,0,Galgaduud,Farmer,2,Public,1,Female,Medicine,0
+38.7,1552,Primary,0,0,Galgaduud,Unemployed,3,Public,1,Female,Medicine,0
+56.4,1539,Primary,1,0,Hiran,Business,3,Private,1,Male,Medicine,0
+87.3,1171,None,0,0,Bari,Business,3,Public,0,Female,Eng,0
+95.2,1505,Secondary,0,0,Banadir,Teacher,5,Private,1,Female,CS,0
+62.2,1331,Secondary,0,0,Galgaduud,Teacher,0,Public,1,Male,Medicine,0
+21.4,1121,None,1,0,Lower Shabelle,Business,5,Public,1,Female,CS,0
+79.1,1303,Primary,1,0,Galgaduud,Farmer,3,Private,0,Female,Agri,0
+47.6,685,None,1,1,Lower Shabelle,Business,2,Private,1,Female,Medicine,0
+53.9,1677,University,0,1,Banadir,Farmer,2,Public,0,Female,Agri,0
+62.4,663,University,0,0,Galgaduud,Farmer,4,Public,0,Male,CS,0
+36.4,722,Primary,0,0,Hiran,Unemployed,2,Private,1,Male,Medicine,0
+89.3,1356,None,0,0,Bari,Business,5,Private,1,Male,CS,0
+15.6,887,Primary,0,1,Bari,Business,4,Private,1,Male,Agri,0
+17.1,137,Secondary,0,0,Bari,Business,2,Public,1,Male,Agri,0
+71.5,1539,Secondary,0,0,Bari,Unemployed,0,Private,1,Female,Medicine,0
+20.6,1100,University,0,0,Gedo,Teacher,4,Public,1,Female,Eng,0
+39.6,1046,None,0,1,Banadir,Unemployed,1,Public,1,Male,Agri,0
+44.2,756,Secondary,0,0,Hiran,Teacher,3,Private,1,Female,Eng,0
+90.5,262,University,1,1,Galgaduud,Unemployed,4,Private,1,Male,Agri,1
+90.5,379,None,0,0,Bari,Business,0,Public,1,Female,Medicine,1
+60.1,1007,University,0,0,Gedo,Unemployed,3,Public,1,Female,Medicine,0
+74.8,1340,Primary,0,1,Bari,Unemployed,0,Public,1,Male,Eng,0
+0.6,437,Secondary,0,0,Gedo,Teacher,1,Private,1,Female,CS,0
+37.3,198,Primary,1,0,Lower Shabelle,Unemployed,5,Public,1,Female,CS,0
+62.7,874,Secondary,1,0,Gedo,Teacher,2,Private,0,Male,Eng,0
+49.0,1448,Primary,0,0,Banadir,Unemployed,0,Private,1,Female,Medicine,0
+1.4,1041,Primary,0,0,Galgaduud,Unemployed,5,Public,1,Male,Agri,0
+44.2,372,None,0,1,Bari,Business,2,Private,1,Female,Medicine,0
+21.3,730,University,0,0,Hiran,Business,5,Private,1,Female,CS,0
+92.0,1073,Secondary,0,0,Gedo,Unemployed,1,Public,1,Female,CS,0
+44.4,718,Secondary,0,1,Banadir,Unemployed,3,Private,1,Female,CS,0
+2.0,1096,Secondary,1,0,Lower Shabelle,Teacher,3,Public,1,Male,Agri,0
+35.0,1949,University,1,0,Lower Shabelle,Teacher,4,Public,0,Male,Eng,0
+77.4,1234,Primary,1,0,Banadir,Unemployed,2,Public,1,Female,Medicine,0
+77.5,431,University,0,0,Nugaal,Teacher,4,Public,1,Male,Agri,0
+77.8,1032,None,1,1,Lower Shabelle,Farmer,0,Public,1,Male,Eng,0
+25.6,1778,University,0,1,Hiran,Business,3,Private,1,Female,Medicine,0
+10.4,1972,None,1,0,Lower Shabelle,Farmer,3,Public,1,Male,Eng,0
+38.2,322,University,0,0,Hiran,Teacher,4,Public,1,Male,Medicine,0
+58.0,1067,Primary,0,1,Nugaal,Business,5,Private,1,Female,Eng,0
+61.8,198,Secondary,0,1,Lower Shabelle,Business,1,Private,1,Female,Medicine,1
+85.7,1246,Secondary,1,0,Bari,Business,2,Public,1,Male,CS,0
+89.0,888,Secondary,0,0,Lower Shabelle,Teacher,3,Public,0,Female,Medicine,0
+66.9,1450,University,0,0,Hiran,Farmer,0,Private,1,Male,Medicine,0
+87.4,1596,Secondary,1,0,Banadir,Farmer,3,Public,1,Male,CS,0
+88.4,594,University,0,0,Gedo,Teacher,3,Private,1,Female,Medicine,0
+35.3,1297,Secondary,0,1,Lower Shabelle,Farmer,3,Public,0,Female,Agri,0
+91.0,1648,Secondary,0,1,Nugaal,Teacher,1,Private,1,Male,Eng,0
+80.6,1314,None,0,0,Hiran,Unemployed,0,Public,1,Female,Medicine,0
+98.1,1094,Secondary,0,0,Lower Shabelle,Unemployed,0,Public,1,Male,CS,0
+1.7,1432,None,1,0,Nugaal,Farmer,5,Public,1,Female,Agri,0
+34.6,988,Primary,1,0,Lower Shabelle,Business,5,Private,1,Male,Eng,0
+64.1,782,University,0,0,Lower Shabelle,Business,1,Private,0,Female,CS,0
+66.0,984,Primary,1,0,Banadir,Farmer,1,Private,1,Female,Eng,0
+11.8,945,University,0,0,Nugaal,Farmer,0,Private,1,Male,Medicine,0
+32.8,1467,Secondary,0,0,Lower Shabelle,Unemployed,0,Public,1,Female,Agri,0
+9.5,1867,Primary,0,0,Galgaduud,Farmer,5,Public,1,Female,Medicine,0
+81.0,763,University,1,0,Bari,Business,5,Private,0,Female,Medicine,0
+61.8,1582,University,0,1,Bari,Unemployed,3,Public,1,Female,Agri,0
+88.1,674,Secondary,0,1,Nugaal,Teacher,3,Private,1,Male,Medicine,0
+15.3,1447,Secondary,0,0,Banadir,Business,4,Private,1,Male,Eng,0
+92.7,1635,University,0,0,Bari,Farmer,2,Public,1,Male,Medicine,0
+72.8,910,Secondary,0,0,Hiran,Business,5,Public,1,Male,Agri,0
+12.1,1349,None,1,0,Lower Shabelle,Farmer,3,Private,1,Male,CS,0
+62.2,1664,Secondary,0,0,Galgaduud,Teacher,3,Private,0,Female,Agri,0
+72.7,1146,Primary,0,0,Bari,Unemployed,0,Public,1,Female,Agri,0
+45.5,826,Primary,0,0,Hiran,Farmer,0,Public,1,Male,Eng,0
+97.0,1670,Primary,0,1,Galgaduud,Business,3,Public,0,Male,Agri,0
+7.0,226,University,0,0,Nugaal,Farmer,0,Public,1,Male,Medicine,0
+92.1,292,None,0,0,Hiran,Unemployed,0,Private,1,Female,Agri,1
+85.9,623,University,0,1,Galgaduud,Teacher,0,Public,0,Female,CS,0
+25.8,1539,University,1,0,Galgaduud,Business,1,Private,1,Female,CS,0
+49.3,1020,None,0,0,Galgaduud,Unemployed,0,Private,1,Male,CS,0
+48.8,1377,None,0,1,Gedo,Business,3,Public,1,Male,Eng,0
+84.5,1375,Secondary,1,1,Banadir,Unemployed,0,Private,0,Male,Eng,0
+23.3,942,Primary,0,1,Nugaal,Farmer,4,Private,0,Male,CS,0
+14.2,1558,None,1,0,Hiran,Business,4,Private,0,Female,Agri,0
+40.8,856,None,0,1,Lower Shabelle,Business,0,Public,1,Male,Eng,0
+76.1,1104,None,0,0,Banadir,Farmer,5,Private,1,Male,Eng,0
+10.2,441,None,0,1,Nugaal,Farmer,4,Public,1,Male,CS,0
+62.4,722,University,1,0,Lower Shabelle,Farmer,4,Public,1,Female,CS,0
+22.7,351,University,0,0,Hiran,Teacher,1,Private,0,Male,Eng,0
+37.6,763,University,0,0,Galgaduud,Business,4,Private,1,Female,Agri,0
+27.5,1581,Primary,0,0,Hiran,Farmer,1,Public,1,Male,Medicine,0
+27.0,845,University,0,0,Bari,Teacher,3,Public,1,Female,Eng,0
+61.9,1523,None,1,0,Hiran,Farmer,4,Private,0,Female,Eng,0
+59.9,1321,None,1,1,Gedo,Unemployed,1,Private,0,Male,CS,0
+85.0,1841,None,1,1,Nugaal,Unemployed,0,Private,1,Male,CS,0
+11.8,910,Primary,0,1,Banadir,Unemployed,0,Public,1,Male,Medicine,0
+34.8,346,Primary,0,0,Bari,Farmer,4,Private,1,Female,Eng,0
+40.6,262,Primary,0,0,Galgaduud,Unemployed,2,Public,1,Female,CS,0
+85.0,1982,Secondary,0,0,Lower Shabelle,Teacher,5,Public,1,Male,Medicine,0
+41.6,1538,University,1,0,Bari,Teacher,1,Private,1,Female,Eng,0
+88.3,1086,Secondary,1,0,Hiran,Farmer,5,Public,0,Male,CS,0
+84.6,788,Secondary,0,0,Banadir,Teacher,3,Public,1,Female,Eng,0
+65.3,567,University,0,0,Galgaduud,Unemployed,4,Private,1,Male,CS,0
+52.8,1999,University,0,0,Banadir,Farmer,2,Public,0,Male,Medicine,0
+55.8,192,University,1,0,Hiran,Teacher,4,Public,1,Female,Eng,1
+57.2,1060,Secondary,0,0,Lower Shabelle,Business,5,Private,1,Female,Medicine,0
+49.9,1257,None,0,0,Lower Shabelle,Farmer,2,Public,0,Female,CS,0
+77.0,1738,Secondary,0,1,Bari,Farmer,3,Public,1,Male,Eng,0
+49.7,1818,University,1,0,Gedo,Business,3,Public,0,Female,CS,0
+58.0,1165,Secondary,0,0,Gedo,Teacher,1,Public,1,Female,Agri,0
+62.2,1088,University,0,0,Banadir,Teacher,0,Private,1,Male,Agri,0
+60.7,976,University,0,0,Hiran,Teacher,5,Private,1,Male,Eng,0
+99.8,168,Primary,0,0,Gedo,Farmer,4,Private,0,Male,Agri,0
+53.8,1996,Secondary,1,0,Hiran,Unemployed,5,Private,1,Male,Agri,0
+11.5,156,University,0,0,Banadir,Farmer,1,Private,0,Female,Medicine,0
+41.5,100,Secondary,1,0,Bari,Teacher,2,Private,1,Male,Eng,0
+54.0,1316,University,0,1,Nugaal,Teacher,5,Private,1,Female,CS,0
+98.6,320,Secondary,0,0,Banadir,Business,3,Private,1,Male,Eng,1
+60.7,467,None,0,1,Banadir,Business,5,Private,1,Male,Agri,0
+53.5,1091,Primary,0,0,Hiran,Business,2,Public,1,Female,Medicine,0
+9.8,1452,Secondary,0,0,Hiran,Farmer,4,Public,0,Female,Agri,0
+15.4,434,Secondary,0,0,Nugaal,Teacher,4,Private,1,Male,Eng,0
+62.8,1682,None,1,0,Lower Shabelle,Unemployed,0,Private,1,Male,Medicine,0
+90.5,1673,None,0,0,Gedo,Business,2,Private,1,Female,Medicine,0
+53.2,955,Primary,1,0,Nugaal,Farmer,2,Public,1,Male,Agri,0
+77.5,198,University,0,0,Bari,Farmer,5,Private,1,Male,Medicine,1
+2.4,1902,Secondary,0,0,Banadir,Teacher,1,Public,0,Female,Eng,0
+62.9,204,Secondary,1,0,Nugaal,Teacher,5,Private,1,Female,Medicine,1
+65.2,1841,None,1,1,Lower Shabelle,Unemployed,0,Private,1,Male,CS,0
+8.5,903,Secondary,1,1,Nugaal,Business,1,Private,1,Male,Medicine,0
+88.7,1342,University,0,0,Hiran,Unemployed,3,Private,1,Female,Agri,0
+53.7,1113,University,0,0,Nugaal,Farmer,2,Public,1,Male,Agri,0
+63.3,249,University,0,0,Gedo,Unemployed,0,Private,0,Female,Agri,0
+24.9,1302,Secondary,0,0,Galgaduud,Teacher,4,Public,1,Female,Medicine,0
+47.1,459,University,1,0,Galgaduud,Farmer,2,Private,1,Male,CS,0
+29.2,1157,Primary,0,0,Galgaduud,Farmer,3,Public,0,Female,Medicine,0
+54.1,223,Secondary,0,0,Bari,Teacher,3,Public,1,Female,Eng,1
+30.4,764,None,1,1,Hiran,Farmer,2,Private,0,Male,CS,0
+76.6,125,Primary,0,0,Nugaal,Unemployed,3,Private,1,Female,Medicine,1
+41.0,631,Primary,1,0,Gedo,Unemployed,4,Public,1,Male,Agri,0
+77.1,935,University,0,0,Galgaduud,Farmer,2,Private,1,Female,Agri,0
+32.9,1807,University,0,1,Gedo,Unemployed,4,Public,1,Female,Medicine,0
+33.6,1683,University,0,0,Galgaduud,Business,3,Private,1,Male,Medicine,0
+52.5,1478,Secondary,1,0,Nugaal,Teacher,2,Private,0,Female,Agri,0
+42.4,1539,University,1,0,Gedo,Business,1,Private,1,Male,Eng,0
+26.6,128,Secondary,0,1,Banadir,Teacher,2,Public,0,Male,CS,0
+96.5,1996,Primary,0,0,Gedo,Farmer,1,Private,1,Female,Agri,0
+38.6,1766,University,1,0,Gedo,Farmer,0,Public,1,Male,Eng,0
+63.8,449,Secondary,0,1,Bari,Business,0,Public,1,Female,Eng,1
+12.9,1739,Primary,0,0,Lower Shabelle,Farmer,4,Public,1,Female,Medicine,0
+18.0,295,University,0,1,Lower Shabelle,Teacher,3,Private,0,Female,Agri,0
+25.2,88,Primary,0,0,Nugaal,Unemployed,3,Private,1,Female,CS,0
+1.7,578,University,0,0,Galgaduud,Teacher,5,Private,1,Male,Eng,0
+35.9,1024,Secondary,0,0,Gedo,Teacher,5,Public,1,Female,CS,0
+43.6,1623,University,0,1,Gedo,Teacher,0,Public,1,Female,Eng,0
+68.3,1838,University,0,1,Galgaduud,Unemployed,0,Private,0,Female,CS,0
+74.4,1516,Secondary,0,0,Bari,Farmer,0,Public,0,Female,CS,0
+48.1,1646,Primary,1,0,Galgaduud,Farmer,5,Private,1,Female,CS,0
+18.1,1213,Secondary,0,0,Banadir,Teacher,1,Private,1,Female,CS,0
+2.9,1923,Secondary,0,0,Galgaduud,Farmer,4,Private,1,Female,Eng,0
+47.2,188,Secondary,0,0,Gedo,Farmer,3,Public,0,Male,CS,0
+0.2,1420,Primary,0,0,Gedo,Unemployed,1,Private,1,Male,CS,0
+58.5,957,University,1,0,Gedo,Unemployed,5,Public,1,Female,CS,0
+2.2,429,Primary,0,0,Hiran,Business,0,Private,1,Male,CS,0
+32.8,1064,University,0,1,Bari,Business,3,Public,0,Female,Agri,0
+19.1,754,University,0,0,Nugaal,Teacher,3,Public,1,Female,CS,0
+37.6,975,Secondary,0,1,Nugaal,Business,4,Private,0,Female,Eng,0
+55.7,1532,University,0,0,Banadir,Teacher,4,Public,0,Male,Agri,0
+31.7,246,University,0,1,Bari,Teacher,5,Private,1,Male,Eng,0
+26.3,922,None,0,1,Galgaduud,Farmer,2,Public,1,Male,Medicine,0
+75.6,679,Secondary,1,0,Banadir,Unemployed,3,Public,1,Male,Medicine,0
+35.6,795,University,1,1,Nugaal,Business,2,Private,1,Male,Medicine,0
+54.4,1973,University,0,1,Gedo,Teacher,0,Private,1,Male,Eng,0
+8.8,121,Primary,1,0,Gedo,Business,5,Public,0,Female,Agri,0
+74.8,98,Secondary,0,0,Nugaal,Teacher,3,Public,1,Male,Medicine,1
+76.4,915,Secondary,1,0,Galgaduud,Business,1,Private,1,Male,CS,0
+81.2,1193,Primary,1,0,Banadir,Farmer,0,Public,1,Female,Agri,0
+28.3,441,University,0,1,Gedo,Unemployed,0,Public,1,Male,Agri,0
+39.5,883,Primary,0,0,Banadir,Farmer,5,Public,1,Female,Agri,0
+20.7,599,University,0,1,Bari,Unemployed,1,Private,0,Female,Eng,0
+7.3,67,Secondary,0,0,Gedo,Business,3,Public,1,Female,Eng,0
+55.2,1285,Primary,0,1,Lower Shabelle,Farmer,5,Private,1,Female,Medicine,0
+61.8,1002,Primary,1,0,Gedo,Farmer,0,Private,1,Female,Medicine,0
+89.5,691,None,1,0,Gedo,Unemployed,5,Public,0,Female,Agri,0
+78.6,1457,Secondary,0,0,Bari,Teacher,2,Public,1,Female,CS,0
+28.3,1316,None,0,0,Bari,Unemployed,1,Private,1,Male,Agri,0
+19.3,1945,Secondary,1,0,Galgaduud,Teacher,1,Private,1,Male,Eng,0
+66.8,1746,Primary,0,0,Nugaal,Farmer,1,Public,1,Male,CS,0
+30.6,1728,None,1,0,Gedo,Business,4,Private,1,Female,Agri,0
+4.2,482,University,0,0,Galgaduud,Teacher,1,Private,0,Female,CS,0
+64.6,789,University,0,0,Nugaal,Unemployed,4,Private,1,Male,Agri,0
+10.0,1992,University,0,0,Banadir,Unemployed,1,Public,1,Female,Agri,0
+20.4,1279,Secondary,0,0,Banadir,Teacher,0,Private,0,Female,Medicine,0
+67.1,1352,Secondary,0,0,Gedo,Business,0,Public,1,Male,CS,0
+16.1,169,Secondary,0,1,Lower Shabelle,Farmer,0,Private,1,Female,CS,0
+36.5,505,Secondary,1,0,Bari,Teacher,5,Private,1,Female,Eng,0
+3.6,927,University,1,1,Galgaduud,Teacher,1,Public,1,Female,Agri,0
+17.4,1062,University,0,0,Banadir,Business,5,Public,1,Male,CS,0
+59.2,504,Primary,1,0,Bari,Unemployed,2,Public,1,Female,CS,0
+54.5,1776,University,0,0,Gedo,Teacher,5,Public,1,Male,Eng,0
+38.3,1569,University,0,0,Gedo,Teacher,2,Private,0,Male,Eng,0
+84.3,156,University,0,0,Nugaal,Teacher,2,Private,1,Female,Eng,1
+9.6,566,Secondary,1,1,Banadir,Teacher,1,Private,1,Male,Medicine,0
+89.1,193,University,0,0,Bari,Farmer,4,Private,1,Female,Agri,1
+69.0,1460,Secondary,0,0,Gedo,Teacher,3,Public,0,Female,Eng,0
+24.2,301,Secondary,1,0,Bari,Business,1,Private,1,Female,Agri,0
+68.1,467,University,0,0,Lower Shabelle,Teacher,3,Public,0,Male,Medicine,0
+57.1,1511,University,0,1,Gedo,Teacher,5,Private,0,Female,Eng,0
+69.2,1206,Secondary,0,1,Lower Shabelle,Unemployed,4,Public,0,Female,Medicine,0
+21.2,1700,Primary,1,0,Hiran,Farmer,0,Public,1,Male,Eng,0
+91.7,1976,Secondary,0,0,Bari,Farmer,1,Private,1,Female,Eng,0
+33.2,964,University,1,0,Banadir,Teacher,0,Private,1,Male,Eng,0
+76.9,234,University,0,1,Hiran,Business,0,Public,0,Female,Eng,0
+67.7,1491,None,0,0,Hiran,Unemployed,4,Public,1,Male,Agri,0
+22.2,1279,None,0,0,Banadir,Farmer,4,Public,1,Male,CS,0
+65.5,1557,University,0,1,Banadir,Teacher,0,Private,1,Male,Agri,0
+17.8,345,University,0,0,Lower Shabelle,Business,1,Private,1,Female,Agri,0
+67.7,1937,University,0,0,Lower Shabelle,Teacher,3,Private,1,Male,Eng,0
+2.1,611,Secondary,1,1,Bari,Business,0,Public,1,Male,Agri,0
+33.5,580,Primary,1,0,Gedo,Farmer,0,Private,1,Male,Agri,0
+74.6,481,University,1,0,Gedo,Business,3,Public,0,Male,Agri,0
+73.3,1879,University,0,1,Lower Shabelle,Farmer,1,Private,1,Male,Agri,0
+13.8,742,Primary,0,0,Banadir,Farmer,3,Private,1,Male,Eng,0
+85.8,273,Secondary,0,1,Bari,Unemployed,1,Public,0,Female,Eng,0
+54.7,1407,Secondary,0,0,Galgaduud,Farmer,1,Private,0,Female,Eng,0
+43.7,1226,University,0,1,Nugaal,Teacher,3,Public,1,Female,Agri,0
+21.0,1139,None,0,0,Bari,Unemployed,2,Private,0,Male,CS,0
+13.7,1563,University,1,0,Galgaduud,Teacher,3,Public,1,Male,CS,0
+62.6,1175,University,0,0,Bari,Business,5,Private,1,Male,Medicine,0
+39.2,1622,University,1,0,Bari,Teacher,2,Private,1,Male,Agri,0
+10.8,1123,Secondary,1,0,Gedo,Farmer,4,Private,1,Male,CS,0
+88.9,1383,Primary,1,0,Galgaduud,Unemployed,4,Private,1,Female,Eng,0
+63.6,1409,None,0,1,Lower Shabelle,Business,1,Private,1,Male,CS,0
+98.6,1466,Secondary,0,0,Nugaal,Teacher,1,Private,1,Male,CS,0
+63.6,944,University,0,1,Galgaduud,Teacher,4,Private,1,Male,CS,0
+57.3,1731,None,0,1,Galgaduud,Unemployed,2,Public,1,Female,Agri,0
+18.8,1505,Secondary,0,0,Nugaal,Farmer,2,Private,1,Female,Eng,0
+21.1,1913,University,0,0,Gedo,Farmer,5,Private,1,Male,Medicine,0
+7.9,1717,University,1,0,Hiran,Teacher,3,Private,0,Female,Agri,0
+24.9,610,Primary,0,1,Bari,Farmer,0,Private,1,Female,Eng,0
+49.3,1559,University,1,0,Bari,Unemployed,0,Private,1,Male,CS,0
+20.6,1961,University,1,0,Galgaduud,Teacher,5,Public,1,Female,Eng,0
+68.2,962,University,1,1,Banadir,Farmer,0,Private,1,Female,Medicine,0
+72.2,1703,None,0,0,Nugaal,Business,3,Private,1,Female,Agri,0
+42.3,853,None,0,1,Hiran,Unemployed,0,Public,0,Female,CS,0
+63.9,1310,Secondary,1,0,Nugaal,Teacher,4,Private,1,Male,Agri,0
+10.3,1682,University,0,0,Bari,Unemployed,5,Private,1,Female,Medicine,0
+43.8,119,Secondary,1,1,Bari,Business,4,Public,0,Female,CS,0
+95.2,345,None,0,0,Bari,Unemployed,5,Private,1,Female,Medicine,1
+68.8,202,None,0,0,Galgaduud,Unemployed,5,Public,0,Female,Agri,0
+37.9,726,Secondary,0,0,Banadir,Farmer,1,Private,1,Male,Eng,0
+71.6,1108,Secondary,1,1,Nugaal,Teacher,4,Private,1,Male,Eng,0
+82.9,846,Secondary,0,1,Gedo,Teacher,0,Public,1,Male,CS,0
+50.0,1583,Secondary,1,0,Gedo,Farmer,3,Public,1,Male,CS,0
+16.8,265,Secondary,0,0,Banadir,Unemployed,4,Private,1,Female,Eng,0
+31.2,141,Primary,0,0,Banadir,Farmer,5,Public,1,Male,Agri,0
+63.3,1999,None,0,1,Bari,Business,4,Public,1,Female,Eng,0
+49.7,789,University,0,0,Lower Shabelle,Business,1,Public,1,Male,Agri,0
+84.9,225,University,1,1,Lower Shabelle,Teacher,2,Public,1,Female,Medicine,1
+83.9,51,University,1,1,Galgaduud,Business,0,Private,1,Male,Medicine,1
+5.4,925,University,0,1,Galgaduud,Unemployed,1,Public,1,Female,CS,0
+56.8,1437,Secondary,1,1,Bari,Farmer,5,Public,0,Male,CS,0
+17.2,1426,University,0,0,Galgaduud,Farmer,5,Public,1,Female,Medicine,0
+49.1,566,Primary,1,0,Lower Shabelle,Unemployed,0,Public,1,Female,Agri,0
+68.5,1968,University,0,0,Galgaduud,Teacher,3,Private,1,Male,Eng,0
+50.8,1548,Secondary,0,0,Lower Shabelle,Farmer,1,Private,1,Female,Eng,0
+70.4,1000,None,0,1,Lower Shabelle,Unemployed,4,Private,1,Female,Medicine,0
+6.7,262,University,0,0,Bari,Teacher,4,Public,1,Female,Agri,0
+38.0,1324,Secondary,0,1,Banadir,Business,0,Private,1,Male,Agri,0
+69.9,220,University,1,0,Nugaal,Teacher,2,Public,1,Female,CS,1
+31.7,559,University,1,0,Nugaal,Teacher,0,Public,0,Female,CS,0
+8.1,1412,University,0,0,Lower Shabelle,Teacher,1,Private,0,Female,Eng,0
+9.9,190,Secondary,1,0,Hiran,Teacher,2,Private,1,Male,Medicine,0
+36.4,367,Secondary,0,0,Gedo,Teacher,0,Private,1,Female,Agri,0
+61.8,1182,Primary,1,0,Banadir,Farmer,5,Private,1,Male,CS,0
+22.0,713,University,0,0,Gedo,Teacher,4,Public,1,Male,Eng,0
+93.5,1320,Secondary,0,0,Gedo,Business,0,Public,0,Male,CS,0
+52.8,1311,Secondary,0,0,Banadir,Unemployed,1,Public,1,Male,CS,0
+16.9,209,Secondary,0,0,Nugaal,Teacher,4,Public,1,Male,Agri,0
+57.5,1230,None,0,0,Banadir,Farmer,4,Public,0,Male,Eng,0
+95.4,1298,University,1,0,Banadir,Teacher,2,Public,1,Female,CS,0
+37.5,974,University,0,0,Nugaal,Teacher,3,Public,1,Male,Eng,0
+73.9,1287,Primary,0,0,Gedo,Farmer,2,Private,1,Female,Agri,0
+74.9,1355,Primary,0,1,Hiran,Farmer,3,Public,1,Male,Medicine,0
+14.1,423,Secondary,0,0,Galgaduud,Teacher,5,Public,1,Male,Agri,0
+19.1,359,University,1,0,Gedo,Teacher,4,Private,1,Female,CS,0
+53.9,1735,Primary,0,1,Gedo,Farmer,1,Public,1,Female,Eng,0
+39.6,544,None,0,1,Banadir,Farmer,5,Public,1,Female,Eng,0
+52.0,818,Primary,0,0,Nugaal,Farmer,1,Private,1,Male,Agri,0
+73.6,1144,Secondary,0,1,Banadir,Teacher,4,Private,1,Male,Eng,0
+38.6,1822,University,1,1,Banadir,Business,0,Private,1,Female,CS,0
+85.3,951,None,0,0,Bari,Unemployed,4,Private,1,Male,Agri,0
+55.5,962,University,0,1,Nugaal,Teacher,3,Private,1,Female,Medicine,0
+12.4,1501,University,1,0,Lower Shabelle,Business,4,Public,1,Female,Medicine,0
+7.0,249,Secondary,0,0,Gedo,Unemployed,2,Private,1,Female,Agri,0
+3.8,1881,None,0,1,Lower Shabelle,Farmer,5,Private,1,Female,Eng,0
+73.1,607,Secondary,0,0,Bari,Teacher,5,Public,1,Female,Medicine,0
+99.1,257,University,0,1,Banadir,Teacher,3,Private,1,Male,Medicine,1
+37.0,844,Secondary,1,0,Banadir,Unemployed,2,Private,1,Female,Medicine,0
+25.9,1374,None,0,0,Hiran,Farmer,4,Public,1,Female,Eng,0
+37.5,1959,Primary,1,0,Gedo,Unemployed,1,Public,1,Female,CS,0
+91.9,326,University,0,0,Hiran,Teacher,0,Private,1,Male,Eng,1
+58.8,650,Secondary,0,1,Banadir,Teacher,4,Private,1,Male,Agri,0
+95.8,579,Primary,0,1,Gedo,Unemployed,0,Public,0,Female,Medicine,0
+49.8,1245,Secondary,0,0,Galgaduud,Teacher,5,Private,1,Male,Eng,0
+30.9,1146,Secondary,0,1,Lower Shabelle,Teacher,5,Public,1,Male,CS,0
+59.1,679,University,0,0,Lower Shabelle,Teacher,5,Public,1,Male,Eng,0
+43.2,1493,University,0,1,Lower Shabelle,Teacher,2,Public,1,Female,Agri,0
+23.3,464,None,0,1,Gedo,Unemployed,0,Private,1,Male,Eng,0
+0.8,1076,None,0,0,Banadir,Business,5,Public,1,Female,Agri,0
+57.7,1549,Secondary,0,0,Lower Shabelle,Teacher,2,Private,1,Male,Medicine,0
+62.0,1443,Secondary,1,0,Galgaduud,Teacher,4,Public,1,Male,Eng,0
+39.7,352,Primary,0,0,Banadir,Farmer,4,Public,1,Female,CS,0
+95.0,1769,University,0,0,Galgaduud,Teacher,1,Private,1,Female,Agri,0
+72.9,679,Secondary,0,0,Hiran,Unemployed,3,Private,1,Female,Agri,0
+38.2,1701,None,0,1,Banadir,Unemployed,2,Private,1,Female,Eng,0
+9.1,276,Secondary,0,0,Banadir,Teacher,0,Public,1,Male,Medicine,0
+56.0,1757,Primary,0,0,Lower Shabelle,Farmer,4,Public,0,Female,CS,0
+30.9,1502,Secondary,0,1,Gedo,Business,4,Public,1,Female,Eng,0
+61.3,1244,University,0,0,Nugaal,Business,5,Public,1,Male,Agri,0
+93.8,456,University,1,0,Galgaduud,Farmer,3,Private,1,Male,Medicine,1
+25.3,551,University,0,0,Bari,Unemployed,5,Private,1,Female,Medicine,0
+54.7,368,University,0,1,Lower Shabelle,Unemployed,1,Private,1,Female,Agri,1
+75.3,539,Secondary,0,0,Bari,Teacher,2,Private,1,Female,Agri,0
+13.3,555,Secondary,0,0,Lower Shabelle,Farmer,2,Private,0,Female,Agri,0
+6.4,67,University,0,0,Lower Shabelle,Teacher,4,Private,0,Female,Eng,0
+85.5,1668,Secondary,0,1,Bari,Teacher,3,Public,1,Female,Agri,0
+12.0,1206,Secondary,0,0,Lower Shabelle,Business,5,Private,1,Female,Agri,0
+41.1,1565,University,0,1,Gedo,Unemployed,1,Public,1,Female,Agri,0
+43.3,1839,None,1,0,Nugaal,Farmer,0,Public,1,Male,Medicine,0
+2.9,1010,Secondary,1,0,Gedo,Business,5,Private,1,Female,CS,0
+61.3,507,Secondary,0,0,Nugaal,Unemployed,1,Public,1,Female,CS,0
+20.0,1662,Primary,0,0,Lower Shabelle,Business,3,Public,1,Female,Medicine,0
+39.7,1068,University,0,0,Galgaduud,Unemployed,0,Private,1,Female,Medicine,0
+61.4,643,University,0,0,Bari,Teacher,3,Public,1,Male,Agri,0
+68.2,1339,University,0,0,Nugaal,Teacher,3,Private,1,Female,Medicine,0
+74.4,250,None,0,1,Bari,Unemployed,5,Public,1,Female,Agri,1
+64.5,1218,Secondary,0,0,Hiran,Unemployed,3,Private,1,Male,Medicine,0
+73.7,832,Secondary,0,0,Gedo,Unemployed,0,Public,0,Male,CS,0
+19.0,1309,Primary,1,0,Banadir,Unemployed,2,Public,0,Female,Medicine,0
+8.9,1997,Secondary,1,1,Banadir,Teacher,3,Public,1,Female,CS,0
+70.8,1205,None,0,0,Gedo,Farmer,5,Private,1,Male,Medicine,0
+98.4,339,None,1,1,Nugaal,Unemployed,3,Private,1,Male,CS,1
+39.4,1719,University,1,0,Nugaal,Business,2,Public,1,Male,Medicine,0
+11.6,204,Secondary,1,0,Hiran,Teacher,0,Private,1,Male,Eng,0
+23.4,1449,University,0,0,Gedo,Business,1,Private,1,Male,Medicine,0
+62.5,1714,Secondary,1,0,Nugaal,Business,4,Private,1,Female,Agri,0
+99.5,1957,Secondary,0,1,Banadir,Unemployed,1,Public,1,Female,Medicine,0
+95.4,572,University,1,0,Hiran,Teacher,0,Public,0,Female,Agri,0
+96.1,1299,Secondary,1,1,Gedo,Unemployed,5,Private,1,Female,Agri,0
+8.2,976,University,1,0,Lower Shabelle,Teacher,4,Public,1,Female,Eng,0
+11.3,1562,Secondary,0,0,Nugaal,Farmer,5,Public,1,Female,Medicine,0
+56.3,1554,Primary,0,0,Nugaal,Farmer,2,Private,1,Female,Medicine,0
+83.6,259,University,1,1,Bari,Teacher,0,Public,1,Female,Medicine,1
+41.6,667,University,0,0,Galgaduud,Teacher,1,Public,1,Male,CS,0
+32.6,1330,University,0,0,Banadir,Teacher,1,Private,1,Male,Medicine,0
+39.9,365,None,1,1,Galgaduud,Unemployed,5,Public,1,Female,CS,0
+74.4,608,Secondary,1,0,Lower Shabelle,Unemployed,3,Public,1,Male,CS,0
+58.8,835,University,0,0,Hiran,Unemployed,1,Private,1,Male,Eng,0
+85.0,1193,Secondary,0,0,Lower Shabelle,Teacher,4,Public,1,Female,CS,0
+44.9,806,Secondary,0,1,Galgaduud,Teacher,4,Public,1,Female,Medicine,0
+53.1,1339,University,0,0,Galgaduud,Unemployed,0,Public,1,Female,CS,0
+95.8,1952,University,1,0,Galgaduud,Teacher,0,Private,1,Female,Medicine,0
+29.3,1472,None,1,1,Hiran,Unemployed,5,Public,1,Female,Eng,0
+55.8,1632,None,1,0,Banadir,Farmer,0,Private,1,Female,Medicine,0
+36.1,1735,Secondary,1,0,Nugaal,Teacher,1,Public,1,Female,Medicine,0
+49.9,1388,University,0,0,Bari,Unemployed,2,Public,1,Male,CS,0
+90.6,205,None,0,0,Gedo,Unemployed,2,Private,1,Male,CS,1
+6.2,601,Secondary,1,1,Hiran,Teacher,5,Public,1,Female,CS,0
+37.0,295,Primary,1,1,Bari,Unemployed,1,Public,1,Male,Eng,0
+65.1,1120,Secondary,1,1,Banadir,Teacher,2,Public,1,Male,Medicine,0
+87.4,657,Primary,1,0,Banadir,Business,3,Private,0,Male,CS,0
+31.5,62,Secondary,1,1,Hiran,Teacher,1,Public,1,Female,Medicine,0
+65.0,1277,Primary,0,0,Galgaduud,Business,0,Public,1,Male,Eng,0
+26.8,604,University,1,0,Nugaal,Teacher,0,Private,0,Male,Medicine,0
+23.4,79,Primary,1,0,Gedo,Farmer,3,Private,1,Male,CS,0
+33.4,1807,University,0,0,Hiran,Teacher,5,Public,1,Female,CS,0
+19.8,1180,University,0,0,Banadir,Farmer,3,Public,1,Male,Medicine,0
+7.9,708,Primary,0,1,Bari,Business,1,Private,1,Female,CS,0
+97.7,1784,University,0,0,Bari,Unemployed,2,Private,1,Female,Medicine,0
+86.3,533,Primary,0,1,Nugaal,Business,3,Private,0,Female,CS,0
+61.0,1456,Primary,0,0,Bari,Farmer,4,Private,1,Female,Medicine,0
+10.3,1875,Secondary,0,0,Lower Shabelle,Unemployed,1,Public,1,Male,CS,0
+9.2,1289,Primary,1,0,Gedo,Unemployed,3,Private,1,Female,Agri,0
+96.3,332,Primary,1,0,Galgaduud,Business,2,Private,1,Male,Agri,1
+24.8,767,University,0,1,Nugaal,Farmer,2,Private,1,Male,Medicine,0
+45.1,193,Primary,0,1,Banadir,Unemployed,1,Private,1,Male,CS,0
+22.2,1533,None,0,0,Bari,Unemployed,0,Public,0,Male,Agri,0
+89.1,639,Secondary,0,0,Bari,Business,0,Private,1,Male,Eng,0
+36.8,496,None,0,0,Lower Shabelle,Business,0,Private,1,Female,Eng,0
+81.1,522,Primary,1,0,Gedo,Business,1,Public,1,Male,CS,0
+14.0,671,Primary,1,1,Gedo,Unemployed,3,Private,0,Female,Eng,0
+44.1,457,None,0,0,Galgaduud,Farmer,0,Public,1,Female,CS,0
+95.2,1184,Secondary,1,1,Bari,Business,0,Public,0,Male,Agri,0
+7.9,87,University,0,0,Banadir,Unemployed,5,Private,1,Male,Eng,0
+82.7,1907,University,0,0,Lower Shabelle,Teacher,5,Private,0,Male,CS,0
+80.6,849,University,1,0,Banadir,Farmer,0,Public,0,Male,Eng,0
+38.0,1641,University,0,1,Galgaduud,Farmer,3,Public,0,Male,Eng,0
+92.0,1282,University,0,0,Banadir,Teacher,5,Public,1,Female,CS,0
+4.3,1937,Secondary,1,0,Hiran,Teacher,3,Public,1,Male,Medicine,0
+85.7,969,University,0,0,Nugaal,Teacher,3,Public,1,Male,CS,0
+90.0,84,University,0,0,Bari,Farmer,2,Private,1,Female,CS,1
+4.8,270,Primary,0,0,Bari,Farmer,5,Private,1,Male,Agri,0
+42.4,1358,University,0,0,Banadir,Teacher,2,Public,1,Male,Agri,0
+39.5,438,Primary,0,0,Banadir,Farmer,4,Public,1,Female,Eng,0
+66.9,732,None,1,0,Galgaduud,Unemployed,1,Private,1,Female,Eng,0
+64.1,1754,None,0,1,Bari,Farmer,0,Public,1,Male,Eng,0
+46.7,1522,Secondary,0,0,Banadir,Business,4,Private,1,Female,Eng,0
+22.9,253,University,0,1,Nugaal,Unemployed,4,Private,1,Male,Eng,0
+72.2,1767,Secondary,0,0,Nugaal,Business,4,Private,1,Female,Medicine,0
+67.6,544,University,0,0,Banadir,Teacher,0,Private,1,Female,Medicine,0
+10.7,396,Secondary,0,0,Hiran,Farmer,0,Private,1,Female,Agri,0
+17.9,1294,Secondary,0,0,Bari,Teacher,4,Private,1,Female,Medicine,0
+78.2,1247,None,0,0,Gedo,Farmer,0,Private,1,Female,Eng,0
+54.6,1377,Secondary,0,0,Lower Shabelle,Unemployed,1,Private,1,Female,CS,0
+69.1,83,Secondary,0,0,Nugaal,Business,3,Public,1,Female,CS,1
+46.7,275,Secondary,1,0,Gedo,Unemployed,4,Private,0,Male,Eng,0
+54.8,672,Secondary,0,1,Gedo,Teacher,3,Private,1,Female,Medicine,0
+31.2,1638,Secondary,0,1,Hiran,Teacher,3,Private,1,Female,Medicine,0
+86.2,1796,Secondary,0,0,Nugaal,Teacher,4,Public,1,Male,Agri,0
+5.9,995,Secondary,0,0,Gedo,Teacher,1,Private,1,Female,Eng,0
+85.4,497,Primary,0,0,Bari,Business,4,Public,1,Male,Agri,0
+95.4,439,Primary,1,0,Nugaal,Unemployed,2,Public,1,Male,Eng,1
+33.2,879,University,0,0,Gedo,Unemployed,1,Public,1,Female,Eng,0
+42.7,1133,University,0,0,Nugaal,Teacher,1,Private,1,Female,Eng,0
+95.0,1417,Primary,0,0,Hiran,Farmer,1,Public,1,Female,Agri,0
+62.6,1044,None,0,1,Hiran,Business,1,Private,1,Female,Eng,0
+5.3,1004,None,0,0,Lower Shabelle,Business,2,Public,1,Male,CS,0
+16.0,363,University,1,1,Hiran,Teacher,1,Private,1,Female,Eng,0
+81.5,939,University,0,0,Galgaduud,Business,5,Public,1,Female,Agri,0
+3.1,425,Secondary,0,0,Hiran,Farmer,4,Public,1,Male,Medicine,0
+43.1,56,Primary,0,0,Banadir,Business,1,Public,1,Male,Eng,0
+29.3,1841,University,0,0,Galgaduud,Farmer,2,Public,0,Male,Eng,0
+25.2,412,None,0,0,Banadir,Business,0,Private,1,Male,CS,0
+85.6,210,Secondary,1,0,Galgaduud,Unemployed,5,Private,1,Male,CS,1
+39.9,403,Secondary,1,0,Hiran,Unemployed,0,Private,1,Male,Agri,0
+62.0,900,University,1,0,Galgaduud,Business,4,Public,1,Male,Eng,0
+1.2,604,University,0,0,Galgaduud,Farmer,3,Public,1,Female,CS,0
+90.5,135,Secondary,1,1,Galgaduud,Farmer,2,Public,1,Female,Medicine,1
+88.8,241,University,0,1,Banadir,Teacher,4,Public,1,Male,CS,1
+11.6,1030,None,0,0,Galgaduud,Business,5,Private,1,Female,Agri,0
+42.2,1008,None,1,1,Bari,Unemployed,3,Private,1,Male,Agri,0
+3.0,1735,Secondary,0,0,Bari,Business,4,Public,1,Male,Eng,0
+77.6,479,Primary,0,1,Nugaal,Unemployed,4,Public,1,Male,CS,1
+47.7,1065,None,1,0,Gedo,Farmer,0,Public,1,Male,Agri,0
+34.8,638,None,1,0,Galgaduud,Business,5,Private,1,Male,Medicine,0
+32.4,1616,Secondary,1,0,Lower Shabelle,Business,4,Public,1,Female,CS,0
+94.7,722,Secondary,0,1,Nugaal,Teacher,1,Private,1,Female,Agri,0
+94.7,425,Primary,0,0,Lower Shabelle,Business,0,Private,1,Male,Agri,1
+83.6,465,None,1,1,Nugaal,Business,3,Private,1,Female,Agri,1
+58.0,1275,None,0,0,Lower Shabelle,Business,3,Private,1,Female,Medicine,0
+14.4,184,University,0,1,Lower Shabelle,Teacher,5,Public,1,Female,Medicine,0
+30.9,719,Primary,1,0,Bari,Business,3,Private,1,Male,Agri,0
+58.6,109,Primary,0,1,Nugaal,Farmer,5,Private,1,Male,Agri,1
+50.3,1589,Secondary,0,1,Bari,Business,3,Private,1,Female,Eng,0
+21.0,1632,University,1,0,Hiran,Business,2,Public,1,Female,CS,0
+7.0,225,Primary,0,0,Gedo,Unemployed,4,Public,1,Male,Medicine,0
+97.7,1421,University,0,1,Galgaduud,Farmer,4,Public,1,Female,Eng,0
+7.8,282,University,0,0,Galgaduud,Teacher,0,Public,0,Male,Agri,0
+63.0,182,Primary,0,0,Lower Shabelle,Unemployed,2,Private,0,Male,Medicine,0
+68.6,583,None,0,1,Gedo,Farmer,1,Private,1,Female,Medicine,0
+86.9,1628,Secondary,0,1,Bari,Farmer,0,Public,1,Male,Agri,0
+32.6,760,Secondary,0,1,Hiran,Farmer,5,Public,1,Male,Eng,0
+17.3,1359,None,0,0,Gedo,Farmer,4,Private,1,Female,Medicine,0
+29.2,1314,Secondary,0,0,Banadir,Teacher,2,Public,1,Male,Eng,0
+71.6,329,University,1,0,Banadir,Farmer,1,Private,1,Female,Medicine,1
+64.7,1100,University,0,0,Galgaduud,Unemployed,1,Public,1,Female,Eng,0
+74.4,165,None,0,0,Hiran,Business,0,Public,1,Female,Eng,1
+91.8,1350,None,0,0,Bari,Unemployed,5,Private,1,Female,Eng,0
+2.0,698,Primary,0,0,Hiran,Unemployed,5,Private,0,Female,Agri,0
+78.5,411,University,0,0,Nugaal,Farmer,5,Private,0,Female,Eng,0
+31.0,1526,University,0,0,Nugaal,Teacher,1,Private,1,Female,Eng,0
+34.9,800,Secondary,0,0,Bari,Unemployed,4,Public,1,Male,CS,0
+75.9,1853,University,0,1,Nugaal,Unemployed,0,Private,1,Male,Eng,0
+35.0,412,Secondary,0,0,Bari,Teacher,0,Private,1,Female,Eng,0
+94.1,568,None,0,0,Lower Shabelle,Business,0,Private,1,Female,Agri,0
+25.5,930,None,1,0,Nugaal,Business,2,Public,0,Male,Eng,0
+71.8,52,Primary,0,1,Nugaal,Unemployed,5,Private,1,Male,CS,1
+18.0,865,Secondary,1,1,Banadir,Farmer,3,Private,1,Female,Eng,0
+24.4,1988,Secondary,0,0,Banadir,Farmer,3,Public,0,Male,Agri,0
+96.4,1424,Secondary,1,0,Lower Shabelle,Unemployed,3,Public,1,Female,Agri,0
+17.8,1180,University,0,1,Gedo,Teacher,1,Public,1,Male,Medicine,0
+38.5,1127,Secondary,1,0,Gedo,Teacher,1,Public,1,Female,Medicine,0
+49.5,683,None,0,0,Lower Shabelle,Unemployed,5,Private,1,Male,Agri,0
+1.4,279,University,0,0,Lower Shabelle,Teacher,4,Public,1,Female,CS,0
+84.1,1901,Secondary,0,0,Gedo,Teacher,0,Private,1,Male,CS,0
+24.1,393,Primary,0,0,Nugaal,Farmer,0,Private,1,Male,CS,0
+5.5,916,Secondary,0,0,Hiran,Farmer,4,Public,0,Female,Agri,0
+4.3,567,Primary,0,0,Nugaal,Business,4,Public,1,Female,Agri,0
+72.1,1688,Secondary,1,0,Nugaal,Unemployed,4,Public,1,Female,Eng,0
+73.1,486,Primary,0,0,Gedo,Business,2,Private,1,Female,Agri,1
+29.7,816,University,0,0,Lower Shabelle,Unemployed,3,Public,1,Male,Agri,0
+35.0,884,None,0,1,Hiran,Farmer,2,Private,1,Female,Medicine,0
+1.0,503,University,0,0,Gedo,Unemployed,3,Public,1,Male,Medicine,0
+2.6,477,Primary,1,0,Banadir,Business,1,Private,1,Male,Eng,0
+81.9,438,Secondary,0,0,Bari,Teacher,4,Private,1,Female,Eng,0
+27.7,396,University,0,0,Lower Shabelle,Teacher,0,Private,1,Male,Agri,0
+24.0,772,Secondary,0,0,Galgaduud,Business,1,Private,1,Female,Eng,0
+19.5,1429,University,0,0,Bari,Farmer,5,Private,1,Female,CS,0
+15.8,1230,Secondary,1,0,Lower Shabelle,Farmer,4,Public,0,Male,CS,0
+44.5,651,University,0,0,Lower Shabelle,Unemployed,2,Private,1,Female,CS,0
+70.3,1932,Secondary,0,0,Nugaal,Unemployed,4,Private,1,Female,Agri,0
+11.4,657,Primary,1,0,Banadir,Farmer,2,Public,1,Female,Eng,0
+24.3,789,University,1,0,Galgaduud,Farmer,2,Private,1,Female,Medicine,0
+36.6,1758,None,1,1,Bari,Business,3,Public,1,Male,CS,0
+90.4,1723,Secondary,1,0,Hiran,Teacher,3,Public,1,Male,Agri,0
+33.2,172,University,1,1,Galgaduud,Farmer,4,Private,1,Female,Medicine,0
+33.3,1762,Primary,1,0,Bari,Farmer,0,Public,0,Male,CS,0
+26.6,1866,None,1,0,Nugaal,Business,3,Private,1,Female,CS,0
+72.7,195,None,1,0,Bari,Farmer,0,Private,1,Female,Medicine,1
+55.7,723,University,1,0,Bari,Teacher,4,Private,0,Female,Agri,0
+78.7,153,Secondary,0,0,Lower Shabelle,Teacher,0,Public,1,Male,Medicine,1
+51.3,670,University,1,1,Banadir,Unemployed,0,Private,1,Male,Agri,0
+7.6,1504,Secondary,0,1,Banadir,Farmer,5,Private,1,Female,Medicine,0
+15.4,1334,None,1,1,Nugaal,Business,4,Public,1,Male,Medicine,0
+1.3,1917,Primary,0,0,Nugaal,Farmer,1,Public,1,Female,Agri,0
+61.1,1273,University,0,0,Galgaduud,Farmer,3,Public,1,Male,Eng,0
+30.8,727,University,0,0,Hiran,Teacher,2,Public,1,Male,CS,0
+76.6,1949,Primary,0,0,Galgaduud,Farmer,0,Public,1,Female,CS,0
+94.5,324,University,1,0,Hiran,Unemployed,4,Public,0,Female,CS,0
+42.8,342,Secondary,0,0,Gedo,Business,1,Private,1,Male,Eng,0
+8.0,1188,University,0,0,Banadir,Teacher,0,Public,1,Female,Agri,0
+30.5,1846,Secondary,0,0,Nugaal,Farmer,1,Public,0,Female,CS,0
+59.6,1962,University,0,0,Bari,Teacher,0,Private,1,Female,Medicine,0
+81.7,791,Secondary,0,0,Gedo,Teacher,2,Public,1,Male,CS,0
+21.7,1304,Secondary,0,0,Nugaal,Teacher,1,Public,1,Male,CS,0
+68.8,1783,Primary,1,0,Gedo,Business,4,Public,1,Male,Eng,0
+8.2,1147,University,1,0,Banadir,Teacher,0,Private,1,Female,Agri,0
+14.2,667,None,0,1,Nugaal,Farmer,5,Private,1,Male,CS,0
+93.9,1084,Primary,0,1,Lower Shabelle,Farmer,2,Public,1,Male,Agri,0
+91.7,171,University,0,1,Banadir,Unemployed,1,Private,1,Female,Medicine,1
+49.0,67,Secondary,0,1,Lower Shabelle,Farmer,3,Public,1,Female,Eng,0
+35.6,827,University,0,0,Hiran,Teacher,3,Public,1,Female,Eng,0
+82.4,1034,Primary,0,1,Banadir,Unemployed,1,Public,1,Male,Agri,0
+63.9,794,University,0,0,Banadir,Teacher,5,Public,1,Female,Medicine,0
+36.1,732,University,1,0,Hiran,Business,0,Public,1,Female,CS,0
+76.0,1695,University,0,1,Bari,Business,0,Private,0,Female,Medicine,0
+91.2,1901,Secondary,0,0,Hiran,Teacher,0,Private,1,Male,Medicine,0
+17.1,1465,Secondary,0,0,Galgaduud,Teacher,2,Private,1,Male,Eng,0
+99.1,1820,University,0,1,Nugaal,Teacher,5,Private,1,Male,Agri,0
+71.5,1776,Secondary,0,0,Lower Shabelle,Teacher,1,Private,1,Male,Agri,0
+35.6,1384,University,0,0,Bari,Business,0,Public,1,Male,Agri,0
+95.8,1878,Primary,1,0,Hiran,Business,0,Private,1,Male,Eng,0
+4.3,1421,University,0,1,Gedo,Teacher,5,Public,0,Female,Agri,0
+77.4,440,None,0,0,Bari,Farmer,2,Private,1,Male,Medicine,1
+17.7,1309,Primary,1,0,Galgaduud,Unemployed,2,Public,1,Male,Medicine,0
+63.8,778,Primary,1,0,Galgaduud,Business,3,Private,1,Male,Medicine,0
+62.0,1957,Primary,1,1,Galgaduud,Business,0,Private,1,Female,Agri,0
+72.1,556,University,0,0,Galgaduud,Business,1,Private,1,Female,Agri,0
+86.5,204,Secondary,0,0,Banadir,Teacher,2,Private,1,Female,Agri,1
+93.6,462,Secondary,0,0,Lower Shabelle,Business,5,Public,1,Male,CS,1
+50.0,1778,Secondary,1,1,Gedo,Teacher,5,Public,1,Female,CS,0
+2.4,1125,Primary,1,1,Banadir,Business,4,Private,1,Male,Medicine,0
+26.6,1661,University,1,0,Gedo,Teacher,1,Public,0,Male,CS,0
+87.5,1785,University,0,0,Gedo,Farmer,4,Private,0,Male,Medicine,0
+88.1,1619,Secondary,0,0,Lower Shabelle,Unemployed,3,Public,1,Male,CS,0
+17.6,948,University,1,0,Bari,Teacher,0,Public,1,Male,Medicine,0
+43.1,1025,University,0,0,Hiran,Teacher,1,Public,1,Male,CS,0
+18.3,1143,None,0,0,Gedo,Unemployed,4,Public,1,Female,Medicine,0
+52.1,593,University,0,0,Gedo,Farmer,0,Public,1,Male,CS,0
+79.1,497,Secondary,0,0,Hiran,Teacher,0,Public,1,Female,Eng,1
+83.9,1209,Secondary,0,1,Bari,Business,3,Public,1,Female,CS,0
+46.9,53,University,0,0,Hiran,Unemployed,2,Private,1,Female,Medicine,0
+64.7,114,Secondary,0,0,Gedo,Teacher,3,Private,1,Male,Medicine,1
+34.7,390,Secondary,0,0,Bari,Unemployed,3,Public,1,Male,CS,0
+22.6,780,University,0,0,Galgaduud,Teacher,0,Private,0,Male,Agri,0
+53.2,890,Secondary,0,0,Lower Shabelle,Farmer,4,Private,1,Male,Medicine,0
+32.5,962,Secondary,0,1,Bari,Teacher,3,Private,1,Female,Eng,0
+90.7,1968,University,0,1,Lower Shabelle,Teacher,5,Private,1,Female,CS,0
+33.4,1450,University,0,0,Gedo,Unemployed,2,Private,1,Female,Medicine,0
+55.7,1546,Secondary,1,0,Lower Shabelle,Teacher,4,Private,0,Male,CS,0
+77.7,488,Secondary,1,0,Gedo,Unemployed,0,Public,1,Male,CS,1
+83.1,396,Primary,0,1,Gedo,Business,0,Private,1,Female,Agri,1
+26.5,1054,Primary,0,0,Banadir,Farmer,5,Private,1,Female,Eng,0
+22.7,724,None,0,0,Nugaal,Business,1,Private,1,Female,Eng,0
+24.8,1915,University,0,1,Bari,Business,1,Private,1,Male,CS,0
+44.4,244,University,1,1,Nugaal,Unemployed,5,Public,1,Male,Medicine,0
+79.7,910,University,0,0,Hiran,Teacher,1,Public,0,Female,Agri,0
+37.5,543,Secondary,0,0,Lower Shabelle,Unemployed,4,Private,1,Male,Agri,0
+59.6,1395,University,0,0,Galgaduud,Unemployed,5,Public,1,Female,Medicine,0
+12.0,1315,Secondary,0,0,Nugaal,Unemployed,5,Private,1,Female,Eng,0
+73.8,1480,University,0,0,Lower Shabelle,Unemployed,0,Public,1,Male,Medicine,0
+39.1,851,University,0,1,Bari,Unemployed,1,Private,1,Female,Agri,0
+21.1,1632,Secondary,1,1,Lower Shabelle,Teacher,4,Public,1,Male,Agri,0
+7.8,710,Secondary,0,1,Gedo,Teacher,4,Private,1,Female,CS,0
+95.8,1588,University,0,0,Banadir,Farmer,0,Private,1,Male,CS,0
+17.0,899,Secondary,1,0,Hiran,Teacher,2,Public,1,Male,CS,0
+48.2,1119,Primary,1,1,Lower Shabelle,Unemployed,2,Public,1,Female,CS,0
+66.7,1125,Primary,0,0,Lower Shabelle,Farmer,2,Public,1,Male,Agri,0
+15.9,1072,Secondary,0,0,Bari,Farmer,5,Public,1,Female,Agri,0
+75.1,730,None,1,0,Nugaal,Business,5,Private,1,Male,Medicine,0
+37.7,1220,Secondary,1,0,Hiran,Business,5,Public,1,Male,CS,0
+91.3,1663,Secondary,0,0,Gedo,Farmer,5,Public,1,Male,Agri,0
+49.3,1450,None,0,0,Lower Shabelle,Farmer,5,Private,1,Female,Agri,0
+70.0,1621,University,0,1,Lower Shabelle,Farmer,1,Private,1,Male,CS,0
+86.3,1173,Primary,0,0,Banadir,Farmer,3,Private,1,Male,Medicine,0
+84.1,888,None,0,0,Bari,Business,3,Private,0,Male,Medicine,0
+21.8,558,Secondary,0,0,Banadir,Farmer,3,Private,1,Male,CS,0
+64.2,1668,None,1,0,Galgaduud,Unemployed,2,Private,1,Male,Eng,0
+97.1,283,Secondary,0,1,Bari,Teacher,2,Private,1,Male,CS,1
+66.4,834,University,0,1,Galgaduud,Teacher,1,Public,1,Male,Agri,0
+41.6,108,None,0,1,Banadir,Business,0,Public,1,Female,Medicine,0
+67.7,147,Secondary,0,0,Galgaduud,Teacher,4,Public,1,Female,Eng,0
+9.0,1505,Secondary,1,1,Gedo,Teacher,3,Public,1,Male,Eng,0
+23.5,1986,University,0,0,Lower Shabelle,Teacher,3,Private,1,Female,Agri,0
+61.7,1421,Primary,0,0,Banadir,Unemployed,4,Public,0,Female,CS,0
+55.2,1079,University,0,0,Galgaduud,Business,2,Private,1,Male,Medicine,0
+21.1,143,University,0,1,Gedo,Business,1,Private,1,Male,Agri,0
+89.1,316,University,0,1,Galgaduud,Farmer,1,Public,1,Female,Eng,1
+11.0,1693,University,0,0,Hiran,Teacher,2,Private,1,Male,Eng,0
+69.9,124,Secondary,0,0,Nugaal,Unemployed,5,Public,1,Male,CS,1
+54.9,1866,Primary,0,0,Hiran,Unemployed,4,Private,1,Male,Agri,0
+16.5,266,Primary,0,1,Banadir,Farmer,4,Private,0,Female,Eng,0
+35.6,1633,Primary,0,1,Gedo,Unemployed,0,Public,1,Male,Eng,0
+82.4,685,None,1,0,Gedo,Business,4,Public,1,Male,Agri,0
+26.4,890,None,0,0,Hiran,Farmer,4,Public,1,Male,CS,0
+99.9,51,Primary,1,0,Gedo,Farmer,4,Private,0,Female,Agri,0
+61.6,1417,Secondary,0,0,Nugaal,Teacher,1,Public,1,Female,Medicine,0
+39.8,171,None,0,0,Gedo,Unemployed,1,Private,1,Male,CS,0
+93.4,263,Secondary,1,1,Banadir,Teacher,4,Private,1,Male,Eng,1
+94.5,291,Secondary,0,1,Bari,Farmer,1,Public,1,Female,Medicine,1
+8.5,1877,Primary,0,0,Banadir,Farmer,2,Private,0,Male,CS,0
+38.3,578,Secondary,0,1,Lower Shabelle,Teacher,0,Public,1,Male,Eng,0
+9.8,1176,University,0,0,Hiran,Teacher,2,Public,1,Male,Agri,0
+2.4,674,Secondary,1,0,Galgaduud,Teacher,3,Private,1,Female,Agri,0
+34.0,1020,Secondary,0,0,Hiran,Business,5,Public,1,Female,CS,0
+70.0,128,Secondary,0,1,Hiran,Teacher,4,Public,1,Male,Eng,1
+88.5,1711,Primary,1,1,Hiran,Farmer,1,Private,0,Male,CS,0
+24.6,971,Secondary,1,0,Hiran,Teacher,5,Public,0,Female,Eng,0
+14.5,615,Secondary,0,0,Lower Shabelle,Business,0,Private,1,Female,Agri,0
+73.0,1642,Secondary,1,1,Hiran,Teacher,1,Private,1,Male,Eng,0
+99.5,1553,Secondary,0,0,Galgaduud,Teacher,1,Public,1,Male,CS,0
+62.5,1970,University,0,0,Galgaduud,Unemployed,4,Public,1,Female,Agri,0
+20.1,1894,Primary,0,0,Hiran,Unemployed,2,Public,1,Male,Agri,0
+69.3,1390,None,0,0,Galgaduud,Business,4,Public,1,Male,Agri,0
+51.2,1968,Secondary,0,0,Bari,Teacher,2,Public,0,Female,Eng,0
+59.1,1439,None,0,1,Lower Shabelle,Business,0,Public,1,Male,Agri,0
+57.9,544,University,0,1,Nugaal,Teacher,3,Private,1,Female,CS,0
+25.6,960,Primary,0,1,Galgaduud,Business,0,Public,1,Female,Medicine,0
+37.5,1463,Secondary,0,1,Galgaduud,Teacher,4,Public,1,Male,Medicine,0
+9.7,1019,None,1,1,Bari,Unemployed,3,Private,1,Male,Agri,0
+71.6,1744,Secondary,0,1,Gedo,Teacher,5,Private,1,Female,Agri,0
+87.2,506,Primary,0,0,Hiran,Unemployed,5,Private,1,Male,Eng,0
+52.9,1288,University,1,0,Banadir,Unemployed,5,Private,0,Male,CS,0
+73.1,1259,Secondary,0,0,Banadir,Teacher,4,Private,1,Male,CS,0
+28.9,1669,University,0,0,Hiran,Unemployed,5,Public,0,Female,Agri,0
+32.2,1780,Primary,0,0,Hiran,Farmer,4,Public,1,Male,Eng,0
+89.3,1706,University,1,1,Nugaal,Unemployed,5,Private,1,Male,Agri,0
+97.3,1851,Primary,0,1,Galgaduud,Unemployed,1,Private,1,Female,CS,0
+57.6,604,Secondary,0,0,Lower Shabelle,Teacher,5,Public,1,Female,Eng,0
+29.9,1782,Primary,1,0,Bari,Business,3,Private,1,Male,Eng,0
+1.1,1989,Primary,1,0,Hiran,Business,5,Private,1,Male,Eng,0
+50.4,1874,University,1,0,Nugaal,Teacher,3,Public,0,Female,Agri,0
+58.3,300,University,0,0,Bari,Teacher,3,Public,1,Male,Medicine,0
+34.8,418,Secondary,1,1,Hiran,Teacher,0,Private,1,Female,Agri,0
+27.7,350,Primary,0,0,Hiran,Business,0,Public,1,Male,Medicine,0
+63.5,1193,Secondary,1,1,Banadir,Farmer,5,Public,1,Female,Medicine,0
+41.5,1092,Secondary,1,0,Lower Shabelle,Farmer,3,Public,1,Female,Eng,0
+90.7,596,Secondary,0,0,Nugaal,Teacher,3,Public,1,Male,Eng,0
+48.6,504,Secondary,1,1,Banadir,Business,1,Private,0,Female,Agri,0
+70.9,1238,Secondary,0,0,Banadir,Teacher,0,Private,0,Male,Medicine,0
+88.9,488,University,1,0,Gedo,Unemployed,0,Public,1,Male,Medicine,1
+93.9,349,University,1,0,Hiran,Farmer,0,Public,1,Female,Medicine,1
+10.5,1010,None,1,0,Banadir,Farmer,5,Private,1,Female,Agri,0
+36.4,1557,Secondary,0,1,Gedo,Teacher,4,Public,1,Male,Medicine,0
+69.7,1512,None,0,1,Gedo,Farmer,2,Private,1,Female,Medicine,0
+26.7,1573,None,0,0,Hiran,Farmer,4,Private,0,Male,CS,0
+68.4,1615,Secondary,0,0,Lower Shabelle,Unemployed,0,Public,1,Female,Medicine,0
+87.8,347,Secondary,0,0,Banadir,Farmer,0,Public,1,Male,CS,1
+22.3,322,Secondary,0,0,Hiran,Farmer,4,Public,1,Female,Medicine,0
+56.0,1144,Secondary,1,1,Hiran,Farmer,1,Public,1,Female,Eng,0
+73.4,279,Secondary,1,0,Lower Shabelle,Farmer,0,Public,0,Male,Eng,0
+0.9,1587,None,1,1,Gedo,Business,5,Public,1,Male,Eng,0
+94.7,53,Secondary,1,0,Bari,Teacher,2,Private,1,Female,Medicine,1
+31.4,1372,University,0,0,Bari,Farmer,4,Public,1,Male,Eng,0
+84.4,1908,None,0,1,Galgaduud,Farmer,5,Private,0,Male,Medicine,0
+21.1,1570,University,0,1,Hiran,Farmer,0,Public,1,Male,CS,0
+83.6,430,University,0,0,Banadir,Teacher,0,Public,1,Male,Medicine,1
+14.9,854,None,1,1,Nugaal,Unemployed,0,Private,1,Male,Agri,0
+31.6,917,Secondary,0,1,Banadir,Farmer,4,Public,1,Female,CS,0
+37.6,1871,Secondary,1,0,Banadir,Business,3,Private,1,Female,Eng,0
+87.7,1942,Secondary,0,0,Bari,Teacher,3,Public,1,Female,CS,0
+46.9,1695,None,0,0,Galgaduud,Unemployed,1,Public,1,Male,CS,0
+57.9,1100,None,0,1,Nugaal,Unemployed,3,Public,1,Female,Medicine,0
+31.0,1836,Primary,0,1,Lower Shabelle,Unemployed,5,Public,1,Female,Medicine,0
+44.5,1161,None,1,0,Galgaduud,Business,5,Public,1,Female,CS,0
+12.8,873,University,0,1,Gedo,Unemployed,5,Public,1,Male,Eng,0
+50.1,1995,Secondary,0,0,Hiran,Business,4,Public,0,Female,Eng,0
+71.5,338,Secondary,0,1,Bari,Unemployed,0,Public,1,Male,Agri,1
+24.9,364,University,0,0,Banadir,Business,0,Private,1,Female,CS,0
+12.6,657,University,0,0,Banadir,Teacher,2,Private,1,Male,Medicine,0
+18.1,598,Secondary,1,0,Bari,Teacher,3,Private,1,Female,CS,0
+52.7,190,Primary,0,0,Lower Shabelle,Farmer,4,Public,1,Male,CS,1
+97.2,394,Secondary,0,0,Banadir,Farmer,2,Public,1,Female,Agri,1
+15.2,719,None,0,0,Gedo,Farmer,0,Public,1,Male,Medicine,0
+45.3,1047,Secondary,0,0,Lower Shabelle,Teacher,0,Public,1,Female,Medicine,0
+9.0,1778,Primary,0,1,Galgaduud,Unemployed,0,Private,1,Male,Medicine,0
+27.0,252,University,0,0,Lower Shabelle,Unemployed,2,Public,0,Male,Agri,0
+45.1,467,Secondary,0,1,Nugaal,Teacher,4,Private,1,Male,Medicine,0
+39.5,442,Secondary,1,0,Nugaal,Teacher,5,Public,1,Female,Agri,0
+42.6,1661,Primary,0,1,Bari,Unemployed,4,Public,1,Male,Agri,0
+90.0,1957,University,1,1,Lower Shabelle,Farmer,2,Private,1,Male,CS,0
+96.0,191,University,0,0,Hiran,Unemployed,4,Private,0,Male,Medicine,0
+32.1,1104,None,0,0,Lower Shabelle,Farmer,4,Public,1,Female,CS,0
+35.5,1229,Primary,0,0,Hiran,Business,5,Public,1,Male,Medicine,0
+88.7,806,Secondary,1,0,Banadir,Business,0,Public,1,Male,Medicine,0
+92.2,733,University,0,1,Gedo,Farmer,2,Private,0,Female,Medicine,0
+71.5,428,Primary,0,0,Bari,Farmer,4,Private,1,Male,CS,1
+67.8,1855,Secondary,0,0,Galgaduud,Business,3,Private,1,Male,CS,0
+99.9,1365,Secondary,0,0,Bari,Business,2,Public,1,Female,Medicine,0
+35.7,352,Secondary,1,1,Banadir,Farmer,2,Private,1,Male,Medicine,0
+86.1,1819,Secondary,0,0,Hiran,Teacher,1,Public,0,Female,Eng,0
+25.1,177,University,0,0,Banadir,Farmer,4,Private,1,Female,Medicine,0
+87.1,1758,University,0,1,Hiran,Teacher,4,Private,1,Female,CS,0
+97.1,917,Secondary,0,1,Galgaduud,Farmer,4,Private,1,Female,Agri,0
+68.8,1747,University,0,0,Galgaduud,Unemployed,2,Private,1,Male,Eng,0
+54.6,1642,Secondary,1,1,Lower Shabelle,Farmer,3,Public,1,Female,Eng,0
+72.0,1290,Primary,0,1,Gedo,Unemployed,4,Private,1,Female,CS,0
+2.9,891,Secondary,0,1,Banadir,Business,2,Private,1,Male,Medicine,0
+91.3,1726,University,1,0,Galgaduud,Business,0,Private,1,Female,CS,0
+26.3,66,University,0,1,Nugaal,Teacher,0,Private,1,Male,Agri,0
+74.4,919,None,0,0,Lower Shabelle,Farmer,4,Public,1,Female,Agri,0
+56.9,401,University,0,0,Banadir,Teacher,3,Public,1,Male,Medicine,0
+10.7,675,University,0,0,Gedo,Teacher,4,Public,1,Male,Agri,0
+36.4,1031,University,0,1,Nugaal,Business,4,Private,1,Male,Eng,0
+45.9,1301,Secondary,0,0,Gedo,Unemployed,0,Public,1,Female,Medicine,0
+55.9,170,Primary,1,1,Gedo,Business,1,Public,1,Female,Eng,1
+80.0,1749,Primary,0,0,Banadir,Farmer,4,Private,0,Female,Eng,0
+32.0,1808,Secondary,0,0,Gedo,Farmer,1,Public,1,Male,CS,0
+91.8,1203,Secondary,0,0,Banadir,Teacher,1,Public,1,Female,CS,0
+15.0,103,None,0,0,Galgaduud,Unemployed,5,Public,1,Male,Eng,0
+37.8,1714,Primary,1,0,Hiran,Business,1,Private,0,Female,Agri,0
+90.3,1616,University,0,0,Gedo,Teacher,4,Public,1,Male,Eng,0
+62.1,1609,University,0,0,Galgaduud,Business,1,Public,1,Male,Medicine,0
+99.4,322,University,1,1,Gedo,Farmer,4,Public,1,Female,Eng,1
+68.8,1413,Secondary,1,0,Hiran,Teacher,4,Private,1,Male,Agri,0
+2.3,374,University,0,0,Hiran,Unemployed,3,Public,1,Female,CS,0
+6.2,349,University,0,1,Bari,Unemployed,2,Public,1,Male,Agri,0
+86.1,1366,Secondary,1,0,Lower Shabelle,Unemployed,0,Private,1,Male,CS,0
+46.0,295,University,0,0,Hiran,Teacher,5,Private,0,Male,Agri,0
+67.4,1503,Primary,1,0,Gedo,Business,5,Public,1,Male,Eng,0
+6.4,1070,University,0,1,Galgaduud,Farmer,4,Private,1,Female,Medicine,0
+80.0,1408,None,0,0,Banadir,Business,1,Public,1,Male,Agri,0
+77.9,1578,None,0,0,Nugaal,Business,5,Public,1,Male,Agri,0
+97.9,1805,Secondary,0,0,Lower Shabelle,Unemployed,3,Private,1,Female,Agri,0
+43.9,1950,None,1,0,Banadir,Farmer,2,Public,1,Female,Agri,0
+30.1,932,Secondary,0,1,Lower Shabelle,Farmer,1,Private,1,Female,CS,0
+12.7,1986,Secondary,0,0,Galgaduud,Unemployed,2,Public,1,Female,Eng,0
+14.2,1134,Secondary,0,0,Galgaduud,Business,1,Public,1,Male,Agri,0
+85.2,693,University,0,0,Hiran,Teacher,1,Private,1,Female,Eng,0
+39.9,585,University,1,0,Nugaal,Business,2,Public,1,Male,Agri,0
+26.2,1187,University,0,1,Gedo,Teacher,3,Private,1,Male,Agri,0
+80.3,808,Secondary,0,1,Bari,Unemployed,3,Private,1,Male,Eng,0
+75.3,1194,University,0,0,Hiran,Farmer,0,Public,1,Female,Medicine,0
+61.8,315,Primary,0,0,Nugaal,Business,3,Public,1,Male,CS,0
+38.9,1398,Secondary,1,0,Lower Shabelle,Business,4,Private,1,Male,CS,0
+70.1,1598,Primary,0,0,Galgaduud,Unemployed,3,Private,0,Female,CS,0
+88.1,1088,University,1,0,Hiran,Teacher,2,Private,0,Male,Agri,0
+52.2,307,None,0,0,Nugaal,Farmer,0,Private,1,Female,CS,1
+39.1,382,University,0,0,Banadir,Unemployed,3,Private,1,Male,Medicine,0
+54.5,559,University,1,0,Lower Shabelle,Farmer,3,Public,1,Male,Medicine,0
+49.0,880,Primary,0,0,Gedo,Unemployed,2,Private,0,Male,Eng,0
+57.1,1860,Secondary,1,0,Galgaduud,Farmer,0,Private,1,Male,Agri,0
+66.8,1141,University,0,1,Gedo,Teacher,1,Private,1,Female,Agri,0
+4.7,807,Primary,0,1,Hiran,Business,2,Public,1,Male,Medicine,0
+12.8,1073,University,0,1,Bari,Unemployed,3,Private,0,Male,CS,0
+85.8,538,University,0,1,Hiran,Teacher,2,Public,0,Male,Agri,0
+43.2,594,University,1,0,Banadir,Unemployed,0,Public,1,Male,Eng,0
+6.3,1342,University,1,1,Galgaduud,Teacher,1,Private,1,Male,Eng,0
+40.4,1577,Primary,1,0,Nugaal,Business,5,Public,0,Female,Agri,0
+94.2,1846,Secondary,0,1,Galgaduud,Business,3,Private,1,Male,Eng,0
+59.9,1164,University,0,0,Bari,Farmer,4,Private,1,Male,Medicine,0
+76.2,1438,Primary,1,0,Banadir,Unemployed,5,Private,1,Female,Medicine,0
+77.9,202,Primary,0,1,Galgaduud,Unemployed,3,Private,1,Female,Agri,1
+43.5,72,University,0,0,Bari,Farmer,2,Public,1,Female,Eng,0
+84.4,1468,Primary,0,0,Nugaal,Business,2,Public,0,Female,CS,0
+84.1,1306,Secondary,1,0,Lower Shabelle,Farmer,4,Public,1,Female,Medicine,0
+36.7,1453,Primary,1,0,Lower Shabelle,Farmer,0,Public,1,Male,Eng,0
+74.1,1901,Secondary,1,0,Banadir,Farmer,1,Public,1,Male,Medicine,0
+8.1,1083,None,0,0,Hiran,Business,4,Public,1,Female,CS,0
+4.7,1990,University,0,0,Nugaal,Teacher,5,Public,0,Male,Agri,0
+23.3,1467,University,0,0,Hiran,Teacher,2,Public,1,Female,Eng,0
+93.1,1130,None,0,0,Hiran,Unemployed,3,Public,0,Female,CS,0
+23.3,255,University,1,0,Bari,Business,0,Public,1,Female,CS,0
+12.2,731,University,0,1,Banadir,Unemployed,1,Public,1,Male,CS,0
+58.6,1235,Secondary,0,0,Nugaal,Business,3,Public,1,Female,Medicine,0
+33.1,1089,Primary,0,0,Galgaduud,Unemployed,4,Private,1,Female,Eng,0
+19.4,1389,Secondary,0,0,Banadir,Teacher,3,Private,1,Male,Eng,0
+58.3,160,Secondary,0,0,Lower Shabelle,Unemployed,0,Private,1,Female,CS,1
+53.6,1985,None,0,0,Galgaduud,Unemployed,2,Private,1,Male,Agri,0
+1.7,1689,Secondary,0,0,Gedo,Teacher,3,Public,1,Male,Medicine,0
+67.9,1508,University,0,0,Hiran,Unemployed,1,Private,1,Female,CS,0
+11.9,262,Secondary,1,1,Nugaal,Unemployed,1,Private,1,Male,Eng,0
+99.2,287,None,0,0,Galgaduud,Farmer,3,Private,1,Male,Eng,1
+70.1,1178,Primary,1,0,Gedo,Unemployed,5,Private,1,Male,Eng,0
+53.4,613,None,0,0,Lower Shabelle,Unemployed,0,Private,1,Female,CS,0
+91.7,251,Primary,0,0,Banadir,Unemployed,0,Public,1,Male,Agri,1
+42.9,1431,University,0,0,Lower Shabelle,Teacher,2,Private,1,Female,Medicine,0
+5.0,1842,None,0,0,Hiran,Business,4,Public,1,Female,CS,0
+19.4,1556,University,0,1,Banadir,Teacher,3,Public,1,Female,CS,0
+72.2,1589,Secondary,0,0,Galgaduud,Farmer,5,Private,1,Female,Agri,0
+25.9,396,Secondary,0,0,Gedo,Farmer,5,Private,1,Female,Eng,0
+80.9,1547,University,0,0,Nugaal,Unemployed,0,Public,1,Female,Eng,0
+81.0,1465,University,1,0,Banadir,Teacher,3,Public,0,Female,Agri,0
+91.1,1803,None,1,0,Lower Shabelle,Business,3,Private,1,Male,Agri,0
+58.3,561,Primary,1,0,Galgaduud,Business,3,Private,0,Female,Agri,0
+84.9,1374,University,0,0,Bari,Teacher,4,Public,0,Female,Eng,0
+27.7,386,Primary,0,1,Lower Shabelle,Farmer,0,Public,1,Female,Medicine,0
+18.4,1759,Secondary,0,0,Galgaduud,Unemployed,0,Public,1,Male,Agri,0
+52.1,540,Secondary,0,1,Gedo,Farmer,4,Public,1,Male,CS,0
+13.0,1981,University,0,1,Banadir,Teacher,3,Private,1,Male,Agri,0
+7.6,1138,Secondary,0,0,Galgaduud,Teacher,0,Private,0,Female,Agri,0
+34.2,384,University,1,0,Lower Shabelle,Teacher,1,Public,1,Female,Medicine,0
+28.5,1842,Primary,0,1,Galgaduud,Unemployed,2,Private,1,Male,Medicine,0
+9.3,242,University,0,1,Bari,Teacher,0,Private,1,Female,CS,0
+87.4,285,Secondary,0,0,Galgaduud,Business,5,Private,1,Male,Medicine,1
+19.2,78,Primary,1,0,Lower Shabelle,Business,5,Private,1,Male,Medicine,0
+73.9,1625,Secondary,0,0,Gedo,Unemployed,2,Public,1,Male,Medicine,0
+99.9,1728,Secondary,0,0,Banadir,Teacher,5,Public,0,Female,Medicine,0
+9.4,324,University,1,0,Banadir,Teacher,1,Public,0,Female,CS,0
+12.1,802,Primary,0,0,Banadir,Business,1,Private,1,Female,Agri,0
+70.7,1068,None,0,0,Bari,Unemployed,0,Public,1,Male,Medicine,0
+97.5,1490,University,0,0,Banadir,Teacher,3,Public,1,Male,CS,0
+69.2,1933,University,1,1,Bari,Business,1,Public,0,Male,Agri,0
+97.9,885,University,0,0,Hiran,Teacher,5,Private,1,Female,Agri,0
+51.3,455,University,0,0,Gedo,Teacher,0,Private,1,Female,CS,0
+66.0,1286,University,1,1,Gedo,Business,3,Private,0,Female,CS,0
+22.0,819,University,0,0,Nugaal,Unemployed,5,Public,1,Male,Agri,0
+78.2,1921,Secondary,0,0,Nugaal,Teacher,0,Public,1,Female,CS,0
+33.5,101,Secondary,0,0,Hiran,Teacher,3,Public,1,Male,Agri,0
+51.6,1324,Secondary,0,1,Gedo,Teacher,1,Private,0,Female,Agri,0
+98.8,177,Secondary,0,0,Bari,Teacher,2,Public,1,Female,Eng,1
+9.2,198,Secondary,1,0,Gedo,Farmer,2,Public,1,Male,Agri,0
+21.5,922,None,0,1,Bari,Unemployed,5,Public,1,Female,CS,0
+25.5,1212,Primary,0,1,Lower Shabelle,Unemployed,4,Public,0,Female,Agri,0
+61.8,82,University,1,0,Nugaal,Business,5,Private,1,Male,Eng,1
+91.3,719,University,1,1,Galgaduud,Farmer,1,Public,1,Female,Agri,0
+67.5,1949,Secondary,0,0,Banadir,Farmer,1,Public,1,Female,Medicine,0
+83.5,1166,Primary,1,0,Galgaduud,Farmer,4,Private,1,Female,Medicine,0
+74.9,1027,None,0,0,Gedo,Business,1,Public,1,Male,Medicine,0
+25.8,762,None,1,0,Hiran,Business,0,Private,0,Female,Medicine,0
+81.9,1528,None,0,0,Bari,Business,4,Private,1,Male,Medicine,0
+66.5,1889,Primary,1,0,Nugaal,Business,4,Public,1,Female,CS,0
+23.6,1993,Secondary,1,0,Lower Shabelle,Farmer,2,Private,1,Male,Medicine,0
+92.6,1423,Secondary,1,1,Hiran,Teacher,0,Public,1,Male,Medicine,0
+59.7,1771,University,1,0,Bari,Farmer,4,Public,1,Female,Eng,0
+35.9,1429,Secondary,0,0,Bari,Farmer,0,Public,0,Male,CS,0
+89.5,686,Secondary,0,0,Bari,Farmer,3,Private,1,Male,Agri,0
+16.7,1592,Secondary,1,0,Hiran,Teacher,5,Private,1,Female,Eng,0
+74.9,227,None,0,1,Banadir,Business,3,Public,0,Female,CS,0
+3.1,309,University,1,0,Lower Shabelle,Farmer,0,Private,1,Female,Medicine,0
+48.7,422,None,0,0,Lower Shabelle,Unemployed,4,Private,1,Female,Agri,0
+39.7,1817,Secondary,0,1,Lower Shabelle,Business,3,Private,1,Male,CS,0
+98.0,261,Primary,0,1,Nugaal,Business,0,Public,1,Male,Agri,1
+64.3,1929,Primary,0,1,Hiran,Business,0,Public,1,Female,Medicine,0
+0.1,121,Secondary,0,0,Bari,Farmer,1,Public,1,Male,Agri,0
+36.5,1304,None,1,1,Gedo,Business,4,Private,1,Male,CS,0
+60.9,175,Secondary,0,0,Hiran,Unemployed,2,Public,1,Male,Eng,1
+65.1,348,University,0,0,Hiran,Business,0,Public,1,Female,CS,0
+16.4,298,Secondary,0,1,Gedo,Teacher,3,Public,0,Female,Agri,0
+18.0,1072,Secondary,0,0,Bari,Unemployed,5,Public,1,Female,Agri,0
+29.0,1306,Secondary,0,0,Galgaduud,Business,2,Public,1,Female,CS,0
+98.7,505,University,1,0,Gedo,Teacher,4,Private,1,Female,Eng,0
+52.1,307,University,0,0,Lower Shabelle,Farmer,3,Private,0,Male,Eng,0
+27.6,526,Secondary,0,0,Galgaduud,Teacher,1,Public,1,Male,CS,0
+47.0,140,Secondary,0,0,Banadir,Teacher,1,Public,0,Male,Agri,0
+89.5,1843,University,0,1,Lower Shabelle,Teacher,1,Public,1,Female,CS,0
+89.7,813,Secondary,0,0,Banadir,Unemployed,4,Private,0,Male,Medicine,0
+97.5,1326,Primary,0,1,Galgaduud,Unemployed,1,Private,0,Female,Eng,0
+62.3,766,Secondary,0,1,Gedo,Teacher,5,Public,1,Female,Agri,0
+42.9,197,Primary,1,0,Nugaal,Unemployed,3,Private,0,Female,Eng,0
+84.6,608,Secondary,0,1,Bari,Farmer,2,Private,1,Female,Agri,0
+22.9,690,None,0,1,Nugaal,Unemployed,0,Public,1,Male,Agri,0
+71.7,209,Secondary,1,0,Lower Shabelle,Business,2,Public,1,Male,Eng,1
+57.1,349,University,0,0,Hiran,Teacher,2,Private,1,Male,CS,0
+53.0,1179,Secondary,0,0,Lower Shabelle,Business,5,Private,1,Female,CS,0
+47.2,1031,Primary,1,0,Hiran,Business,0,Private,0,Male,Agri,0
+34.9,395,Secondary,0,0,Hiran,Teacher,1,Private,1,Female,Agri,0
+4.7,1017,None,0,0,Galgaduud,Business,1,Public,1,Male,CS,0
+7.9,1534,University,0,0,Hiran,Unemployed,0,Private,0,Male,Medicine,0
+74.2,1644,Primary,0,0,Hiran,Unemployed,0,Public,1,Female,CS,0
+10.0,808,Primary,0,0,Gedo,Farmer,1,Private,1,Female,Eng,0
+56.8,1955,None,1,1,Gedo,Farmer,2,Public,1,Female,CS,0
+68.3,1170,University,1,0,Banadir,Business,1,Public,0,Male,Eng,0
+88.8,404,None,1,0,Banadir,Business,5,Private,1,Male,Medicine,1
+25.6,1107,University,0,1,Galgaduud,Business,0,Private,1,Female,CS,0
+75.1,607,University,0,0,Galgaduud,Business,1,Public,1,Female,Medicine,0
+90.2,976,University,0,0,Hiran,Teacher,3,Private,1,Male,CS,0
+90.9,372,University,0,0,Gedo,Teacher,0,Private,1,Male,Eng,1
+98.5,430,None,1,1,Nugaal,Business,3,Private,0,Female,Medicine,0
+83.8,1804,Secondary,1,0,Lower Shabelle,Business,2,Private,1,Male,CS,0
+18.8,1873,Primary,0,1,Hiran,Farmer,1,Public,1,Female,Eng,0
+16.8,217,Secondary,1,1,Gedo,Unemployed,1,Private,1,Female,CS,0
+93.6,640,University,0,0,Galgaduud,Teacher,5,Private,1,Female,Medicine,0
+20.3,1473,None,0,1,Hiran,Farmer,0,Public,1,Male,Agri,0
+20.6,917,University,1,0,Gedo,Teacher,2,Private,0,Female,Agri,0
+3.1,290,None,1,0,Gedo,Unemployed,3,Private,1,Male,CS,0
+27.8,957,University,1,1,Hiran,Teacher,3,Private,1,Female,Eng,0
+56.6,1126,University,0,0,Bari,Teacher,4,Public,1,Female,CS,0
+44.6,988,Primary,0,1,Hiran,Farmer,2,Private,1,Male,Medicine,0
+85.4,1214,Secondary,0,1,Nugaal,Business,3,Public,1,Male,CS,0
+46.7,692,Secondary,0,0,Nugaal,Unemployed,5,Public,1,Female,Medicine,0
+31.7,1866,Secondary,0,0,Hiran,Teacher,4,Public,1,Male,Eng,0
+34.8,1837,Secondary,0,0,Bari,Teacher,2,Public,0,Female,CS,0
+4.4,1354,None,0,0,Lower Shabelle,Farmer,4,Public,1,Female,CS,0
+45.3,177,None,1,0,Gedo,Unemployed,5,Public,1,Male,Eng,0
+96.2,1984,Secondary,0,1,Gedo,Teacher,1,Private,1,Female,Agri,0
+73.2,231,Secondary,0,0,Banadir,Unemployed,5,Private,1,Male,Eng,1
+79.9,2000,Secondary,1,0,Galgaduud,Teacher,3,Public,1,Male,Agri,0
+82.1,1007,Secondary,1,0,Galgaduud,Teacher,2,Public,1,Male,Medicine,0
+25.0,1600,University,0,1,Lower Shabelle,Unemployed,5,Public,1,Male,Agri,0
+57.0,1645,Primary,0,0,Hiran,Farmer,3,Private,1,Male,Medicine,0
+16.2,967,Primary,0,0,Bari,Unemployed,5,Public,1,Male,Eng,0
+77.0,1923,Secondary,1,1,Nugaal,Farmer,2,Public,1,Male,Agri,0
+26.2,566,Primary,1,0,Hiran,Unemployed,3,Private,0,Female,Medicine,0
+78.1,845,Secondary,0,0,Lower Shabelle,Business,0,Public,0,Female,Eng,0
+94.9,972,University,0,0,Bari,Farmer,2,Public,0,Female,Medicine,0
+50.8,248,Primary,0,1,Nugaal,Farmer,0,Private,1,Female,Medicine,1
+29.3,810,None,0,0,Galgaduud,Business,3,Public,1,Male,Agri,0
+38.0,536,Primary,0,1,Nugaal,Unemployed,2,Public,1,Male,Agri,0
+54.1,1702,University,0,0,Gedo,Teacher,3,Private,1,Male,Eng,0
+16.3,449,Secondary,0,0,Banadir,Farmer,5,Private,1,Male,Agri,0
+13.4,1616,University,0,0,Lower Shabelle,Teacher,5,Private,1,Female,Agri,0
+20.3,1003,Secondary,1,0,Bari,Teacher,0,Private,1,Male,Eng,0
+63.4,1907,Secondary,0,1,Banadir,Teacher,2,Public,1,Female,Eng,0
+93.0,1525,Primary,0,0,Bari,Business,3,Private,1,Female,Medicine,0
+19.5,861,Primary,0,0,Nugaal,Unemployed,5,Private,0,Female,Medicine,0
+45.5,996,None,0,0,Galgaduud,Farmer,0,Private,1,Male,Agri,0
+34.4,1016,University,0,0,Bari,Farmer,3,Public,1,Female,Medicine,0
+14.5,97,Primary,1,1,Banadir,Unemployed,0,Public,1,Male,Eng,0
+57.8,140,Secondary,1,0,Bari,Teacher,3,Private,0,Female,Eng,0
+57.1,1694,Primary,1,0,Bari,Business,1,Public,1,Male,CS,0
+12.6,721,University,0,0,Banadir,Teacher,1,Public,1,Female,Agri,0
+44.0,549,Primary,0,1,Lower Shabelle,Unemployed,3,Private,1,Female,Medicine,0
+92.3,704,Primary,0,0,Bari,Business,2,Public,0,Female,Medicine,0
+49.4,860,None,0,0,Bari,Farmer,3,Public,1,Female,Agri,0
+86.8,770,University,0,1,Hiran,Unemployed,1,Private,1,Male,Eng,0
+72.6,1763,Secondary,1,1,Lower Shabelle,Business,0,Private,1,Female,Eng,0
+39.2,1622,None,0,1,Gedo,Farmer,4,Private,1,Male,Eng,0
+9.9,1061,Secondary,0,0,Galgaduud,Farmer,5,Private,1,Male,Eng,0
+73.4,223,Primary,0,0,Hiran,Farmer,3,Public,1,Female,Medicine,1
+61.0,163,University,0,0,Lower Shabelle,Farmer,3,Public,0,Male,Medicine,0
+72.4,1152,University,1,0,Banadir,Unemployed,1,Private,1,Male,Eng,0
+10.0,1399,Secondary,0,0,Lower Shabelle,Teacher,2,Public,1,Male,Eng,0
+75.5,471,University,1,1,Bari,Farmer,3,Public,1,Male,Agri,1
+96.8,584,None,0,0,Gedo,Business,4,Private,1,Male,Medicine,0
+91.9,1954,Secondary,0,0,Nugaal,Farmer,1,Public,1,Male,Agri,0
+85.9,1644,Secondary,1,0,Galgaduud,Teacher,4,Public,1,Male,Agri,0
+96.2,1301,University,0,0,Nugaal,Teacher,3,Public,1,Male,CS,0
+72.8,1451,University,0,0,Banadir,Farmer,1,Private,1,Male,Medicine,0
+70.5,425,None,0,1,Gedo,Unemployed,4,Private,1,Male,Agri,1
+14.0,641,Secondary,1,0,Bari,Farmer,4,Private,1,Female,CS,0
+38.0,371,University,0,0,Bari,Business,4,Public,0,Male,CS,0
+28.6,1468,Secondary,0,0,Hiran,Unemployed,4,Public,0,Female,Agri,0
+78.4,513,Secondary,0,1,Hiran,Business,2,Private,0,Male,Eng,0
+9.7,189,Primary,0,0,Galgaduud,Farmer,1,Public,0,Female,Eng,0
+50.8,1871,Secondary,0,0,Gedo,Teacher,0,Private,1,Male,Agri,0
+3.2,1054,None,0,0,Lower Shabelle,Farmer,5,Public,1,Male,Eng,0
+38.7,146,University,0,0,Banadir,Unemployed,4,Private,1,Male,Medicine,0
+46.8,280,Primary,1,0,Galgaduud,Business,0,Private,1,Male,Agri,0
+82.9,1811,University,0,0,Banadir,Teacher,2,Public,1,Male,Agri,0
+67.2,951,University,0,0,Gedo,Farmer,2,Private,1,Male,Agri,0
+74.5,1199,None,0,0,Nugaal,Farmer,4,Private,1,Male,Agri,0
+84.0,1423,Secondary,0,1,Hiran,Business,5,Public,0,Female,Eng,0
+69.2,281,Secondary,0,1,Gedo,Farmer,5,Private,1,Female,Eng,1
+78.9,1171,Primary,1,0,Banadir,Business,5,Public,0,Male,Agri,0
+6.3,1645,Primary,0,1,Lower Shabelle,Unemployed,2,Private,0,Female,Agri,0
+98.4,224,University,1,0,Galgaduud,Farmer,1,Private,1,Female,Eng,1
+50.8,1984,None,0,0,Bari,Farmer,1,Private,1,Male,Eng,0
+91.9,490,University,1,0,Bari,Teacher,5,Private,1,Female,CS,1
+67.9,978,None,0,0,Nugaal,Unemployed,4,Public,1,Female,Agri,0
+61.4,1664,University,0,0,Banadir,Unemployed,1,Private,0,Female,Eng,0
+43.7,584,None,0,0,Lower Shabelle,Business,3,Public,0,Male,Eng,0
+79.9,1133,University,0,0,Nugaal,Farmer,0,Public,1,Female,Medicine,0
+81.0,1856,Secondary,0,0,Bari,Farmer,5,Public,1,Male,Eng,0
+5.2,1598,None,0,1,Nugaal,Farmer,2,Public,1,Male,CS,0
+44.7,486,Primary,0,1,Lower Shabelle,Unemployed,0,Public,1,Male,Agri,0
+34.4,312,Primary,0,1,Lower Shabelle,Business,5,Public,0,Female,Agri,0
+87.3,1776,None,1,0,Galgaduud,Unemployed,2,Public,0,Male,Eng,0
+50.0,1953,University,0,0,Gedo,Farmer,2,Private,1,Male,Agri,0
+68.7,1273,University,0,0,Banadir,Teacher,4,Private,1,Male,CS,0
+79.9,965,None,0,0,Gedo,Unemployed,0,Private,1,Male,CS,0
+27.1,1569,Secondary,0,0,Lower Shabelle,Teacher,4,Public,1,Female,Medicine,0
+97.2,855,Primary,1,0,Galgaduud,Farmer,0,Public,0,Male,CS,0
+70.1,970,University,0,0,Bari,Business,3,Public,1,Male,Eng,0
+77.2,898,Secondary,0,0,Gedo,Teacher,0,Public,1,Female,Eng,0
+1.8,1785,None,0,0,Nugaal,Unemployed,2,Private,0,Female,Eng,0
+15.0,1549,None,0,1,Hiran,Farmer,1,Private,1,Male,Medicine,0
+75.7,1310,Primary,1,1,Galgaduud,Business,0,Private,1,Male,Eng,0
+33.5,1671,University,0,1,Galgaduud,Farmer,1,Public,1,Male,Medicine,0
+79.8,777,None,1,0,Lower Shabelle,Unemployed,4,Private,1,Male,Eng,0
+25.4,1433,University,0,1,Nugaal,Unemployed,2,Public,1,Male,CS,0
+20.3,1888,None,1,0,Galgaduud,Unemployed,4,Private,1,Male,CS,0
+21.5,441,Secondary,1,1,Bari,Teacher,4,Private,1,Female,CS,0
+24.8,1063,Secondary,0,0,Banadir,Farmer,3,Private,1,Male,Agri,0
+47.9,1471,Primary,0,0,Lower Shabelle,Farmer,2,Public,1,Male,Eng,0
+82.9,434,Primary,0,0,Gedo,Unemployed,2,Public,1,Female,Agri,1
+45.3,687,University,1,0,Nugaal,Teacher,0,Public,0,Male,CS,0
+96.9,837,Primary,0,0,Lower Shabelle,Farmer,3,Private,1,Male,CS,0
+22.0,1115,Primary,0,0,Hiran,Business,0,Public,0,Male,Medicine,0
+1.4,1790,None,0,0,Gedo,Farmer,4,Public,1,Male,Agri,0
+37.5,1492,Primary,0,1,Banadir,Business,0,Public,1,Female,CS,0
+2.4,1712,University,0,1,Banadir,Business,0,Private,1,Male,Eng,0
+93.6,953,None,0,1,Bari,Unemployed,3,Public,1,Female,CS,0
+49.1,801,University,1,0,Nugaal,Business,0,Private,1,Male,Eng,0
+55.6,610,Secondary,0,0,Gedo,Teacher,4,Public,1,Female,Agri,0
+51.9,273,None,0,0,Lower Shabelle,Unemployed,5,Public,1,Male,CS,1
+70.1,719,Secondary,1,0,Hiran,Business,4,Public,0,Female,Eng,0
+79.8,80,Primary,1,0,Gedo,Farmer,0,Public,1,Male,Eng,1
+39.7,914,Primary,1,0,Galgaduud,Business,1,Private,1,Female,Medicine,0
+48.4,1958,University,0,1,Gedo,Teacher,1,Private,1,Female,Agri,0
+41.1,1289,None,1,0,Nugaal,Farmer,1,Private,1,Male,Eng,0
+29.7,561,Primary,1,0,Nugaal,Business,0,Public,1,Female,Eng,0
+18.9,1061,None,0,0,Galgaduud,Farmer,3,Private,1,Male,Agri,0
+11.3,1587,University,0,0,Nugaal,Teacher,4,Public,1,Female,Medicine,0
+98.1,1486,Secondary,0,0,Gedo,Business,5,Public,1,Female,Agri,0
+70.6,1668,Secondary,0,0,Bari,Teacher,3,Public,1,Female,Medicine,0
+63.1,505,Primary,0,0,Galgaduud,Farmer,0,Public,1,Male,Medicine,0
+48.2,1274,Primary,0,0,Banadir,Business,0,Private,0,Male,CS,0
+20.8,1267,None,0,0,Banadir,Farmer,2,Public,1,Female,Eng,0
+56.7,469,University,0,0,Banadir,Teacher,4,Private,1,Female,Medicine,0
+2.2,1258,Secondary,0,0,Lower Shabelle,Farmer,2,Public,1,Male,Agri,0
+94.7,347,Secondary,1,0,Gedo,Farmer,5,Public,1,Male,CS,1
+13.7,278,University,1,0,Banadir,Business,2,Private,1,Male,Medicine,0
+91.7,1663,University,0,0,Nugaal,Unemployed,4,Private,1,Female,CS,0
+34.8,1113,University,0,0,Lower Shabelle,Farmer,5,Private,1,Male,Medicine,0
+57.2,1859,Primary,1,0,Nugaal,Farmer,5,Public,1,Male,Medicine,0
+22.7,887,University,0,1,Hiran,Unemployed,5,Private,1,Male,Eng,0
+27.8,1832,University,0,0,Banadir,Unemployed,2,Public,1,Female,Medicine,0
+53.9,1330,Primary,1,0,Hiran,Farmer,3,Private,1,Female,Medicine,0
+57.5,1201,Primary,0,0,Nugaal,Farmer,0,Private,1,Male,Agri,0
+91.8,155,Secondary,0,0,Lower Shabelle,Teacher,4,Public,1,Female,Agri,1
+82.7,378,University,0,0,Lower Shabelle,Business,2,Public,1,Female,Eng,1
+84.9,191,University,1,0,Lower Shabelle,Teacher,5,Private,1,Female,Medicine,1
+5.2,1993,Secondary,0,1,Lower Shabelle,Unemployed,1,Public,1,Female,Medicine,0
+85.4,1405,University,0,0,Bari,Teacher,5,Public,1,Male,Agri,0
+3.0,604,University,0,0,Banadir,Teacher,4,Public,1,Male,Medicine,0
+12.2,1757,Secondary,0,0,Banadir,Teacher,5,Private,1,Male,CS,0
+36.5,1066,Secondary,1,0,Nugaal,Unemployed,2,Public,1,Female,Medicine,0
+82.0,466,University,0,0,Nugaal,Farmer,5,Public,0,Male,CS,0
+45.4,1777,None,0,0,Banadir,Unemployed,0,Public,1,Male,Eng,0
+29.5,350,Primary,0,0,Banadir,Unemployed,3,Private,1,Male,Eng,0
+61.5,1800,Secondary,0,0,Gedo,Farmer,0,Private,1,Male,Eng,0
+62.6,434,None,0,0,Bari,Business,4,Public,1,Female,Eng,0
+15.2,217,Primary,0,0,Lower Shabelle,Farmer,0,Private,1,Male,Eng,0
+58.0,1720,Secondary,0,0,Galgaduud,Farmer,0,Private,1,Female,CS,0
+18.9,532,Primary,0,0,Hiran,Unemployed,1,Private,1,Female,CS,0
+19.0,1033,University,0,0,Galgaduud,Unemployed,4,Private,0,Female,Agri,0
+74.2,1806,Primary,0,1,Banadir,Business,0,Private,1,Male,CS,0
+49.0,1940,None,1,1,Lower Shabelle,Business,4,Private,1,Female,CS,0
+55.8,1790,Secondary,1,0,Gedo,Business,5,Public,0,Male,Agri,0
+65.3,1574,Secondary,0,1,Nugaal,Unemployed,0,Public,1,Male,Eng,0
+93.8,1272,Secondary,0,0,Hiran,Unemployed,3,Private,1,Female,Eng,0
+23.8,1017,Secondary,0,0,Hiran,Unemployed,1,Private,0,Male,Medicine,0
+94.2,993,Primary,0,0,Bari,Business,3,Public,1,Male,Eng,0
+33.1,462,University,1,0,Bari,Business,1,Private,1,Male,Agri,0
+72.4,1129,University,0,0,Galgaduud,Teacher,1,Public,1,Male,CS,0
+44.3,293,Secondary,0,0,Lower Shabelle,Unemployed,5,Public,1,Female,Eng,0
+75.0,1122,None,0,0,Banadir,Farmer,3,Private,1,Male,Medicine,0
+23.6,1191,Secondary,0,1,Banadir,Farmer,1,Public,1,Female,Agri,0
+32.1,878,Secondary,0,0,Banadir,Teacher,4,Private,0,Female,Medicine,0
+94.4,273,None,0,0,Gedo,Unemployed,1,Private,1,Female,CS,1
+31.7,1176,None,0,0,Galgaduud,Business,4,Public,1,Female,Eng,0
+77.2,801,Secondary,0,0,Banadir,Teacher,1,Public,0,Male,Eng,0
+78.1,64,Secondary,0,1,Bari,Business,4,Public,1,Female,Medicine,1
+87.3,1932,Primary,1,1,Gedo,Unemployed,0,Private,1,Male,CS,0
+83.2,281,None,0,1,Lower Shabelle,Unemployed,4,Public,1,Female,CS,1
+64.8,1237,University,0,0,Lower Shabelle,Teacher,5,Private,1,Female,CS,0
+47.7,63,University,0,0,Banadir,Teacher,5,Private,1,Female,Medicine,0
+68.2,1608,University,1,0,Hiran,Teacher,1,Public,1,Female,Eng,0
+36.6,170,Primary,0,0,Lower Shabelle,Business,3,Public,1,Female,Agri,0
+20.3,608,None,0,0,Lower Shabelle,Business,1,Private,1,Male,Medicine,0
+36.3,1942,University,0,0,Nugaal,Teacher,2,Public,1,Male,CS,0
+27.3,1371,None,0,1,Nugaal,Business,2,Private,1,Male,Agri,0
+31.2,1421,None,1,0,Gedo,Farmer,2,Public,0,Male,Eng,0
+28.3,1548,University,0,0,Hiran,Business,5,Private,1,Female,Agri,0
+33.8,752,Primary,0,1,Bari,Farmer,0,Public,1,Female,Eng,0
+33.1,1860,Secondary,1,1,Banadir,Farmer,0,Public,1,Female,Eng,0
+27.6,1456,University,0,0,Banadir,Business,1,Public,1,Male,Medicine,0
+49.0,328,University,0,1,Nugaal,Teacher,5,Private,0,Male,Medicine,0
+21.3,1357,Secondary,1,0,Nugaal,Teacher,2,Private,1,Male,Agri,0
+84.8,366,University,1,0,Lower Shabelle,Teacher,3,Private,0,Female,Medicine,0
+71.1,203,Secondary,0,0,Lower Shabelle,Teacher,2,Private,1,Female,Agri,1
+3.4,82,Primary,0,0,Galgaduud,Farmer,3,Private,1,Male,Eng,0
+35.7,1607,University,0,1,Nugaal,Teacher,0,Public,1,Female,Medicine,0
+72.8,1489,University,1,0,Nugaal,Teacher,3,Private,1,Male,CS,0
+95.8,1075,Secondary,0,0,Hiran,Business,4,Public,1,Female,Eng,0
+70.4,491,University,0,0,Hiran,Teacher,5,Public,0,Female,Agri,0
+74.5,221,University,0,0,Galgaduud,Business,5,Public,1,Male,Eng,1
+34.9,673,Secondary,0,0,Banadir,Teacher,2,Public,1,Male,Agri,0
+51.8,870,University,1,0,Nugaal,Business,5,Private,1,Female,Medicine,0
+30.2,1349,Secondary,1,1,Banadir,Business,5,Private,1,Male,Agri,0
+7.2,456,Primary,1,0,Hiran,Business,3,Public,0,Female,Eng,0
+83.5,1309,None,0,0,Banadir,Unemployed,3,Public,1,Male,Agri,0
+76.4,1524,Primary,0,1,Gedo,Unemployed,1,Private,1,Male,Eng,0
+52.5,708,University,0,0,Lower Shabelle,Business,1,Public,1,Female,Eng,0
+91.6,1961,Secondary,1,0,Nugaal,Farmer,0,Public,1,Male,CS,0
+84.7,1285,Primary,0,0,Gedo,Farmer,0,Public,1,Female,Eng,0
+1.4,1826,University,0,0,Gedo,Business,5,Public,1,Female,Medicine,0
+0.9,1731,Primary,0,1,Lower Shabelle,Unemployed,0,Private,1,Female,Medicine,0
+54.1,403,University,1,1,Galgaduud,Unemployed,5,Private,0,Male,Agri,0
+37.2,1903,University,1,0,Lower Shabelle,Teacher,1,Private,1,Female,Medicine,0
+82.6,1494,University,1,0,Nugaal,Farmer,0,Public,1,Female,Eng,0
+91.4,1810,Primary,0,0,Bari,Farmer,2,Private,1,Female,Medicine,0
+25.2,244,None,0,0,Gedo,Unemployed,0,Private,1,Female,Eng,0
+96.0,919,University,1,1,Banadir,Unemployed,0,Public,1,Female,Agri,0
+89.9,1922,Secondary,0,1,Nugaal,Farmer,3,Private,1,Female,Medicine,0
+94.2,523,University,1,0,Hiran,Unemployed,0,Public,1,Female,CS,0
+28.8,1112,University,1,0,Nugaal,Teacher,5,Private,1,Male,Agri,0
+48.7,320,None,0,0,Galgaduud,Business,3,Public,1,Female,CS,0
+34.3,1547,Primary,0,1,Gedo,Unemployed,3,Private,1,Female,CS,0
+25.6,1910,None,0,0,Bari,Unemployed,2,Public,1,Female,Agri,0
+59.0,476,None,1,0,Lower Shabelle,Unemployed,3,Public,0,Male,Agri,0
+1.7,1236,Secondary,0,0,Hiran,Teacher,5,Private,0,Male,Agri,0
+89.0,265,University,1,0,Bari,Business,2,Private,1,Female,CS,1
+0.6,1485,University,0,0,Gedo,Teacher,3,Public,1,Male,Agri,0
+24.1,796,Secondary,0,0,Galgaduud,Unemployed,3,Public,1,Male,CS,0
+41.2,964,University,1,0,Gedo,Farmer,0,Public,1,Female,Eng,0
+51.7,1052,Primary,0,1,Banadir,Farmer,5,Public,1,Male,CS,0
+32.1,1109,Secondary,0,0,Nugaal,Unemployed,5,Public,0,Male,Medicine,0
+71.1,1023,Secondary,0,0,Nugaal,Business,4,Private,1,Female,Agri,0
+43.9,198,Secondary,0,0,Bari,Farmer,4,Private,1,Male,Medicine,0
+96.8,384,Secondary,1,0,Gedo,Unemployed,3,Private,1,Female,Eng,1
+15.6,73,Secondary,0,0,Galgaduud,Teacher,2,Public,1,Female,Medicine,0
+90.1,1389,None,0,1,Galgaduud,Unemployed,2,Private,1,Female,CS,0
+8.6,1294,University,0,0,Galgaduud,Farmer,5,Public,1,Male,CS,0
+54.8,1329,Secondary,0,1,Nugaal,Business,2,Private,1,Male,CS,0
+26.0,667,Secondary,0,0,Nugaal,Teacher,2,Private,0,Female,Medicine,0
+46.6,268,Secondary,0,1,Banadir,Unemployed,2,Private,0,Female,Agri,0
+35.6,1662,Secondary,0,0,Hiran,Teacher,4,Private,0,Male,CS,0
+74.3,1963,Secondary,0,0,Bari,Teacher,5,Private,0,Male,Agri,0
+4.5,758,Primary,0,1,Gedo,Unemployed,4,Private,0,Male,Eng,0
+83.6,1304,University,0,1,Nugaal,Business,2,Private,1,Male,Medicine,0
+90.0,1635,Secondary,0,0,Nugaal,Farmer,0,Public,1,Female,CS,0
+31.2,267,University,0,1,Lower Shabelle,Business,4,Private,1,Male,Agri,0
+26.3,1826,Secondary,0,0,Galgaduud,Teacher,1,Public,0,Male,CS,0
+10.3,956,None,1,0,Gedo,Business,4,Private,1,Female,Agri,0
+60.7,1148,Secondary,0,1,Nugaal,Unemployed,3,Public,1,Male,Eng,0
+8.2,1918,Primary,0,0,Galgaduud,Farmer,5,Private,1,Female,Eng,0
+76.8,1913,Primary,0,0,Banadir,Farmer,4,Public,1,Female,CS,0
+91.9,1179,Secondary,1,1,Banadir,Farmer,0,Private,0,Female,Eng,0
+49.6,1438,Primary,0,0,Banadir,Business,2,Public,1,Female,Agri,0
+15.6,1867,University,1,1,Nugaal,Teacher,2,Public,1,Female,CS,0
+61.2,1597,Primary,0,0,Lower Shabelle,Unemployed,2,Public,1,Male,CS,0
+89.9,112,Secondary,0,1,Hiran,Farmer,1,Public,1,Female,CS,1
+31.3,1193,None,1,1,Bari,Farmer,0,Public,0,Female,Agri,0
+88.8,1853,Secondary,0,0,Bari,Teacher,2,Private,0,Male,Agri,0
+78.7,682,University,0,0,Gedo,Teacher,3,Private,1,Male,CS,0
+12.9,1738,Secondary,0,1,Nugaal,Farmer,4,Public,1,Female,Eng,0
+23.7,91,Secondary,1,0,Lower Shabelle,Farmer,0,Public,1,Female,Medicine,0
+32.0,1066,Secondary,0,1,Galgaduud,Teacher,2,Private,1,Male,CS,0
+5.6,181,Secondary,0,0,Banadir,Farmer,1,Private,1,Male,Eng,0
+57.1,173,Secondary,1,1,Nugaal,Business,2,Private,1,Male,CS,1
+38.0,60,None,0,0,Banadir,Farmer,5,Public,1,Male,Medicine,0
+53.7,302,Primary,1,0,Galgaduud,Farmer,3,Public,1,Male,Agri,1
+4.9,1739,Secondary,0,1,Gedo,Business,3,Public,1,Male,CS,0
+78.5,1899,University,0,0,Gedo,Farmer,2,Public,0,Female,CS,0
+31.7,408,Primary,0,0,Gedo,Unemployed,4,Public,0,Male,Medicine,0
+10.5,570,None,1,0,Bari,Business,4,Public,1,Female,Agri,0
+98.5,973,University,0,0,Galgaduud,Teacher,5,Public,1,Female,Agri,0
+36.6,1109,Secondary,0,0,Gedo,Business,3,Public,1,Male,CS,0
+99.7,1741,University,0,0,Bari,Unemployed,5,Private,1,Female,CS,0
+77.0,1902,University,0,0,Hiran,Teacher,0,Public,1,Female,Eng,0
+12.0,1810,Secondary,0,0,Bari,Unemployed,5,Public,1,Female,Eng,0
+54.5,364,University,0,1,Nugaal,Business,5,Private,1,Female,Medicine,0
+59.6,866,None,0,1,Hiran,Unemployed,0,Public,1,Male,Agri,0
+4.2,1849,None,1,0,Banadir,Business,2,Public,1,Male,Agri,0
+97.7,1952,Secondary,0,0,Nugaal,Farmer,5,Public,1,Male,CS,0
+73.7,1600,Secondary,1,0,Nugaal,Business,1,Public,0,Male,Agri,0
+84.8,317,Primary,1,1,Banadir,Business,2,Public,1,Male,Medicine,1
+50.0,1639,Secondary,0,0,Banadir,Teacher,3,Private,1,Female,Medicine,0
+38.9,125,University,0,0,Bari,Farmer,1,Public,1,Male,Eng,0
+82.1,893,University,0,0,Bari,Teacher,4,Public,1,Male,Medicine,0
+1.0,1202,University,1,0,Nugaal,Unemployed,2,Private,1,Male,CS,0
+43.7,1764,University,0,0,Banadir,Teacher,3,Private,1,Female,Eng,0
+60.8,1135,Secondary,1,0,Hiran,Teacher,0,Private,1,Female,Agri,0
+67.8,1872,Secondary,0,1,Bari,Teacher,3,Public,1,Male,CS,0
+26.1,148,Primary,0,1,Galgaduud,Farmer,5,Public,0,Male,Eng,0
+15.8,1786,Secondary,0,0,Lower Shabelle,Teacher,5,Private,1,Female,Eng,0
+15.5,95,University,0,0,Banadir,Teacher,0,Private,1,Female,Agri,0
+2.1,1268,Secondary,0,0,Bari,Farmer,5,Private,0,Female,CS,0
+1.7,1357,Secondary,0,1,Banadir,Unemployed,4,Private,1,Female,Agri,0
+39.5,1599,Secondary,0,1,Hiran,Teacher,2,Private,1,Female,Agri,0
+67.9,1476,University,0,0,Nugaal,Unemployed,3,Public,0,Male,Eng,0
+95.6,1978,None,1,1,Bari,Farmer,3,Private,1,Male,Eng,0
+43.7,1770,University,1,1,Lower Shabelle,Teacher,3,Public,1,Female,CS,0
+55.0,107,University,0,0,Gedo,Unemployed,0,Private,1,Male,Agri,1
+93.8,1518,Primary,0,0,Lower Shabelle,Unemployed,2,Private,1,Male,CS,0
+3.2,1543,Secondary,1,1,Nugaal,Unemployed,2,Private,1,Female,Medicine,0
+23.3,994,Secondary,0,0,Banadir,Teacher,2,Public,1,Male,CS,0
+35.7,1492,None,0,0,Banadir,Farmer,4,Public,1,Male,CS,0
+36.4,1394,Primary,1,0,Lower Shabelle,Business,0,Private,1,Male,Agri,0
+94.7,73,University,1,0,Banadir,Farmer,5,Private,1,Male,Medicine,1
+28.1,727,Primary,0,0,Gedo,Unemployed,3,Public,1,Female,Eng,0
+10.8,1909,Primary,0,1,Bari,Farmer,2,Private,1,Male,Agri,0
+22.3,1170,University,0,0,Nugaal,Business,0,Public,1,Male,Eng,0
+67.8,1782,University,1,1,Bari,Business,1,Private,0,Male,Medicine,0
+58.7,314,University,0,0,Banadir,Farmer,4,Public,1,Male,CS,0
+84.0,837,Secondary,0,0,Lower Shabelle,Business,5,Private,1,Female,Agri,0
+79.4,662,Secondary,1,0,Bari,Unemployed,2,Private,0,Male,CS,0
+33.1,1712,University,1,0,Hiran,Teacher,1,Public,1,Female,Medicine,0
+11.5,1635,Secondary,0,0,Galgaduud,Farmer,0,Public,0,Male,CS,0
+68.9,288,University,1,0,Lower Shabelle,Teacher,2,Private,1,Male,Agri,1
+57.3,628,University,0,0,Galgaduud,Farmer,5,Public,1,Male,Agri,0
+72.7,1332,Primary,0,0,Galgaduud,Unemployed,5,Public,1,Male,Agri,0
+64.1,1903,Secondary,0,0,Lower Shabelle,Unemployed,3,Private,1,Male,Eng,0
+81.8,1564,University,0,1,Galgaduud,Teacher,2,Private,1,Female,Medicine,0
+90.7,782,University,0,0,Gedo,Teacher,4,Private,1,Female,Medicine,0
+21.0,1097,None,0,0,Bari,Farmer,1,Private,1,Male,CS,0
+55.9,1473,Secondary,1,1,Bari,Business,3,Private,1,Male,Agri,0
+16.5,646,University,0,0,Bari,Business,5,Private,1,Female,Medicine,0
+88.7,1194,Secondary,1,1,Hiran,Unemployed,5,Public,1,Female,CS,0
+20.7,939,Primary,0,0,Nugaal,Farmer,5,Private,1,Male,Medicine,0
+84.4,1515,None,0,1,Nugaal,Farmer,0,Private,1,Female,Agri,0
+82.8,850,None,0,0,Nugaal,Business,5,Private,1,Female,Agri,0
+27.5,535,Secondary,1,0,Galgaduud,Unemployed,0,Private,1,Female,Medicine,0
+69.8,1992,None,0,0,Lower Shabelle,Farmer,4,Private,1,Female,Medicine,0
+80.0,1345,Secondary,0,0,Lower Shabelle,Teacher,5,Public,1,Female,Medicine,0
+78.6,1988,None,0,1,Hiran,Business,3,Private,0,Male,CS,0
+71.8,189,None,0,0,Hiran,Unemployed,4,Private,1,Female,Medicine,1
+8.6,326,University,0,0,Hiran,Unemployed,2,Public,1,Male,Agri,0
+12.3,1877,University,1,0,Gedo,Teacher,5,Public,1,Female,Medicine,0
+23.6,527,Secondary,0,0,Banadir,Unemployed,0,Private,0,Male,Eng,0
+3.4,1381,University,0,1,Banadir,Teacher,4,Public,1,Female,Agri,0
+11.5,1429,Secondary,0,0,Bari,Business,0,Public,1,Male,Medicine,0
+63.7,871,University,0,0,Lower Shabelle,Business,1,Public,1,Male,Eng,0
+1.1,1022,University,0,1,Banadir,Teacher,4,Private,1,Female,Eng,0
+54.7,625,Secondary,0,0,Lower Shabelle,Business,1,Private,1,Female,CS,0
+31.7,1322,Secondary,1,0,Galgaduud,Teacher,5,Private,0,Male,Eng,0
+33.1,378,Primary,0,1,Bari,Farmer,3,Public,1,Male,Agri,0
+34.8,274,None,1,0,Lower Shabelle,Unemployed,5,Private,1,Female,Medicine,0
+41.0,94,University,1,0,Hiran,Teacher,1,Public,0,Male,Agri,0
+51.3,181,Primary,0,0,Gedo,Farmer,5,Private,0,Male,Medicine,0
+1.8,1476,Primary,0,1,Galgaduud,Business,0,Public,1,Female,CS,0
+77.0,971,Primary,1,1,Bari,Unemployed,2,Private,1,Male,CS,0
+7.4,816,University,0,1,Bari,Teacher,3,Private,1,Male,Eng,0
+76.5,1243,Primary,0,0,Banadir,Unemployed,0,Public,0,Female,Agri,0
+1.5,113,Primary,0,0,Banadir,Unemployed,4,Public,0,Male,Medicine,0
+88.0,251,University,1,0,Banadir,Teacher,2,Private,1,Male,Medicine,1
+84.2,1879,University,0,1,Hiran,Teacher,1,Public,1,Female,Medicine,0
+67.2,1418,Secondary,0,1,Lower Shabelle,Teacher,4,Private,1,Male,Eng,0
+96.5,1768,Primary,0,1,Banadir,Business,2,Public,1,Female,Medicine,0
+57.4,1819,None,1,0,Gedo,Farmer,0,Public,1,Male,Eng,0
+57.9,1091,Secondary,1,1,Lower Shabelle,Business,0,Private,1,Female,Eng,0
+84.2,1343,Primary,0,0,Nugaal,Business,5,Public,0,Female,Agri,0
+36.6,141,Primary,0,0,Lower Shabelle,Farmer,3,Private,1,Female,Medicine,0
+46.5,223,University,1,0,Hiran,Teacher,3,Private,1,Female,Agri,0
+93.5,650,Secondary,0,0,Banadir,Teacher,3,Public,1,Female,Eng,0
+73.3,1687,University,1,0,Bari,Unemployed,5,Public,1,Female,CS,0
+79.7,1746,University,0,1,Hiran,Teacher,3,Public,1,Male,CS,0
+0.4,578,Primary,1,0,Hiran,Farmer,4,Private,0,Female,Agri,0
+32.6,226,Secondary,0,1,Nugaal,Farmer,0,Public,0,Female,Agri,0
+87.9,547,University,0,0,Banadir,Unemployed,5,Public,1,Female,CS,0
+89.8,340,University,0,1,Bari,Teacher,1,Public,1,Female,Agri,1
+84.4,619,None,0,0,Gedo,Farmer,0,Private,1,Male,Eng,0
+6.9,849,University,1,0,Nugaal,Farmer,4,Private,1,Male,CS,0
+36.0,1226,Primary,0,0,Bari,Unemployed,4,Public,1,Male,CS,0
+55.9,1144,None,0,0,Gedo,Unemployed,3,Public,1,Female,Medicine,0
+86.6,1024,Primary,0,0,Bari,Business,3,Public,0,Male,Agri,0
+6.2,603,Secondary,0,0,Hiran,Business,0,Private,1,Male,Medicine,0
+35.7,697,University,0,0,Banadir,Teacher,3,Public,1,Male,Medicine,0
+86.5,553,None,1,0,Nugaal,Unemployed,4,Private,1,Female,CS,0
+24.6,280,University,0,0,Gedo,Business,5,Private,0,Female,Agri,0
+18.8,211,University,0,1,Lower Shabelle,Business,5,Public,0,Male,Eng,0
+63.1,1089,University,0,0,Nugaal,Farmer,2,Private,1,Male,CS,0
+74.9,1240,None,1,1,Hiran,Farmer,4,Public,1,Female,CS,0
+71.8,529,Primary,1,1,Galgaduud,Business,3,Private,0,Female,Eng,0
+3.8,1311,Secondary,0,1,Bari,Teacher,0,Private,0,Male,Eng,0
+78.5,892,Secondary,1,0,Lower Shabelle,Unemployed,1,Public,1,Female,CS,0
+83.3,1410,Primary,0,1,Gedo,Business,4,Public,1,Female,Medicine,0
+90.9,1678,None,1,0,Bari,Farmer,0,Private,1,Female,CS,0
+34.8,1141,University,0,0,Banadir,Unemployed,2,Private,1,Male,Medicine,0
+83.2,1048,Secondary,0,1,Bari,Farmer,4,Private,0,Male,Medicine,0
+3.2,1932,Primary,0,0,Bari,Unemployed,3,Public,1,Female,Agri,0
+28.2,928,Secondary,0,1,Bari,Unemployed,0,Public,0,Female,CS,0
+9.0,148,University,1,0,Nugaal,Unemployed,5,Public,1,Female,Medicine,0
+39.9,1504,Primary,0,1,Nugaal,Unemployed,4,Public,0,Male,Agri,0
+65.9,563,University,0,0,Hiran,Teacher,2,Private,1,Female,Medicine,0
+22.7,1781,Primary,0,0,Lower Shabelle,Unemployed,4,Public,1,Male,Medicine,0
+49.1,992,Primary,1,0,Nugaal,Business,2,Public,1,Male,Agri,0
+72.7,1128,Secondary,0,0,Gedo,Teacher,3,Private,1,Male,CS,0
+51.6,1436,None,0,1,Nugaal,Unemployed,4,Public,0,Male,Medicine,0
+48.6,1164,University,0,0,Nugaal,Unemployed,4,Public,1,Male,Agri,0
+11.6,1772,University,1,0,Bari,Farmer,5,Public,1,Female,Agri,0
+73.6,1235,Primary,0,0,Galgaduud,Unemployed,2,Private,1,Male,Medicine,0
+26.2,449,Secondary,1,0,Nugaal,Teacher,5,Public,1,Female,Eng,0
+56.2,698,None,1,1,Bari,Business,1,Public,0,Female,Agri,0
+11.3,1149,University,0,0,Lower Shabelle,Farmer,0,Public,1,Male,Medicine,0
+24.2,1764,None,0,0,Nugaal,Farmer,2,Private,0,Female,Eng,0
+75.7,1235,University,1,0,Banadir,Teacher,0,Private,1,Female,Agri,0
+38.6,733,University,0,0,Bari,Unemployed,5,Public,1,Female,Eng,0
+80.1,1350,University,0,0,Bari,Farmer,5,Private,1,Female,CS,0
+45.0,1764,University,0,0,Gedo,Business,1,Private,1,Male,Medicine,0
+85.0,1557,None,0,1,Nugaal,Unemployed,4,Public,1,Male,CS,0
+95.6,757,Primary,0,0,Galgaduud,Business,4,Public,0,Male,Eng,0
+60.2,977,None,1,1,Nugaal,Farmer,4,Public,1,Female,CS,0
+27.8,1100,University,0,1,Banadir,Teacher,2,Public,1,Male,Agri,0
+7.6,1856,Secondary,1,0,Nugaal,Business,2,Private,1,Female,Agri,0
+10.5,758,None,1,0,Galgaduud,Farmer,2,Public,1,Male,Medicine,0
+80.7,957,Secondary,0,0,Galgaduud,Teacher,1,Private,1,Male,Agri,0
+12.7,280,None,1,0,Galgaduud,Farmer,5,Public,0,Male,Agri,0
+53.2,989,None,1,1,Gedo,Business,2,Private,1,Female,CS,0
+7.1,727,University,0,1,Lower Shabelle,Teacher,5,Private,1,Male,Medicine,0
+16.4,1607,None,1,0,Lower Shabelle,Farmer,1,Private,0,Male,Agri,0
+50.8,1519,Secondary,1,1,Nugaal,Unemployed,3,Public,1,Male,Medicine,0
+68.6,1190,None,0,0,Nugaal,Unemployed,1,Public,1,Female,Agri,0
+83.5,537,University,0,0,Banadir,Business,4,Private,1,Male,CS,0
+94.5,1846,University,0,1,Lower Shabelle,Business,1,Public,1,Male,Agri,0
+89.8,1282,None,0,0,Banadir,Business,0,Private,0,Female,Medicine,0
+44.7,155,Primary,0,1,Lower Shabelle,Farmer,2,Public,1,Female,Medicine,0
+65.1,1040,Primary,0,0,Banadir,Farmer,3,Public,1,Male,Medicine,0
+60.6,595,None,0,0,Gedo,Business,4,Private,1,Female,Eng,0
+74.9,261,University,0,0,Bari,Teacher,4,Private,1,Female,Eng,1
+81.4,1660,University,0,0,Gedo,Teacher,3,Private,1,Male,Eng,0
+86.0,1814,Primary,0,0,Galgaduud,Business,2,Private,1,Female,Eng,0
+88.1,934,None,0,1,Nugaal,Unemployed,5,Private,1,Female,CS,0
+67.0,664,Primary,1,0,Galgaduud,Business,3,Private,1,Male,Eng,0
+10.8,1868,Primary,0,0,Banadir,Business,5,Public,0,Female,Eng,0
+85.0,683,None,1,1,Bari,Farmer,0,Public,1,Male,Eng,0
+49.2,1017,Secondary,1,0,Hiran,Business,4,Private,1,Female,Agri,0
+45.0,621,University,0,0,Banadir,Farmer,1,Public,1,Male,Agri,0
+19.0,1595,Secondary,1,0,Lower Shabelle,Farmer,5,Public,1,Male,Eng,0
+48.7,982,University,0,0,Bari,Teacher,5,Public,1,Male,Eng,0
+42.2,1003,University,0,0,Galgaduud,Unemployed,5,Private,1,Male,CS,0
+50.4,1729,University,0,0,Bari,Teacher,3,Public,1,Female,Agri,0
+85.8,173,None,1,0,Lower Shabelle,Unemployed,4,Private,1,Male,Medicine,1
+39.3,841,University,0,0,Nugaal,Farmer,3,Private,0,Male,CS,0
+92.4,1637,University,1,0,Galgaduud,Business,4,Private,1,Female,Medicine,0
+35.5,1294,None,1,0,Bari,Farmer,0,Private,1,Male,CS,0
+19.0,1085,Secondary,0,0,Gedo,Teacher,5,Private,1,Female,CS,0
+89.9,706,None,0,0,Nugaal,Unemployed,4,Public,1,Female,Medicine,0
+55.4,376,Primary,0,0,Bari,Business,1,Private,1,Male,Eng,0
+19.7,1303,University,0,1,Nugaal,Business,5,Private,0,Male,Agri,0
+59.3,329,Secondary,0,1,Lower Shabelle,Unemployed,5,Private,1,Male,Agri,1
+64.6,86,Secondary,1,0,Nugaal,Farmer,0,Public,1,Female,CS,1
+14.2,362,University,1,1,Banadir,Unemployed,1,Public,1,Female,Agri,0
+49.7,621,University,0,1,Nugaal,Teacher,4,Private,1,Male,Agri,0
+54.0,691,None,1,0,Lower Shabelle,Unemployed,0,Public,1,Male,CS,0
+13.2,1259,Secondary,0,0,Gedo,Teacher,0,Public,0,Male,Agri,0
+48.7,733,University,0,1,Bari,Farmer,4,Public,1,Male,Agri,0
+75.0,663,University,0,0,Lower Shabelle,Farmer,3,Private,0,Female,Medicine,0
+86.1,917,Secondary,0,0,Hiran,Teacher,4,Public,1,Male,Agri,0
+36.8,1225,None,0,0,Banadir,Unemployed,0,Private,1,Male,Medicine,0
+79.7,1353,None,0,0,Lower Shabelle,Unemployed,0,Private,0,Male,Eng,0
+91.6,1924,Primary,1,0,Banadir,Business,1,Private,1,Female,Medicine,0
+74.3,174,Primary,0,0,Lower Shabelle,Farmer,2,Public,1,Female,Eng,1
+41.6,120,University,0,1,Bari,Farmer,2,Private,1,Female,CS,0
+72.9,1176,Secondary,0,1,Bari,Teacher,0,Public,1,Female,Medicine,0
+51.2,226,Primary,1,1,Gedo,Farmer,1,Private,1,Female,Agri,1
+97.1,1965,Secondary,0,1,Banadir,Business,3,Private,1,Male,Agri,0
+59.4,918,None,0,0,Gedo,Farmer,4,Private,1,Female,Eng,0
+91.5,402,Primary,1,0,Banadir,Business,1,Public,0,Female,Agri,0
+36.3,361,University,0,0,Banadir,Business,4,Public,0,Male,Eng,0
+47.6,1549,Secondary,0,0,Lower Shabelle,Teacher,3,Public,1,Female,Eng,0
+49.1,1065,University,0,0,Hiran,Teacher,2,Public,1,Female,Eng,0
+41.1,1945,Primary,0,0,Galgaduud,Business,2,Public,1,Female,Medicine,0
+89.7,1570,Secondary,0,1,Lower Shabelle,Teacher,4,Private,0,Female,Medicine,0
+8.1,1152,Secondary,0,0,Bari,Farmer,4,Public,1,Female,Eng,0
+8.9,1197,Primary,0,0,Bari,Unemployed,0,Private,1,Male,Medicine,0
+83.6,1729,University,0,0,Galgaduud,Business,0,Public,1,Male,Agri,0
+49.3,1076,Secondary,0,0,Bari,Teacher,1,Public,0,Male,Medicine,0
+42.7,196,None,1,0,Lower Shabelle,Unemployed,2,Public,1,Female,CS,0
+92.4,1236,University,0,0,Bari,Unemployed,0,Private,1,Female,Medicine,0
+92.5,266,Secondary,0,0,Banadir,Farmer,4,Public,1,Female,Medicine,1
+81.9,1521,Primary,0,0,Nugaal,Farmer,4,Private,1,Male,Agri,0
+79.0,267,Primary,0,1,Nugaal,Business,3,Private,1,Female,Medicine,1
+84.7,1882,University,0,1,Hiran,Business,1,Public,1,Male,Agri,0
+3.7,1548,Secondary,0,1,Gedo,Business,0,Private,1,Male,Agri,0
+68.9,517,Secondary,0,0,Banadir,Unemployed,5,Public,1,Female,Medicine,0
+78.4,1545,Secondary,0,0,Gedo,Teacher,3,Public,1,Female,Agri,0
+61.7,342,Secondary,0,1,Gedo,Unemployed,4,Public,1,Male,CS,1
+99.8,1629,Primary,0,0,Hiran,Unemployed,0,Public,1,Male,Eng,0
+46.5,648,University,0,0,Lower Shabelle,Business,5,Public,1,Female,Agri,0
+59.6,166,None,1,0,Hiran,Farmer,0,Public,1,Female,Eng,1
+9.1,72,None,1,0,Bari,Unemployed,2,Public,0,Male,Eng,0
+36.3,595,Secondary,0,0,Galgaduud,Teacher,5,Public,1,Male,Agri,0
+37.0,504,University,0,1,Bari,Farmer,3,Public,1,Male,Agri,0
+56.0,1976,Secondary,0,1,Hiran,Farmer,1,Public,1,Female,CS,0
+35.5,1260,Secondary,0,0,Hiran,Teacher,2,Public,1,Female,Medicine,0
+96.5,57,Primary,0,0,Banadir,Unemployed,5,Private,1,Female,CS,1
+50.8,1560,None,1,0,Gedo,Farmer,4,Public,1,Male,Eng,0
+30.2,121,None,0,0,Lower Shabelle,Business,1,Public,0,Male,Agri,0
+0.6,1286,University,0,1,Lower Shabelle,Teacher,5,Private,0,Male,CS,0
+99.3,304,University,0,0,Hiran,Farmer,2,Private,1,Male,CS,1
+55.1,979,University,0,1,Hiran,Unemployed,3,Private,1,Male,Medicine,0
+71.6,1942,University,0,0,Galgaduud,Business,5,Public,1,Male,CS,0
+92.9,846,Secondary,1,0,Galgaduud,Teacher,5,Private,1,Male,Medicine,0
+81.8,488,None,1,1,Bari,Farmer,4,Public,1,Male,Eng,1
+78.9,1596,None,0,0,Banadir,Unemployed,1,Private,1,Female,Agri,0
+33.7,794,University,0,0,Nugaal,Teacher,0,Private,1,Male,Agri,0
+76.3,1996,Secondary,0,0,Banadir,Business,4,Private,0,Male,CS,0
+5.4,1775,Secondary,0,0,Nugaal,Farmer,1,Public,1,Male,CS,0
+90.7,367,Primary,1,0,Lower Shabelle,Farmer,3,Private,1,Female,Eng,1
+81.0,365,University,1,1,Galgaduud,Farmer,2,Public,1,Female,Medicine,1
+96.1,1784,University,0,0,Bari,Teacher,2,Public,1,Female,Eng,0
+37.4,809,Primary,1,1,Gedo,Unemployed,3,Public,1,Female,Agri,0
+67.5,1437,University,0,0,Hiran,Teacher,0,Private,1,Female,Medicine,0
+11.7,252,Primary,0,0,Gedo,Business,0,Private,1,Male,Agri,0
+64.7,757,None,0,1,Gedo,Unemployed,4,Private,0,Female,CS,0
+60.9,1948,Secondary,0,0,Banadir,Unemployed,1,Public,1,Female,CS,0
+71.6,619,Primary,1,0,Nugaal,Business,3,Public,1,Male,Eng,0
+43.0,1551,Primary,0,0,Gedo,Farmer,2,Private,1,Male,CS,0
+70.6,1523,University,1,0,Lower Shabelle,Teacher,5,Public,1,Female,Agri,0
+44.3,1205,University,0,0,Lower Shabelle,Teacher,3,Private,1,Female,Agri,0
+73.8,1342,None,0,0,Hiran,Farmer,3,Public,1,Female,Medicine,0
+9.5,997,None,0,0,Hiran,Unemployed,2,Private,1,Female,Medicine,0
+26.5,1542,Primary,0,1,Gedo,Unemployed,3,Public,1,Male,CS,0
+33.8,925,Secondary,0,1,Galgaduud,Teacher,4,Public,1,Female,CS,0
+41.8,793,Secondary,0,1,Bari,Unemployed,1,Public,1,Female,Agri,0
+65.6,1058,Primary,0,0,Bari,Unemployed,5,Public,0,Male,Medicine,0
+42.8,270,Primary,0,0,Banadir,Unemployed,3,Public,1,Male,CS,0
+28.1,1568,Secondary,0,1,Hiran,Farmer,1,Public,1,Male,Eng,0
+52.8,661,Secondary,0,0,Hiran,Teacher,1,Private,1,Male,CS,0
+58.4,1496,University,1,1,Galgaduud,Farmer,5,Public,1,Female,Agri,0
+15.7,873,None,1,0,Gedo,Farmer,4,Public,0,Male,Agri,0
+76.5,1904,Secondary,0,0,Hiran,Teacher,2,Private,1,Male,CS,0
+68.1,303,Secondary,1,0,Nugaal,Farmer,4,Public,1,Male,Eng,1
+84.4,500,Primary,0,0,Lower Shabelle,Unemployed,2,Public,0,Female,Eng,0
+91.1,1477,Primary,0,0,Galgaduud,Farmer,5,Private,1,Male,CS,0
+38.2,1382,University,1,0,Hiran,Teacher,3,Private,0,Female,Agri,0
+69.0,1792,University,0,0,Nugaal,Teacher,2,Private,1,Female,Agri,0
+5.2,1041,Primary,0,0,Nugaal,Unemployed,0,Public,1,Male,Eng,0
+45.0,371,Secondary,0,0,Banadir,Farmer,1,Public,1,Male,CS,0
+28.3,817,University,0,0,Lower Shabelle,Teacher,4,Private,1,Female,Eng,0
+94.3,1863,Secondary,0,1,Bari,Teacher,0,Private,1,Male,Agri,0
+62.0,1445,None,1,1,Gedo,Business,2,Public,1,Female,Medicine,0
+93.7,1593,Secondary,0,0,Gedo,Unemployed,3,Private,0,Female,CS,0
+23.2,337,None,0,0,Galgaduud,Business,2,Public,0,Male,Eng,0
+74.8,484,Secondary,0,0,Bari,Unemployed,1,Private,1,Male,Medicine,1
+65.5,442,None,0,0,Hiran,Unemployed,5,Public,1,Female,Eng,1
+60.1,176,Secondary,0,1,Galgaduud,Teacher,0,Public,1,Female,Agri,1
+64.1,719,Primary,0,1,Banadir,Business,4,Private,0,Male,Eng,0
+13.1,600,None,0,0,Nugaal,Business,1,Public,1,Male,Medicine,0
+33.8,1144,University,0,0,Banadir,Teacher,4,Private,1,Male,Eng,0
+92.6,939,Secondary,1,0,Galgaduud,Farmer,0,Private,1,Male,CS,0
+19.6,1845,Secondary,0,0,Hiran,Business,0,Private,0,Female,Agri,0
+51.3,1539,Primary,1,0,Lower Shabelle,Unemployed,0,Public,1,Female,CS,0
+72.4,1242,Secondary,0,0,Nugaal,Teacher,3,Private,1,Female,CS,0
+7.0,916,Secondary,0,0,Banadir,Farmer,5,Private,1,Male,Eng,0
+19.3,1358,University,0,1,Bari,Teacher,0,Public,1,Male,Eng,0
+38.3,1728,University,1,1,Galgaduud,Business,0,Private,1,Male,Eng,0
+35.1,384,University,0,0,Nugaal,Teacher,2,Private,1,Female,Medicine,0
+34.3,892,Secondary,0,0,Hiran,Unemployed,2,Public,1,Male,CS,0
+15.8,1493,University,0,1,Gedo,Unemployed,1,Private,1,Female,Eng,0
+73.5,1608,University,0,0,Galgaduud,Unemployed,2,Public,1,Female,Eng,0
+75.5,351,None,1,1,Gedo,Unemployed,2,Public,1,Male,Agri,1
+31.8,228,None,1,0,Nugaal,Business,1,Public,0,Male,Medicine,0
+53.5,1276,Secondary,0,0,Nugaal,Business,0,Private,1,Female,Eng,0
+24.9,1260,University,0,0,Galgaduud,Farmer,3,Private,0,Female,Agri,0
+78.1,1957,University,1,0,Nugaal,Unemployed,0,Public,1,Female,Eng,0
+18.9,90,None,1,0,Galgaduud,Business,3,Public,1,Female,Medicine,0
+69.4,1869,Secondary,0,0,Hiran,Teacher,1,Private,1,Female,Medicine,0
+30.4,380,University,1,0,Galgaduud,Business,4,Public,0,Male,CS,0
+21.2,1041,None,0,0,Nugaal,Unemployed,3,Private,0,Female,Medicine,0
+36.3,167,None,0,1,Gedo,Farmer,5,Public,1,Male,CS,0
+94.1,327,University,0,0,Nugaal,Business,2,Public,1,Female,Medicine,1
+9.4,1814,University,0,1,Bari,Business,0,Private,1,Male,Medicine,0
+26.2,382,University,0,0,Bari,Teacher,1,Public,0,Male,Eng,0
+15.6,1747,None,0,0,Hiran,Business,4,Private,1,Male,Agri,0
+78.0,855,None,1,1,Hiran,Business,0,Private,1,Female,Medicine,0
+36.7,1428,None,0,0,Hiran,Farmer,3,Public,1,Female,CS,0
+43.2,1879,University,0,0,Galgaduud,Teacher,5,Private,0,Female,Medicine,0
+52.8,918,None,1,0,Gedo,Business,3,Private,1,Male,Eng,0
+48.0,381,Secondary,1,0,Nugaal,Business,5,Public,1,Male,Eng,0
+99.3,1110,Secondary,0,1,Galgaduud,Business,2,Public,1,Male,CS,0
+20.6,1939,None,0,0,Nugaal,Farmer,1,Public,1,Female,CS,0
+46.9,529,None,1,1,Banadir,Business,2,Private,1,Female,CS,0
+2.8,1139,University,0,0,Hiran,Farmer,0,Public,1,Male,Medicine,0
+1.6,502,None,0,0,Gedo,Farmer,2,Public,1,Male,Medicine,0
+33.3,1179,Secondary,0,0,Galgaduud,Farmer,3,Public,1,Male,CS,0
+73.8,1991,None,0,0,Gedo,Business,0,Public,1,Female,Medicine,0
+84.3,919,Secondary,1,0,Galgaduud,Teacher,3,Private,1,Female,CS,0
+61.8,761,None,0,1,Gedo,Unemployed,3,Public,1,Male,Medicine,0
+1.5,451,University,0,0,Gedo,Teacher,0,Private,1,Male,Agri,0
+69.8,1737,None,0,1,Lower Shabelle,Business,3,Public,1,Male,Eng,0
+59.5,728,Secondary,1,0,Nugaal,Teacher,4,Private,1,Female,Agri,0
+22.1,363,Secondary,0,0,Bari,Business,3,Private,1,Female,CS,0
+84.0,931,None,1,0,Galgaduud,Business,4,Public,1,Female,CS,0
+51.7,956,University,0,0,Lower Shabelle,Business,1,Public,1,Male,CS,0
+73.9,1861,None,1,0,Hiran,Business,2,Private,0,Female,Agri,0
+83.1,1637,Primary,0,0,Galgaduud,Unemployed,0,Private,1,Male,Medicine,0
+49.1,1967,Secondary,0,0,Gedo,Business,0,Private,1,Female,Agri,0
+6.0,387,Secondary,1,1,Bari,Teacher,5,Private,1,Female,Eng,0
+81.9,128,University,0,1,Galgaduud,Teacher,1,Private,0,Male,Medicine,0
+43.0,1393,University,0,1,Bari,Farmer,4,Public,0,Male,CS,0
+98.2,1552,Primary,0,0,Galgaduud,Business,3,Private,1,Female,Medicine,0
+23.3,823,Primary,1,0,Nugaal,Business,5,Public,1,Female,Agri,0
+64.1,1789,None,0,0,Banadir,Farmer,0,Private,0,Male,Agri,0
+39.9,1325,Secondary,0,0,Galgaduud,Unemployed,1,Public,1,Female,CS,0
+55.9,246,University,0,0,Hiran,Unemployed,3,Public,0,Female,CS,0
+66.1,1799,University,0,1,Lower Shabelle,Business,4,Public,0,Female,Medicine,0
+6.1,1460,University,0,0,Lower Shabelle,Teacher,3,Private,1,Female,Eng,0
+28.4,1726,Primary,0,0,Gedo,Farmer,1,Public,1,Female,CS,0
+52.1,267,University,0,0,Lower Shabelle,Teacher,1,Public,1,Female,Eng,1
+51.4,1830,Secondary,1,0,Hiran,Business,3,Public,0,Female,Agri,0
+67.9,1990,University,0,0,Galgaduud,Teacher,5,Private,1,Male,CS,0
+45.3,1599,Primary,0,0,Gedo,Unemployed,5,Public,1,Male,Eng,0
+44.6,1425,University,0,0,Banadir,Business,5,Public,1,Male,Eng,0
+54.2,495,None,1,0,Banadir,Business,3,Private,1,Female,Agri,1
+84.9,255,Primary,1,0,Hiran,Farmer,4,Public,1,Male,Medicine,1
+52.0,1334,Primary,0,1,Banadir,Farmer,3,Public,1,Male,Eng,0
+46.6,1565,Secondary,0,1,Bari,Teacher,1,Private,1,Female,Agri,0
+16.2,305,University,0,0,Galgaduud,Teacher,3,Private,1,Male,CS,0
+53.0,491,University,1,1,Nugaal,Teacher,1,Public,1,Female,Agri,1
+22.2,1098,University,0,0,Banadir,Business,0,Private,1,Female,CS,0
+70.8,1901,Secondary,0,1,Hiran,Teacher,2,Private,1,Female,Agri,0
+43.0,1991,None,0,1,Banadir,Unemployed,5,Public,0,Male,Medicine,0
+74.2,782,Secondary,0,1,Nugaal,Farmer,1,Private,1,Male,Medicine,0
+79.6,1365,Secondary,0,1,Nugaal,Teacher,4,Public,1,Female,Agri,0
+66.9,1326,University,1,0,Hiran,Business,2,Private,1,Male,Eng,0
+43.8,1193,Secondary,0,0,Galgaduud,Business,4,Public,0,Male,Eng,0
+42.3,1502,Primary,0,1,Banadir,Unemployed,0,Public,1,Male,Agri,0
+12.5,914,University,0,0,Nugaal,Business,5,Private,1,Female,Medicine,0
+24.7,1267,University,0,0,Bari,Teacher,5,Public,0,Male,Agri,0
+40.6,750,Primary,1,1,Hiran,Unemployed,1,Public,0,Male,CS,0
+71.8,261,Primary,1,0,Gedo,Business,0,Public,1,Female,CS,1
+90.4,1100,Secondary,1,0,Bari,Unemployed,2,Private,1,Male,Agri,0
+6.1,396,University,0,0,Gedo,Farmer,2,Public,1,Male,CS,0
+92.1,437,Secondary,0,0,Galgaduud,Farmer,5,Private,1,Female,Medicine,1
+44.3,824,None,0,0,Nugaal,Unemployed,5,Private,1,Female,CS,0
+77.8,1533,University,1,0,Bari,Unemployed,0,Private,1,Female,CS,0
+73.7,1810,Secondary,0,1,Hiran,Teacher,1,Public,1,Male,Eng,0
+87.5,535,Secondary,0,0,Banadir,Unemployed,4,Public,1,Male,Agri,0
+95.0,414,Primary,1,0,Banadir,Unemployed,3,Public,1,Male,Agri,1
+68.7,1974,Secondary,0,0,Nugaal,Farmer,1,Public,1,Female,Medicine,0
+75.2,574,Secondary,0,0,Gedo,Teacher,2,Public,1,Male,CS,0
+20.1,416,None,0,0,Nugaal,Unemployed,0,Public,0,Female,Medicine,0
+84.0,869,Primary,0,0,Galgaduud,Business,3,Public,1,Female,CS,0
+1.7,1055,University,0,0,Hiran,Business,2,Public,0,Male,Agri,0
+90.1,1510,Secondary,0,0,Lower Shabelle,Farmer,1,Public,0,Female,Medicine,0
+45.2,190,University,1,0,Hiran,Farmer,3,Public,1,Male,CS,0
+92.2,394,None,0,0,Banadir,Farmer,3,Public,0,Female,Medicine,0
+85.7,1410,Primary,0,0,Gedo,Unemployed,2,Private,1,Male,CS,0
+89.6,1187,Secondary,0,0,Galgaduud,Farmer,3,Public,1,Female,Agri,0
+72.9,189,Primary,0,0,Banadir,Farmer,3,Private,1,Male,Medicine,1
+48.6,421,University,0,1,Banadir,Business,3,Private,1,Male,Eng,0
+96.3,1597,Primary,1,0,Lower Shabelle,Business,4,Public,1,Male,Agri,0
+80.9,688,University,0,0,Hiran,Unemployed,2,Private,1,Female,Medicine,0
+30.8,769,Secondary,0,1,Bari,Farmer,2,Private,1,Female,CS,0
+95.2,1653,Secondary,1,1,Gedo,Business,2,Public,0,Female,Agri,0
+74.9,1758,None,1,0,Banadir,Business,3,Private,1,Female,Medicine,0
+43.2,124,Primary,0,1,Hiran,Business,3,Private,1,Male,Eng,0
+64.8,1022,Secondary,0,0,Galgaduud,Unemployed,3,Private,0,Female,Agri,0
+92.3,718,None,1,0,Gedo,Business,5,Private,1,Female,Medicine,0
+39.0,443,Primary,0,0,Gedo,Business,1,Private,1,Male,Medicine,0
+23.8,1518,Primary,0,1,Lower Shabelle,Farmer,0,Public,1,Female,Eng,0
+83.2,424,University,0,0,Gedo,Teacher,2,Private,1,Male,Eng,1
+64.3,1373,Secondary,1,1,Gedo,Unemployed,4,Public,1,Female,Medicine,0
+40.6,955,None,1,1,Galgaduud,Unemployed,4,Private,0,Male,CS,0
+64.1,941,None,0,1,Nugaal,Farmer,4,Public,1,Female,Medicine,0
+77.2,754,Secondary,0,0,Hiran,Business,1,Public,1,Male,Agri,0
+1.5,107,None,0,1,Nugaal,Business,0,Private,0,Female,Agri,0
+30.1,1492,Secondary,1,1,Hiran,Teacher,5,Private,1,Female,Medicine,0
+17.9,1585,University,1,0,Nugaal,Teacher,0,Private,1,Male,Eng,0
+22.7,1855,Secondary,0,1,Banadir,Teacher,0,Private,1,Male,CS,0
+74.7,1035,Secondary,0,0,Gedo,Farmer,5,Private,1,Female,CS,0
+96.7,1338,University,0,0,Nugaal,Teacher,3,Private,1,Male,Agri,0
+97.2,99,Primary,1,0,Nugaal,Unemployed,0,Private,1,Female,Eng,1
+99.1,1252,Secondary,1,1,Bari,Unemployed,3,Private,1,Female,Eng,0
+62.4,668,University,1,0,Galgaduud,Farmer,5,Public,1,Female,Eng,0
+14.5,293,None,0,0,Lower Shabelle,Business,4,Public,1,Female,Medicine,0
+1.8,1038,Secondary,0,0,Lower Shabelle,Teacher,4,Public,0,Male,Eng,0
+8.4,472,Secondary,0,0,Gedo,Teacher,3,Public,0,Female,Agri,0
+61.1,1621,None,0,0,Gedo,Farmer,4,Private,1,Female,Eng,0
+37.6,989,Secondary,0,0,Bari,Farmer,3,Private,1,Female,CS,0
+91.1,1139,Secondary,0,0,Bari,Unemployed,0,Public,1,Female,Agri,0
+21.2,655,Secondary,0,1,Nugaal,Teacher,1,Public,1,Male,CS,0
+70.4,594,None,0,0,Hiran,Farmer,3,Private,1,Female,Eng,0
+9.0,1396,None,1,0,Gedo,Farmer,3,Private,1,Male,Medicine,0
+3.6,1502,Secondary,0,0,Hiran,Unemployed,2,Public,0,Female,CS,0
+20.2,480,University,0,1,Gedo,Farmer,5,Public,1,Female,Agri,0
+54.8,1766,None,1,0,Gedo,Business,5,Public,1,Female,Agri,0
+52.6,681,University,0,1,Nugaal,Unemployed,0,Private,1,Male,Agri,0
+28.8,772,Secondary,1,0,Galgaduud,Farmer,3,Public,1,Female,CS,0
+62.4,898,University,0,0,Nugaal,Teacher,4,Private,0,Male,Medicine,0
+16.8,1236,University,0,1,Hiran,Business,5,Public,1,Male,CS,0
+83.2,71,Secondary,1,0,Hiran,Business,0,Private,0,Female,Medicine,0
+74.8,1783,University,0,0,Banadir,Farmer,1,Private,1,Male,Agri,0
+78.6,654,University,0,0,Banadir,Unemployed,0,Public,0,Male,Agri,0
+6.0,644,University,0,1,Banadir,Unemployed,0,Private,1,Male,Eng,0
+12.2,1812,Secondary,0,0,Lower Shabelle,Business,1,Private,1,Female,CS,0
+46.5,190,None,0,0,Bari,Farmer,5,Public,1,Male,CS,0
+32.9,554,University,0,0,Hiran,Teacher,5,Public,0,Male,CS,0
+42.0,538,None,0,0,Lower Shabelle,Farmer,0,Private,1,Male,Agri,0
+16.3,1649,Primary,0,0,Hiran,Farmer,5,Public,1,Male,Agri,0
+79.0,1780,University,1,1,Hiran,Farmer,2,Public,1,Female,Eng,0
+31.8,1838,None,0,0,Banadir,Business,3,Public,1,Female,Medicine,0
+80.2,679,University,1,0,Galgaduud,Teacher,4,Public,0,Male,CS,0
+51.0,1003,Secondary,0,1,Nugaal,Teacher,3,Private,0,Female,Medicine,0
+83.7,1567,University,0,1,Galgaduud,Teacher,2,Public,0,Male,Medicine,0
+83.4,636,None,0,1,Galgaduud,Farmer,4,Public,1,Female,CS,0
+36.8,973,Secondary,1,0,Galgaduud,Business,4,Public,1,Male,CS,0
+33.3,1768,Secondary,0,0,Gedo,Business,2,Public,1,Male,Eng,0
+26.0,1954,University,0,0,Banadir,Teacher,2,Private,1,Female,Eng,0
+10.7,1661,Secondary,0,1,Lower Shabelle,Teacher,2,Public,1,Female,Eng,0
+67.3,1908,Secondary,0,0,Nugaal,Teacher,1,Private,1,Female,CS,0
+0.8,1851,University,1,0,Gedo,Teacher,0,Private,1,Male,Agri,0
+1.6,135,University,0,0,Hiran,Business,4,Private,0,Male,CS,0
+28.7,1823,Secondary,1,0,Lower Shabelle,Unemployed,4,Private,0,Male,Medicine,0
+28.8,1312,None,0,1,Banadir,Business,2,Private,1,Male,Agri,0
+54.8,1752,Secondary,1,0,Hiran,Teacher,0,Public,1,Female,Medicine,0
+88.3,789,None,0,1,Banadir,Unemployed,5,Public,1,Male,Eng,0
+28.4,285,Primary,1,1,Bari,Farmer,2,Private,1,Female,Agri,0
+8.8,1323,Primary,1,0,Hiran,Business,0,Private,1,Female,Medicine,0
+36.1,1538,Secondary,1,1,Lower Shabelle,Teacher,0,Public,0,Male,Eng,0
+67.9,1635,Secondary,1,1,Hiran,Unemployed,1,Private,0,Female,CS,0
+42.4,1820,University,0,0,Bari,Teacher,4,Private,0,Male,CS,0
+61.7,1129,University,0,0,Banadir,Business,1,Public,0,Female,Medicine,0
+42.5,853,Primary,0,0,Gedo,Farmer,5,Public,1,Male,CS,0
+51.9,419,University,0,0,Banadir,Unemployed,4,Public,0,Male,CS,0
+28.2,887,Secondary,0,0,Gedo,Unemployed,0,Public,1,Female,CS,0
+98.1,1200,Secondary,0,1,Gedo,Teacher,3,Private,1,Female,Agri,0
+75.8,527,Secondary,1,0,Gedo,Teacher,5,Public,1,Female,CS,0
+79.6,503,University,0,0,Lower Shabelle,Farmer,1,Public,1,Female,Eng,0
+75.0,1241,Secondary,1,0,Lower Shabelle,Teacher,5,Public,0,Female,Eng,0
+62.2,296,None,1,1,Gedo,Business,0,Public,1,Male,Eng,1
+37.9,1492,Secondary,0,1,Nugaal,Teacher,3,Private,1,Male,Medicine,0
+51.6,452,None,0,0,Bari,Farmer,5,Private,1,Male,Medicine,0
+56.8,1576,None,0,0,Galgaduud,Farmer,4,Private,1,Male,Medicine,0
+41.2,151,University,0,0,Hiran,Teacher,3,Public,1,Male,Medicine,0
+64.5,488,Secondary,1,0,Gedo,Teacher,5,Private,1,Male,CS,0
+24.8,1981,University,0,0,Bari,Teacher,2,Private,1,Female,CS,0
+88.1,88,Primary,0,0,Gedo,Farmer,0,Public,0,Male,Agri,0
+62.3,721,None,0,0,Banadir,Farmer,1,Private,1,Male,CS,0
+60.6,1352,None,0,0,Hiran,Business,3,Private,1,Female,Eng,0
+49.3,743,Secondary,0,1,Lower Shabelle,Unemployed,4,Public,0,Female,Medicine,0
+3.7,177,Secondary,1,0,Bari,Teacher,2,Public,1,Male,Eng,0
+71.3,443,None,0,1,Gedo,Unemployed,4,Public,1,Male,Agri,1
+66.7,858,University,1,1,Hiran,Unemployed,5,Private,1,Male,Medicine,0
+86.8,1990,University,0,0,Hiran,Business,3,Public,1,Male,Eng,0
+16.1,915,University,0,0,Banadir,Farmer,1,Public,1,Male,CS,0
+40.4,593,University,0,1,Gedo,Business,4,Public,1,Female,CS,0
+11.2,899,Secondary,0,0,Hiran,Business,0,Private,1,Female,Eng,0
+52.7,365,University,0,0,Gedo,Teacher,4,Public,0,Male,CS,0
+32.4,1194,Secondary,0,0,Gedo,Unemployed,5,Public,1,Female,CS,0
+93.9,1340,Secondary,0,1,Banadir,Teacher,1,Private,1,Male,CS,0
+53.5,1977,University,0,0,Galgaduud,Teacher,0,Public,0,Female,Medicine,0
+37.5,1427,University,0,1,Hiran,Farmer,2,Private,1,Male,CS,0
+3.7,1536,University,0,1,Hiran,Unemployed,4,Private,0,Female,CS,0
+68.6,660,Secondary,1,0,Lower Shabelle,Teacher,1,Private,1,Female,CS,0
+20.5,787,Secondary,1,1,Gedo,Farmer,2,Public,1,Male,CS,0
+21.0,1877,Primary,0,1,Lower Shabelle,Unemployed,4,Public,0,Female,Agri,0
+96.5,155,Primary,1,0,Lower Shabelle,Unemployed,2,Private,0,Female,Eng,0
+47.7,1999,None,0,0,Bari,Business,3,Private,1,Male,CS,0
+21.0,1680,Primary,0,1,Gedo,Farmer,4,Private,1,Male,CS,0

@@ -1,0 +1,257 @@
+
+<!DOCTYPE html>
+<html lang="so">
+<head>
+  <meta charset="UTF-8">
+  <title>Dashboard</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: sans-serif;
+    }
+
+    body {
+      background: #f5f7fb;
+    }
+
+    .container {
+      display: flex;
+    }
+
+    /* Sidebar */
+    .sidebar {
+      width: 220px;
+      height: 100vh;
+      background: #fff;
+      padding: 20px;
+      border-right: 1px solid #eee;
+    }
+
+    .logo {
+      margin-bottom: 20px;
+    }
+
+    .menu li {
+      list-style: none;
+      padding: 10px;
+      margin-bottom: 10px;
+      cursor: pointer;
+      border-radius: 8px;
+    }
+
+    .menu li.active,
+    .menu li:hover {
+      background: #e8f0fe;
+      color: #2563eb;
+    }
+
+    /* Main */
+    .main {
+      flex: 1;
+      padding: 20px;
+    }
+
+    /* Topbar */
+    .topbar {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 20px;
+    }
+
+    .topbar input {
+      padding: 8px;
+      width: 200px;
+      border: 1px solid #ddd;
+      border-radius: 6px;
+    }
+
+    .user {
+      background: #2563eb;
+      color: white;
+      padding: 8px 12px;
+      border-radius: 6px;
+    }
+
+    /* Cards */
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 15px;
+      margin-bottom: 20px;
+    }
+
+    .card {
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+
+    .card h4 {
+      font-size: 14px;
+      color: #777;
+    }
+
+    .card h2 {
+      margin: 10px 0;
+    }
+
+    .green { color: green; }
+    .red { color: red; }
+    .orange { color: orange; }
+
+    /* Table */
+    .table-box {
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+
+    th, td {
+      padding: 10px;
+      text-align: left;
+    }
+
+    th {
+      background: #f1f5f9;
+    }
+
+    tr {
+      border-bottom: 1px solid #eee;
+    }
+
+    .status {
+      padding: 5px 10px;
+      border-radius: 6px;
+      font-size: 12px;
+      color: #fff;
+    }
+
+    .status.green { background: green; }
+    .status.red { background: red; }
+    .status.orange { background: orange; }
+
+    button {
+      padding: 5px 10px;
+      border: none;
+      background: #2563eb;
+      color: #fff;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      opacity: 0.9;
+    }
+
+  </style>
+</head>
+
+<body>
+
+<div class="container">
+
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <h2 class="logo">Maamulka</h2>
+
+    <ul class="menu">
+      <li class="active">Dashboard</li>
+      <li>Codsiyada</li>
+      <li>Aqoonsi</li>
+      <li>Gobolada</li>
+    </ul>
+  </aside>
+
+  <!-- Main -->
+  <main class="main">
+
+    <!-- Topbar -->
+    <div class="topbar">
+      <input type="text" placeholder="Raadi..." />
+      <div class="user">Ibrahim</div>
+    </div>
+
+    <!-- Cards -->
+    <div class="cards">
+
+      <div class="card">
+        <h4>Wadarta Codsiyada</h4>
+        <h2>1,240</h2>
+        <span class="green">+12%</span>
+      </div>
+
+      <div class="card">
+        <h4>Kuwo la helay</h4>
+        <h2>850</h2>
+        <span class="green">+5%</span>
+      </div>
+
+      <div class="card">
+        <h4>Aqoonta</h4>
+        <h2>320</h2>
+        <span class="orange">+2%</span>
+      </div>
+
+      <div class="card">
+        <h4>La diiday</h4>
+        <h2>70</h2>
+        <span class="red">-2%</span>
+      </div>
+
+    </div>
+
+    <!-- Table -->
+    <div class="table-box">
+      <h3>Liiska Codsiyada</h3>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Magac</th>
+            <th>xaaladaha gaarka ah</th>
+            <th>Gobol</th>
+            <th>Xaalad</th>
+            <th>Fal</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>Mohamed Ahmed</td>
+            <td>yatiim</td>
+            <td><span class="status red">hiiran</span></td>
+            <td><button>dib u eegis</button></td>
+          </tr>
+
+          <tr>
+            <td>Fadumo Cali</td>
+            <td>barakac</td>
+            <td><span class="status green">bakool</span></td>
+            <td><button>sugutaan </button></td>
+          </tr>
+
+          <tr>
+            <td>Xasan Xuseen</td>
+            <td>-</td>
+            <td><span class="status orange">sanaag</span></td>
+            <td><button>la aqbalay</button></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+  </main>
+</div>
+
+</body>
+</html>

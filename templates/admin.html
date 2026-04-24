@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="so">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin Dashboard - Scholarship AI</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        * { margin:0; padding:0; box-sizing:border-box; font-family:"Segoe UI", sans-serif; }
+        body { background:#f6f8fc; color:#1e293b; }
+        .container { display:flex; }
+        
+        /* SIDEBAR */
+        .sidebar { width:240px; height:100vh; background:#fff; border-right:1px solid #e5e7eb; padding:20px; position: fixed; }
+        .logo { font-weight:bold; margin-bottom:30px; color: #4f46e5; display: flex; align-items: center; gap: 10px; font-size: 22px; }
+        .menu li { list-style:none; padding:12px; border-radius:8px; margin-bottom:8px; cursor:pointer; transition: 0.3s; color: #64748b; font-weight: 500; }
+        .menu li.active, .menu li:hover { background:#eef2ff; color:#4f46e5; }
+        .menu a { text-decoration: none; color: inherit; display: block; }
+
+        /* MAIN SECTION */
+        .main { flex:1; padding:20px 30px; margin-left: 240px; }
+        .topbar { display:flex; justify-content:space-between; margin-bottom:25px; align-items: center; }
+        .search-form { display: flex; gap: 10px; flex: 1; max-width: 400px; }
+        .search { width: 100%; padding:10px 15px; border-radius:8px; border:1px solid #e2e8f0; outline: none; }
+        .btn { padding:10px 18px; border:none; border-radius:8px; cursor:pointer; font-weight: 600; text-decoration: none; font-size: 14px; }
+        .btn-primary { background:#4f46e5; color:#fff; }
+        .btn-light { background:#fff; border: 1px solid #e2e8f0; color: #64748b; }
+        .btn-danger { background:#fee2e2; color:#dc2626; margin-left: 5px; }
+
+        /* CARDS */
+        .cards { display:grid; grid-template-columns:repeat(4,1fr); gap:20px; margin-bottom:30px; }
+        .card { background:#fff; padding:20px; border-radius:16px; box-shadow: 0 4px 6px rgba(0,0,0,0.02); }
+        .card small { color: #94a3b8; font-weight: 600; text-transform: uppercase; font-size: 11px; }
+        .card h2 { margin: 10px 0; font-size: 24px; color: #1e293b; }
+        .badge { padding:4px 10px; border-radius:20px; font-size:11px; font-weight: 600; }
+        .green { background:#dcfce7; color:#16a34a; }
+        .red { background:#fee2e2; color:#dc2626; }
+        .orange { background:#fef3c7; color:#d97706; }
+
+        /* TABLE BOX */
+        .table-box { background:#fff; padding:25px; border-radius:16px; box-shadow: 0 4px 6px rgba(0,0,0,0.02); }
+        table { width:100%; border-collapse:collapse; }
+        th { text-align:left; font-size:12px; color:#94a3b8; text-transform: uppercase; padding-bottom: 15px; border-bottom: 1px solid #f1f5f9; }
+        td { padding:15px 0; border-top: 1px solid #f8fafc; font-size: 14px; color: #334155; }
+        .status { padding:6px 12px; border-radius:8px; font-size:12px; font-weight: 600; }
+        .s-green { background:#dcfce7; color:#16a34a; }
+        .s-red { background:#fee2e2; color:#dc2626; }
+        .btn-view { background:#eef2ff; color:#4f46e5; padding:8px 12px; border:none; border-radius:8px; cursor:pointer; font-weight: 600; text-decoration: none; font-size: 13px; }
+        .btn-view:hover { background: #4f46e5; color: #fff; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <aside class="sidebar">
+        <h2 class="logo"><i class="fas fa-graduation-cap"></i> Maamulka</h2>
+        <ul class="menu">
+            <li id="menu-dash" class="active" onclick="showDashboard()">
+                <i class="fas fa-home me-2"></i> Dashboard
+            </li>
+            <li id="menu-apps" onclick="showApplicants()">
+                <i class="fas fa-users me-2"></i> Codsadayaasha
+            </li>
+            <li><a href="/apply_now"><i class="fas fa-plus me-2"></i> Codsi Cusub</a></li>
+            <li><a href="/"><i class="fas fa-sign-out-alt me-2"></i> Logout</a></li>
+        </ul>
+    </aside>
+
+    <main class="main">
+        <div class="topbar">
+            <form action="/admin_database" method="GET" class="search-form">
+                <input name="search" class="search" placeholder="Raadi magaca codsadaha..." value="{{ request.args.get('search', '') }}" />
+                <button type="submit" class="btn btn-primary">Raadi</button>
+            </form>
+            <div class="actions">
+                <a href="/admin_database" class="btn btn-light"><i class="fas fa-sync"></i> Refresh</a>
+            </div>
+        </div>
+
+        <div class="cards" id="stats-cards">
+            <div class="card">
+                <small>Wadarta Codsiyada</small>
+                <h2>{{ total }}</h2>
+                <span class="badge green">Total</span>
+            </div>
+            <div class="card">
+                <small>La Aqbalay (AI)</small>
+                <h2>{{ accepted }}</h2>
+                <span class="badge green"><i class="fas fa-check"></i> Success</span>
+            </div>
+            <div class="card">
+                <small>Agoomaha</small>
+                <h2>{{ orphans }}</h2>
+                <span class="badge orange">Orphans</span>
+            </div>
+            <div class="card">
+                <small>La Diiday (AI)</small>
+                <h2>{{ rejected }}</h2>
+                <span class="badge red"><i class="fas fa-times"></i> Rejected</span>
+            </div>
+        </div>
+
+        <div class="table-box" id="applicants-table">
+            <h4 id="table-title" style="margin-bottom: 20px; color: #1e293b;">Codsadayaashii Ugu Dambeeyey</h4>
+            <table>
+                <thead>
+                    <tr>
+                        <th>MAGACA</th>
+                        <th>GPA</th>
+                        <th>DAKHLIGA</th>
+                        <th>XAALADA AI</th>
+                        <th>FAL</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for s in students %}
+                    <tr>
+                        <td style="font-weight: 600;">{{ s.magaca }}</td>
+                        <td>{{ s.gpa }}%</td>
+                        <td>${{ s.family_income }}</td>
+                        <td>
+                            <span class="status {{ 's-green' if s.prediction_result == 1 else 's-red' }}">
+                                {{ 'La Aqbalay' if s.prediction_result == 1 else 'La Diiday' }}
+                            </span>
+                        </td>
+                        <td>
+                            <a href="/shap/{{ s.id }}" class="btn-view">Eeg</a>
+                            <a href="/delete/{{ s.id }}" class="btn btn-danger btn-sm" onclick="return confirm('Ma hubtaa inaad tirturto xogta ardaygan?')">
+                                <i class="fas fa-trash"></i>
+                            </a>
+                        </td>
+                    </tr>
+                    {% else %}
+                    <tr>
+                        <td colspan="5" style="text-align: center; padding: 30px; color: #94a3b8;">Xog lama helin.</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </main>
+</div>
+
+<script>
+    function showApplicants() {
+        // Qari Cards-ka tirakoobka
+        document.getElementById('stats-cards').style.display = 'none';
+        // Beddel cinwaanka qaybta shaxda
+        document.getElementById('table-title').innerText = 'Dhammaan Codsadayaasha Deeqda';
+        // Beddel muuqaalka Sidebar-ka (Active Class)
+        document.getElementById('menu-apps').classList.add('active');
+        document.getElementById('menu-dash').classList.remove('active');
+    }
+
+    function showDashboard() {
+        // Soo tusi Cards-ka mar kale
+        document.getElementById('stats-cards').style.display = 'grid';
+        // Dib u soo celi cinwaankii hore
+        document.getElementById('table-title').innerText = 'Codsadayaashii Ugu Dambeeyey';
+        // Beddel muuqaalka Sidebar-ka (Active Class)
+        document.getElementById('menu-dash').classList.add('active');
+        document.getElementById('menu-apps').classList.remove('active');
+    }
+</script>
+
+</body>
+</html>

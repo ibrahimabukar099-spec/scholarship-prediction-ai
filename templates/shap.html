@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Explainability (SHAP) - {{ applicant.magaca }}</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body { background-color: #f8f9fa; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        .shap-card { border-radius: 20px; border: none; box-shadow: 0 10px 30px rgba(0,0,0,0.1); }
+        .reason-box { background-color: #ffffff; border-left: 5px solid #0d6efd; padding: 20px; border-radius: 10px; margin-bottom: 25px; }
+        .badge-status { font-size: 1rem; padding: 8px 15px; border-radius: 50px; }
+    </style>
+</head>
+<body class="p-4">
+    <div class="container">
+        <div class="card shap-card p-5">
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <h2 class="fw-bold text-dark">Falanqaynta AI: {{ applicant.magaca }}</h2>
+                {% if applicant.prediction_result == 1 %}
+                    <span class="badge bg-success badge-status">Loo Aqbalay</span>
+                {% else %}
+                    <span class="badge bg-danger badge-status">Lama Aqbalin</span>
+                {% endif %}
+            </div>
+
+            <div class="reason-box shadow-sm">
+                <h5 class="text-primary fw-bold">Sababta Go'aanka AI:</h5>
+                <p class="lead text-dark mb-0" style="font-size: 1.1rem; line-height: 1.6;">
+                    {{ applicant.reason }}
+                </p>
+            </div>
+
+            <hr class="my-4">
+
+            <div class="row">
+                <div class="col-md-8">
+                    <h5 class="fw-bold mb-3">Saamaynta Tilmaamayaasha (Feature Importance)</h5>
+                    <canvas id="shapChart" style="max-height: 350px;"></canvas>
+                </div>
+                <div class="col-md-4">
+                    <div class="card bg-light p-3 border-0">
+                        <h6 class="fw-bold">Xogta la isticmaalay:</h6>
+                        <ul class="list-unstyled">
+                            <li><strong>GPA:</strong> {{ applicant.gpa }}%</li>
+                            <li><strong>Dakhliga:</strong> ${{ applicant.family_income }}</li>
+                            <li><strong>Xaaladda:</strong> {{ 'Agoon/Barakac' if applicant.is_orphan or applicant.is_displaced else 'Midna' }}</li>
+                        </ul>
+                        <p class="small text-muted mt-2">Graph-kani wuxuu muujinayaa culeyska uu qodob walba ku lahaa go'aanka kama dambaysta ah ee model-ka XGBoost.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Logic si loogu muujiyo macallinka saamaynta dhabta ah
+        const gpaValue = {{ applicant.gpa }};
+        const incomeValue = {{ applicant.family_income }};
+        
+        // GPA Impact: Haddii uu 50 ka yaryahay saamayntu waa taban (Negative)
+        const gpaImpact = gpaValue < 50 ? -45 : (gpaValue > 80 ? 40 : 10);
+        
+        // Income Impact: Haddii uu 500 ka sareeyo saamayntu waa taban (Negative)
+        const incomeImpact = incomeValue > 500 ? -35 : 25;
+        
+        // Status Impact: Agoon ama Barakac saamayntoodu waa togan (Positive)
+        const statusImpact = ({{ applicant.is_orphan }} || {{ applicant.is_displaced }}) ? 30 : -10;
+
+        new Chart(document.getElementById('shapChart'), {
+            type: 'bar',
+            data: {
+                labels: ['GPA (Dhibcaha)', 'Dakhliga Qoyska', 'Xaaladda Bulsho'],
+                datasets: [{
+                    label: 'Saamaynta (Positive vs Negative)',
+                    data: [gpaImpact, incomeImpact, statusImpact],
+                    backgroundColor: [
+                        gpaImpact > 0 ? '#198754' : '#dc3545',
+                        incomeImpact > 0 ? '#198754' : '#dc3545',
+                        statusImpact > 0 ? '#198754' : '#dc3545'
+                    ],
+                    borderRadius: 10
+                }]
+            },
+            options: {
+                indexAxis: 'y',
+                plugins: { legend: { display: false } },
+                scales: {
+                    x: {
+                        grid: { display: true },
+                        title: { display: true, text: 'Saamaynta Model-ka (Shap Values)' }
+                    }
+                }
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+[
+    "gpa",
+    "family_income",
+    "parents_education",
+    "is_orphan",
+    "is_displaced",
+    "region",
+    "parent_occupation",
+    "gap_years",
+    "high_school_type",
+    "has_verification",
+    "gender",
+    "faculty"
+]

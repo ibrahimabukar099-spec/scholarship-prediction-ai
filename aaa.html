@@ -1,0 +1,354 @@
+
+<!DOCTYPE html>
+<html lang="so">
+<head>
+<meta charset="UTF-8">
+<title>Dashboard Premium</title>
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:sans-serif;}
+
+body{background:#f6f8fc;color:#1e293b;}
+
+.container{display:flex;}
+
+/* SIDEBAR */
+.sidebar{
+  width:230px;
+  height:100vh;
+  background:#fff;
+  border-right:1px solid #eee;
+  padding:20px;
+}
+
+.logo{font-weight:bold;margin-bottom:20px;}
+
+.menu li{
+  list-style:none;
+  padding:10px;
+  margin-bottom:8px;
+  border-radius:8px;
+  cursor:pointer;
+}
+
+.menu li.active,.menu li:hover{
+  background:#eef2ff;
+  color:#4f46e5;
+}
+
+/* MAIN */
+.main{flex:1;padding:20px 30px;}
+
+/* NAVBAR */
+.navbar{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  margin-bottom:20px;
+}
+
+.nav-links{
+  display:flex;
+  gap:20px;
+  font-size:14px;
+}
+
+.nav-right{
+  display:flex;
+  gap:10px;
+  align-items:center;
+}
+
+.search{
+  padding:8px;
+  border-radius:8px;
+  border:1px solid #ddd;
+}
+
+.icon{
+  width:35px;
+  height:35px;
+  background:#f1f5f9;
+  border-radius:50%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+/* CARDS */
+.cards{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:15px;
+  margin:20px 0;
+}
+
+.card{
+  background:#fff;
+  padding:15px;
+  border-radius:12px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+.card .left small{color:#94a3b8;}
+.card .left h2{margin-top:5px;}
+
+.icon-box{
+  width:40px;
+  height:40px;
+  border-radius:10px;
+  background:#eef2ff;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+/* FILTER */
+.filters{
+  display:flex;
+  gap:10px;
+  margin-bottom:15px;
+}
+
+select{
+  padding:8px;
+  border-radius:8px;
+  border:1px solid #ddd;
+}
+
+/* TABLE */
+.table-box{
+  background:#fff;
+  padding:20px;
+  border-radius:12px;
+}
+
+table{width:100%;border-collapse:collapse;}
+
+th{
+  text-align:left;
+  font-size:13px;
+  color:#94a3b8;
+}
+
+td{
+  padding:12px 0;
+  border-top:1px solid #f1f5f9;
+}
+
+/* AVATAR */
+.avatar{
+  width:35px;
+  height:35px;
+  border-radius:50%;
+  background:#2563eb;
+  color:#fff;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:12px;
+  margin-right:10px;
+}
+
+.user-cell{
+  display:flex;
+  align-items:center;
+}
+
+/* STATUS */
+.status{
+  padding:4px 8px;
+  border-radius:6px;
+  font-size:12px;
+  color:#fff;
+}
+
+.red{background:#ef4444;}
+.green{background:#22c55e;}
+.orange{background:#f59e0b;}
+
+.link{
+  color:#4f46e5;
+  cursor:pointer;
+}
+
+/* PAGINATION */
+.pagination{
+  margin-top:10px;
+  display:flex;
+  justify-content:space-between;
+  font-size:13px;
+}
+
+/* BOTTOM */
+.bottom{
+  display:grid;
+  grid-template-columns:2fr 1fr;
+  gap:15px;
+  margin-top:20px;
+}
+
+.box{
+  background:#fff;
+  padding:20px;
+  border-radius:12px;
+}
+
+.map{
+  height:200px;
+  background:#e2e8f0;
+  border-radius:10px;
+}
+
+.activity p{
+  margin:10px 0;
+  font-size:14px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<!-- SIDEBAR -->
+<aside class="sidebar">
+  <h2 class="logo">Maamulka</h2>
+  <ul class="menu">
+    <li class="active">Dashboard</li>
+    <li>Codsiyada</li>
+    <li>Aqoonsi</li>
+    <li>Gobolada</li>
+  </ul>
+</aside>
+
+<!-- MAIN -->
+<main class="main">
+
+<!-- NAVBAR -->
+<div class="navbar">
+  <div class="nav-links">
+    <span>Warbixin</span>
+    <span>Codsiyada</span>
+    <span>Isticmaal</span>
+  </div>
+
+  <div class="nav-right">
+    <input class="search" placeholder="Raadi..." />
+    <div class="icon">🔔</div>
+    <div class="icon">⚙</div>
+    <div class="icon">👤</div>
+  </div>
+</div>
+
+<!-- CARDS -->
+<div class="cards">
+
+  <div class="card">
+    <div class="left">
+      <small>Codsiyada</small>
+      <h2>1,240</h2>
+    </div>
+    <div class="icon-box">📄</div>
+  </div>
+
+  <div class="card">
+    <div class="left">
+      <small>La helay</small>
+      <h2>850</h2>
+    </div>
+    <div class="icon-box">✔</div>
+  </div>
+
+  <div class="card">
+    <div class="left">
+      <small>Aqoonta</small>
+      <h2>320</h2>
+    </div>
+    <div class="icon-box">📊</div>
+  </div>
+
+  <div class="card">
+    <div class="left">
+      <small>La diiday</small>
+      <h2>70</h2>
+    </div>
+    <div class="icon-box">❌</div>
+  </div>
+
+</div>
+
+<!-- FILTER -->
+<div class="filters">
+  <select><option>Gobol</option></select>
+  <select><option>Sanad</option></select>
+  <select><option>Nooc</option></select>
+</div>
+
+<!-- TABLE -->
+<div class="table-box">
+
+<table>
+<thead>
+<tr>
+<th>Magac</th>
+<th>Gobol</th>
+<th>Xaalad</th>
+<th></th>
+</tr>
+</thead>
+
+<tbody>
+
+<tr>
+<td class="user-cell">
+<div class="avatar">MA</div> Mohamed Axmed
+</td>
+<td>Banaadir</td>
+<td><span class="status red">SAFE</span></td>
+<td class="link">Eeg</td>
+</tr>
+
+<tr>
+<td class="user-cell">
+<div class="avatar">FC</div> Fadumo Cali
+</td>
+<td>Puntland</td>
+<td><span class="status green">HIGH</span></td>
+<td class="link">Eeg</td>
+</tr>
+
+</tbody>
+</table>
+
+<div class="pagination">
+<span>1–4 ka mid ah 1,240</span>
+<span>◀ ▶</span>
+</div>
+
+</div>
+
+<!-- BOTTOM -->
+<div class="bottom">
+
+<div class="box">
+<h4>Qaybinta Gobollada</h4>
+<div class="map"></div>
+</div>
+
+<div class="box activity">
+<h4>Hawlaha</h4>
+<p>✔ Codsi la aqbalay</p>
+<p>📌 Codsi cusub</p>
+<p>⚠ Dib u eegis</p>
+</div>
+
+</div>
+
+</main>
+</div>
+
+</body>
+</html>

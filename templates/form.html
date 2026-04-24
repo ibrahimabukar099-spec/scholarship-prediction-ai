@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="so">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codsiga Deeqda - Multi-Step AI</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body { 
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+                        url('/static/background.jpg'); 
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Segoe UI', sans-serif;
+            padding: 20px;
+        }
+
+        .form-card {
+            background: rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(15px);
+            padding: 40px;
+            border-radius: 25px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            box-shadow: 0 15px 35px rgba(0,0,0,0.4);
+            width: 100%;
+            max-width: 600px;
+            color: white;
+        }
+
+        .step { display: none; }
+        .step.active { display: block; }
+
+        .progress-dots {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 30px;
+        }
+
+        .dot {
+            height: 12px; width: 12px;
+            background-color: rgba(255, 255, 255, 0.3);
+            border-radius: 50%;
+            transition: 0.3s;
+        }
+
+        .dot.active { background-color: #0d6efd; box-shadow: 0 0 10px #0d6efd; }
+
+        h3 { color: #ffffff; font-weight: 700; margin-bottom: 25px; text-align: center; }
+        label { font-weight: 600; color: #e2e8f0; margin-top: 15px; display: block; }
+        
+        input, select {
+            width: 100%;
+            padding: 12px 15px;
+            margin: 8px 0;
+            background: rgba(255, 255, 255, 0.1) !important;
+            border: 1px solid rgba(255, 255, 255, 0.3) !important;
+            border-radius: 10px;
+            color: white !important;
+            outline: none;
+            transition: 0.3s;
+        }
+
+        input:focus, select:focus {
+            background: rgba(255, 255, 255, 0.2) !important;
+            border-color: #3b82f6 !important;
+            box-shadow: 0 0 8px rgba(59, 130, 246, 0.5);
+        }
+
+        /* Qoraalka Placeholder-ka */
+        ::placeholder { color: rgba(255, 255, 255, 0.6); }
+        
+        /* Select options color */
+        option { background: #1e293b; color: white; }
+
+        .btn-next, .btn-submit { background-color: #0d6efd; color: white; border: none; padding: 12px 35px; border-radius: 10px; font-weight: 600; }
+        .btn-prev { background-color: rgba(255, 255, 255, 0.2); color: white; border: none; padding: 12px 35px; border-radius: 10px; }
+    </style>
+</head>
+<body>
+
+<div class="form-card">
+    <div class="progress-dots">
+        <span class="dot active"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+    </div>
+
+    <div class="step active" id="step1">
+        <h3>Step 1: Macluumaadka Shaqsiga</h3>
+        <label>Magaca oo Dhammaystiran</label>
+        <input type="text" id="magaca" placeholder="geli magacaga" required>
+        
+        <label>Jinsiga (Gender)</label>
+        <select id="gender" required>
+            <option value="0">Lab (Male)</option>
+            <option value="1">Dheddig (Female)</option>
+        </select>
+
+        <label>Gobolka (Region)</label>
+        <select id="region" required>
+            <option value="1">Banaadir</option>
+            <option value="2">Puntland</option>
+            <option value="3">Somaliland</option>
+            <option value="4">Koonfur Galbeed</option>
+        </select>
+        
+        <div class="mt-4 text-end">
+            <button class="btn-next" onclick="moveStep(2)">Next</button>
+        </div>
+    </div>
+
+    <div class="step" id="step2">
+        <h3>Step 2: Waxbarashada</h3>
+        <label>GPA (0-100)</label>
+        <input type="number" id="gpa" placeholder="85" required>
+
+        <label>Sanooyinka fasaxa (Gap Years)</label>
+        <input type="number" id="gap" value="0" required>
+
+        <label>Kulliyadda (Faculty)</label>
+        <select id="faculty" required>
+            <option value="1">Medicine</option>
+            <option value="2">Engineering</option>
+            <option value="3">ICT</option>
+        </select>
+
+        <label>Nooca Dugsiga Sare</label>
+        <select id="hs_type" required>
+            <option value="0">Public (Dawlad)</option>
+            <option value="1">Private (Gaar)</option>
+        </select>
+
+        <div class="mt-4 d-flex justify-content-between">
+            <button class="btn-prev" onclick="moveStep(1)">Previous</button>
+            <button class="btn-next" onclick="moveStep(3)">Next</button>
+        </div>
+    </div>
+
+    <div class="step" id="step3">
+        <h3>Step 3: Bulshada & Dhaqaalaha</h3>
+        <label>Dakhliga Qoyska ($)</label>
+        <input type="number" id="income" placeholder="400" required>
+
+        <label>Ma tahay Agoon?</label>
+        <select id="orphan" required>
+            <option value="0">Maya</option>
+            <option value="1">Haa</option>
+        </select>
+
+        <label>Ma tahay Barakac (IDP)?</label>
+        <select id="displaced" required>
+            <option value="0">Maya</option>
+            <option value="1">Haa</option>
+        </select>
+
+        <label>Shaqada Waalidka</label>
+        <select id="p_occ" required>
+            <option value="0">Shaqo la'aan</option>
+            <option value="1">Shaqaale</option>
+            <option value="2">Ganacsade</option>
+        </select>
+
+        <div class="mt-4 d-flex justify-content-between">
+            <button class="btn-prev" onclick="moveStep(2)">Previous</button>
+            <button class="btn-next" onclick="moveStep(4)">Next</button>
+        </div>
+    </div>
+
+    <div class="step" id="step4">
+        <h3>Step 4: Marqatiyada & Cadeynta</h3>
+        <label>Waxbarashada Waalidka</label>
+        <select id="p_edu" required>
+            <option value="0">Primary</option>
+            <option value="1">Secondary</option>
+            <option value="2">University</option>
+        </select>
+
+        <label>Ma haysaa cadeyn (Verification)?</label>
+        <select id="has_ver" required>
+            <option value="1">Haa</option>
+            <option value="0">Maya</option>
+        </select>
+
+        <div class="alert alert-info mt-3" style="background: rgba(13, 110, 253, 0.2); color: white; border: none;">
+            Fadlan hubi xogtaada ka hor intaadan gudbin.
+        </div>
+
+        <div class="mt-4 d-flex justify-content-between">
+            <button class="btn-prev" onclick="moveStep(3)">Previous</button>
+            <button class="btn-submit" onclick="sendToAI()">Submit AI Analysis</button>
+        </div>
+    </div>
+</div>
+
+<script>
+    function moveStep(stepNumber) {
+        const currentStepDiv = document.querySelector('.step.active');
+        const steps = Array.from(document.querySelectorAll('.step'));
+        const currentIndex = steps.indexOf(currentStepDiv);
+        
+        // Kaliya haddii aan horey u soconno (Next)
+        if (stepNumber > currentIndex + 1) {
+            const inputs = currentStepDiv.querySelectorAll('input, select');
+            let valid = true;
+
+            inputs.forEach(input => {
+                if (input.hasAttribute('required') && input.value.trim() === "") {
+                    input.style.borderColor = "#ff4d4d"; // Red border
+                    valid = false;
+                } else {
+                    input.style.borderColor = "rgba(255, 255, 255, 0.3)";
+                }
+            });
+
+            if (!valid) {
+                alert("Fadlan buuxi meelaha bannaan ka hor intaadan gudbin!");
+                return;
+            }
+        }
+
+        // U gudub Step-ka xiga ama kii hore
+        document.querySelectorAll('.step').forEach(s => s.classList.remove('active'));
+        document.getElementById('step' + stepNumber).classList.add('active');
+        
+        const dots = document.querySelectorAll('.dot');
+        dots.forEach((dot, index) => {
+            if(index < stepNumber) dot.classList.add('active');
+            else dot.classList.remove('active');
+        });
+    }
+
+    async function sendToAI() {
+        const data = {
+            magaca: document.getElementById('magaca').value,
+            gpa: document.getElementById('gpa').value,
+            family_income: document.getElementById('income').value,
+            parents_education: document.getElementById('p_edu').value,
+            is_orphan: document.getElementById('orphan').value,
+            is_displaced: document.getElementById('displaced').value,
+            region: document.getElementById('region').value,
+            parent_occupation: document.getElementById('p_occ').value,
+            gap_years: document.getElementById('gap').value,
+            high_school_type: document.getElementById('hs_type').value,
+            has_verification: document.getElementById('has_ver').value,
+            gender: document.getElementById('gender').value,
+            faculty: document.getElementById('faculty').value
+        };
+
+        try {
+            const response = await fetch('/predict', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(data)
+            });
+
+            const result = await response.json();
+            if (result.status === "success") {
+                window.location.href = "/result/" + result.id;
+            } else {
+                alert("Cilad: " + result.message);
+            }
+        } catch (error) {
+            alert("Cilad dhanka server-ka ah!");
+        }
+    }
+</script>
+
+</body>
+</html>
