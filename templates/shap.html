@@ -1,0 +1,394 @@
+﻿<!DOCTYPE html>
+<html lang="so">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Falanqaynta XGBoost Model - Scholarship Machine Learning</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body {
+            margin: 0;
+            min-height: 100vh;
+            background: #060c18 !important;
+            background-image: url('/static/dashboard_bg.jpg') !important;
+            background-size: cover !important;
+            background-position: center !important;
+            background-attachment: fixed !important;
+            color: #e2e8f0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 40px 20px;
+        }
+        body::before {
+            content: '';
+            position: fixed; inset: 0; z-index: -1;
+            background: rgba(6,12,24,0.80);
+        }
+
+        .glass-card {
+            background: rgba(15, 23, 42, 0.85);
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            backdrop-filter: blur(22px);
+            -webkit-backdrop-filter: blur(22px);
+            border-radius: 28px;
+            box-shadow: 0 30px 70px rgba(15, 23, 42, 0.45);
+            width: min(100%, 980px);
+            max-width: 98vw;
+            padding: 40px;
+        }
+
+        .header-title {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 25px;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+            padding-bottom: 20px;
+        }
+        
+        .header-title h3 {
+            margin: 0;
+            font-weight: 700;
+            color: #f8fafc;
+        }
+
+        .header-icon {
+            background: linear-gradient(135deg, #00d4ff 0%, #00f5a0 100%);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent; 
+            font-size: 28px;
+        }
+
+        .alert-glass {
+            background: rgba(13, 110, 253, 0.1);
+            border: 1px solid rgba(13, 110, 253, 0.2);
+            color: #dbeafe;
+            border-radius: 16px;
+            padding: 20px;
+            margin-bottom: 30px;
+            display: flex;
+            align-items: flex-start;
+            gap: 15px;
+        }
+
+        .alert-glass i {
+            color: #3b82f6;
+            font-size: 24px;
+            margin-top: 2px;
+        }
+
+
+        .chart-container {
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.06);
+            border-radius: 20px;
+            padding: 25px;
+            margin-bottom: 30px;
+            width: min(100%, 860px);
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .chart-body,
+        .chart-sidebar {
+            display: block;
+            width: 100%;
+        }
+
+        .chart-box {
+            position: relative;
+            height: 360px;
+            width: 100%;
+            max-width: 100%;
+        }
+
+        .chart-box canvas {
+            width: 100% !important;
+            height: 100% !important;
+            display: block;
+        }
+
+        .chart-note {
+            margin-top: 16px;
+            color: #cbd5e1;
+            font-size: 13px;
+            line-height: 1.6;
+            max-width: 760px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .feature-explanation {
+            margin: 18px auto 0;
+            padding: 18px;
+            max-width: 760px;
+            background: rgba(15, 23, 42, 0.4);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 16px;
+            color: #e2e8f0;
+            font-size: 14px;
+            line-height: 1.75;
+        }
+
+        .feature-explanation li {
+            margin-bottom: 10px;
+            list-style: none;
+            position: relative;
+            padding-left: 22px;
+        }
+
+        .feature-explanation li::before {
+            content: '•';
+            position: absolute;
+            left: 0;
+            top: 0;
+            color: #60a5fa;
+        }
+
+        .legend-dot {
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            margin: 0 6px 0 12px;
+        }
+
+        .legend-dot:first-child {
+            margin-left: 0;
+        }
+
+        .legend-green { background: #22c55e; }
+        .legend-red { background: #ef4444; }
+
+        .empty-explanation {
+            background: rgba(245, 158, 11, 0.12);
+            border: 1px solid rgba(245, 158, 11, 0.32);
+            border-radius: 16px;
+            color: #fde68a;
+            padding: 22px;
+            line-height: 1.6;
+        }
+
+        .btn-custom {
+            background: linear-gradient(135deg, #0096c7 0%, #0077b6 100%);
+            color: white;
+            border: none;
+            padding: 12px 28px;
+            border-radius: 14px;
+            font-weight: 600;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            transition: all 0.3s;
+            box-shadow: 0 8px 20px rgba(0,150,199,0.3);
+        }
+
+        .btn-custom:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 12px 25px rgba(0,150,199,0.4);
+            color: white;
+        }
+
+        @media (max-width: 1024px) {
+            .glass-card {
+                width: min(100%, 96vw);
+            }
+
+            .chart-container {
+                width: min(100%, 100%);
+            }
+        }
+
+        @media (max-width: 640px) {
+            body {
+                padding: 16px 10px;
+                align-items: flex-start;
+            }
+
+            .glass-card {
+                padding: 22px 14px;
+                border-radius: 18px;
+            }
+
+            .chart-container {
+                padding: 12px;
+                border-radius: 14px;
+            }
+
+            .chart-box {
+                height: 280px;
+            }
+
+            .chart-note {
+                font-size: 12px;
+            }
+        }
+    </style>
+    <link rel="stylesheet" href="/static/app_background.css">
+    <link rel="stylesheet" href="/static/theme.css">
+    <script src="/static/theme.js" defer></script>
+</head>
+<body>
+    <div class="glass-card">
+        <div class="header-title">
+            <i class="fas fa-brain header-icon"></i>
+            <div>
+                <h3 style="font-size: 24px;">Falanqaynta XGBoost Model</h3>
+                <p style="color: #94a3b8; margin: 0; font-size: 15px;">Codsadaha: <strong>{{ applicant.full_name }}</strong></p>
+            </div>
+        </div>
+        
+        <div class="alert-glass">
+            <i class="fas fa-info-circle"></i>
+            <div>
+                <strong style="display: block; margin-bottom: 5px; color: #60a5fa;">Sababta Natiijada:
+</strong>
+                {{ applicant.reason }}
+            </div>
+        </div>
+
+        {% if shap_available %}
+            <div class="chart-container">
+                <div class="chart-body">
+                    <div class="chart-box">
+                        <canvas id="myChart"></canvas>
+                    </div>
+                    <div class="chart-note">
+                        <span class="legend-dot legend-green"></span>Cagaar: waxay kordhisay fursadda.
+                        <span class="legend-dot legend-red"></span>Gaduud: waxay yareysay fursadda, laakiin go'aanka guud weli wuu noqon karaa aqbalid.
+                    </div>
+                    <div class="chart-note" style="margin-top: 0; color: #e2e8f0;">
+                        Haddii feature-ka <strong>Kulliyadda</strong> uu ku jiro liiska gaduudka, waxa ay ka dhigan tahay in model-ka xogtiisa hore uu bartay in codsiyada ka imaanaya kulliyaddan ay bixiyaan fursad hoos u dhac ah marka loo eego features-ka kale.
+                    </div>
+                    <div class="feature-explanation" id="featureExplanation"></div>
+                </div>
+            </div>
+        {% else %}
+            <div class="empty-explanation">
+                Faahfaahinta qiimeynta lama heli karo hadda. Natiijada iyo sababta guud ee go’aanka waa la kaydiyay, balse faahfaahin dheeraad ah lama soo bandhigi karo ilaa la helo xog ku filan oo lagu xaqiijiyo qiimeynta.
+
+            </div>
+        {% endif %}
+        
+        <div class="text-center">
+            <a href="javascript:history.back()" class="btn-custom">
+                <i class="fas fa-arrow-left"></i> Dib ugu noqo
+            </a>
+        </div>
+    </div>
+
+    {% if shap_available %}
+    <script id="featureNamesData" type="application/json">{{ feature_names | tojson | safe }}</script>
+    <script id="shapValuesData" type="application/json">{{ shap_values | tojson | safe }}</script>
+    <script id="predictionResultData" type="application/json">{{ applicant.prediction_result | tojson | safe }}</script>
+    <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                const featureLabels = JSON.parse(document.getElementById('featureNamesData').textContent || '[]');
+                const shapData = JSON.parse(document.getElementById('shapValuesData').textContent || '[]');
+                const predictionResult = JSON.parse(document.getElementById('predictionResultData').textContent || '0');
+                
+                const backgroundColors = shapData.map(val => val >= 0 ? 'rgba(34, 197, 94, 0.8)' : 'rgba(239, 68, 68, 0.8)');
+                const borderColors = shapData.map(val => val >= 0 ? 'rgb(34, 197, 94)' : 'rgb(239, 68, 68)');
+
+                const shapChart = new Chart(document.getElementById('myChart'), {
+                type: 'bar',
+                data: {
+                    labels: featureLabels,
+                    datasets: [{
+                        label: 'Saamaynta Go\'aanka',
+                        data: shapData,
+                        backgroundColor: backgroundColors,
+                        borderColor: borderColors,
+                        borderWidth: 1,
+                        borderRadius: 6,
+                        barPercentage: 0.72,
+                        categoryPercentage: 0.82
+                    }]
+                },
+                options: { 
+                    indexAxis: 'y',
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: { display: false },
+                        tooltip: {
+                            callbacks: {
+                                label: function(context) {
+                                    let label = context.dataset.label || '';
+                                    if (label) label += ': ';
+                                    if (context.parsed.x !== null) label += context.parsed.x.toFixed(4);
+                                    return label;
+                                }
+                            }
+                        }
+                    },
+                    scales: {
+                        x: {
+                            grid: { color: 'rgba(255,255,255,0.05)' },
+                            title: { display: true, text: predictionResult === 1 ? 'Go\'aanka guud: Waa La Aqbalay' : 'Go\'aanka guud: Uma Qalmin' }
+                        },
+                        y: {
+                            grid: { display: false },
+                            ticks: {
+                                autoSkip: false,
+                                font: { size: window.innerWidth < 640 ? 10 : 12 }
+                            }
+                        }
+                    }
+                }
+            });
+
+            function applyShapChartTheme() {
+                const isLightTheme = document.body.classList.contains('light-mode');
+                const textColor = isLightTheme ? '#334155' : '#cbd5e1';
+                const gridColor = isLightTheme ? 'rgba(51, 65, 85, 0.16)' : 'rgba(255, 255, 255, 0.1)';
+
+                shapChart.options.scales.x.grid.color = gridColor;
+                shapChart.options.scales.x.ticks = { color: textColor };
+                shapChart.options.scales.x.title.color = textColor;
+                shapChart.options.scales.y.ticks.color = textColor;
+                shapChart.update();
+            }
+
+            document.addEventListener('themechange', applyShapChartTheme);
+            applyShapChartTheme();
+
+            const featureExplanationEl = document.getElementById('featureExplanation');
+            if (featureExplanationEl) {
+                // Only hide college-like features when their SHAP impact is negligible.
+                const hiddenMatchers = [/kulliy/i, /kulliyadda/i, /kulliyad/i];
+                const hideThreshold = 0.02; // adjust if you want stricter/looser hiding
+
+                const explanations = [];
+                for (let i = 0; i < featureLabels.length; i++) {
+                    const feature = featureLabels[i];
+                    const value = Number(shapData[i]);
+
+                    const nameLooksLikeCollege = hiddenMatchers.some(re => re.test(String(feature)));
+                    const isNegligible = Math.abs(value) < hideThreshold;
+
+                    // If this looks like a college feature and its impact is negligible, skip it.
+                    if (nameLooksLikeCollege && isNegligible) continue;
+
+                    const direction = value >= 0 ? 'Cagaar: waxay kordhisay fursadda' : 'Gaduud: waxay yareysay fursadda';
+                    const rounded = Math.abs(value).toFixed(4);
+                    explanations.push(`<li><strong>${feature}:</strong> ${direction} (${rounded}).</li>`);
+                }
+
+                featureExplanationEl.innerHTML = `
+                    <strong>Sharaxaadda Features-ka:</strong>
+                    <ul>${explanations.join('')}</ul>
+                    <p style="margin-top: 10px; color: #94a3b8;">Kani waa cashar guud oo ku saabsan sida mid kasta oo ka mid ah features-ka uu saameyn ugu yeeshay go'aanka model-ka ee codsadaha.</p>
+                `;
+            }
+        });
+    </script>
+    {% endif %}
+</body>
+</html>

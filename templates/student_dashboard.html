@@ -1,0 +1,359 @@
+﻿<!DOCTYPE html>
+<html lang="so">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Dashboard - Scholarship Machine Learning</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        /* Base */
+        *,
+        *::before,
+        *::after {
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #060c18 !important;
+            background-image: url('/static/dashboard_bg.jpg') !important;
+            background-size: cover !important;
+            background-position: center !important;
+            background-attachment: fixed !important;
+            font-family: Arial, sans-serif;
+            color: #e2e8f0 !important;
+            min-height: 100vh;
+        }
+
+        /* Dark overlay over background image */
+        body::before {
+            content: '';
+            position: fixed;
+            inset: 0;
+            z-index: -1;
+            background:
+                radial-gradient(ellipse 65% 45% at 10% 20%, rgba(0, 212, 255, 0.08) 0%, transparent 55%),
+                radial-gradient(ellipse 55% 45% at 90% 75%, rgba(107, 63, 255, 0.10) 0%, transparent 55%),
+                rgba(6, 12, 24, 0.82);
+        }
+
+        /* Navbar */
+        .navbar {
+            background: rgba(6, 12, 24, 0.92) !important;
+            backdrop-filter: blur(24px);
+            -webkit-backdrop-filter: blur(24px);
+            box-shadow: 0 1px 0 rgba(0, 212, 255, 0.12), 0 4px 24px rgba(0, 0, 0, 0.5);
+            padding: 14px 0;
+        }
+
+        .navbar-brand {
+            background: linear-gradient(135deg, #00d4ff 0%, #00f5a0 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            font-weight: 800;
+            font-size: 21px;
+        }
+
+        .btn-outline-light {
+            border: 1px solid rgba(255, 100, 100, 0.35) !important;
+            color: #fca5a5 !important;
+            background: rgba(239, 68, 68, 0.07) !important;
+            font-weight: 600;
+            border-radius: 10px;
+            padding: 8px 18px;
+            transition: 0.3s;
+        }
+
+        .btn-outline-light:hover {
+            background: rgba(239, 68, 68, 0.18) !important;
+            color: #f87171 !important;
+            border-color: rgba(239, 68, 68, 0.5) !important;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 14px rgba(239, 68, 68, 0.25);
+        }
+
+        /* Layout */
+        .dashboard-container {
+            margin-top: 60px;
+            max-width: 920px;
+        }
+
+        /* Welcome card */
+        .welcome-card {
+            background: linear-gradient(135deg, #0096c7 0%, #0077b6 45%, #03045e 100%);
+            color: white;
+            padding: 40px 44px;
+            border-radius: 26px;
+            margin-bottom: 36px;
+            box-shadow: 0 16px 50px rgba(0, 150, 199, 0.35);
+            position: relative;
+            overflow: hidden;
+            border: 1px solid rgba(0, 212, 255, 0.2);
+        }
+
+        .welcome-card::before {
+            content: '';
+            position: absolute;
+            top: -60px;
+            right: -60px;
+            width: 240px;
+            height: 240px;
+            background: radial-gradient(circle, rgba(0, 245, 160, 0.2) 0%, transparent 70%);
+            border-radius: 50%;
+            pointer-events: none;
+        }
+
+        .welcome-card::after {
+            content: '';
+            position: absolute;
+            bottom: -50px;
+            left: -50px;
+            width: 200px;
+            height: 200px;
+            background: radial-gradient(circle, rgba(0, 212, 255, 0.15) 0%, transparent 70%);
+            border-radius: 50%;
+            pointer-events: none;
+        }
+
+        .welcome-card h2 {
+            font-weight: 800;
+            font-size: 30px;
+            margin-bottom: 8px;
+        }
+
+        /* Application cards */
+        .app-card {
+            background: rgba(0, 212, 255, 0.04) !important;
+            backdrop-filter: blur(18px);
+            -webkit-backdrop-filter: blur(18px);
+            border-radius: 20px;
+            padding: 28px;
+            margin-bottom: 22px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.35);
+            border: 1px solid rgba(0, 212, 255, 0.1) !important;
+            border-left: 5px solid rgba(0, 180, 216, 0.5) !important;
+            transition: 0.35s ease;
+        }
+
+        .app-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 16px 40px rgba(0, 180, 216, 0.15);
+            border-color: rgba(0, 212, 255, 0.3) !important;
+            background: rgba(0, 212, 255, 0.07) !important;
+        }
+
+        .app-card.accepted {
+            border-left-color: #00f5a0 !important;
+            background: rgba(0, 245, 160, 0.04) !important;
+        }
+
+        .app-card.rejected {
+            border-left-color: #ff6b6b !important;
+            background: rgba(255, 107, 107, 0.04) !important;
+        }
+
+        /* Status badges */
+        .status-badge {
+            padding: 8px 18px;
+            border-radius: 20px;
+            font-size: 13px;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+        }
+
+        .bg-success-light {
+            background: rgba(0, 245, 160, 0.12);
+            color: #00f5a0;
+            border: 1px solid rgba(0, 245, 160, 0.3);
+        }
+
+        .bg-danger-light {
+            background: rgba(255, 107, 107, 0.12);
+            color: #ff6b6b;
+            border: 1px solid rgba(255, 107, 107, 0.3);
+        }
+
+        .bg-warning-light {
+            background: rgba(251, 191, 36, 0.12);
+            color: #fbbf24;
+            border: 1px solid rgba(251, 191, 36, 0.3);
+        }
+
+        /* Action button */
+        .action-btn {
+            background: linear-gradient(135deg, #0096c7 0%, #0077b6 100%);
+            color: white;
+            padding: 14px 36px;
+            border-radius: 14px;
+            text-decoration: none;
+            font-weight: 700;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            transition: 0.3s;
+            box-shadow: 0 8px 28px rgba(0, 150, 199, 0.45);
+            font-size: 16px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .action-btn::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.15), transparent);
+            transition: 0.5s;
+        }
+
+        .action-btn:hover::before {
+            left: 110%;
+        }
+
+        .action-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 14px 36px rgba(0, 150, 199, 0.6);
+            color: white;
+        }
+
+        /* Text */
+        .text-muted {
+            color: rgba(0, 212, 255, 0.5) !important;
+            font-weight: 500;
+        }
+    </style>
+    <link rel="stylesheet" href="/static/app_background.css">
+    <link rel="stylesheet" href="/static/theme.css">
+    <script src="/static/theme.js" defer></script>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#"><i class="fas fa-graduation-cap"></i>Student Dashboard
+</a>
+            <div class="d-flex">
+                <a href="/logout" class="btn btn-outline-light btn-sm"><i class="fas fa-sign-out-alt"></i> Ka bax
+                    (Logout)</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container dashboard-container">
+        <div class="welcome-card">
+            <h2>Kusoo Dhowow, {{ name }}!</h2>
+            <p class="mb-0">Halkan waxaad kala socon kartaa dhammaan codsiyadaada deeqda waxbarasho ee aad dirtay.</p>
+        </div>
+
+        <div class="row mt-4">
+            <!-- Removed Deadline Countdown -->
+
+            <div class="col-md-6">
+                <div class="app-card" style="border-left-color: #6b3fff; height: 100%;">
+                    <h5 style="color: #e2e8f0; font-weight: 700; margin-bottom: 15px;"><i class="fas fa-info-circle"
+                            style="color: #a78bfa;"></i> Sida Nidaamku U Shaqeeyo</h5>
+                    <p style="color: rgba(255,255,255,0.55); font-size: 14px; line-height: 1.6;">Nidaamkan wuxuu si nidaamsan u qiimeeyaa codsigaaga, iyadoo la tixgelinayo dhowr arrimood oo muhiim ah, kuwaas oo ay ka mid yihiin:
+
+                    <ul style="color: rgba(255,255,255,0.55); font-size: 13.5px; margin-top: 10px;">
+                        <li><strong style="color:#c4b5fd;">Dhibcaha GPA:</strong> Boqolleyda dhibcahaaga waxbarasho.
+                        </li>
+                        <li><strong style="color:#c4b5fd;">Dakhliga Qoyska:</strong> Heerka dhaqaale ee qoyskaaga.</li>
+                        <li><strong style="color:#c4b5fd;">Xaaladda Bulsho:</strong> Agoon, Barakac, iyo dakhliga qoyska oo ka yar $250 waxay midkiiba keenaan 2 buundo oo mudnaan ah.
+                        </li>
+                    </ul>
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="app-card" style="border-left-color: #f59e0b; height: 100%;">
+                    <h5 style="color: #e2e8f0; font-weight: 700; margin-bottom: 15px;"><i class="fas fa-tasks"
+                            style="color: #fbbf24;"></i> Maxaa Kuu Xiga?</h5>
+                    <p style="color: rgba(255,255,255,0.55); font-size: 14px; line-height: 1.6;">Ka dib markaad codsiga
+                        dirtay, maamulka ayaa marka hore xaqiijinaya xogtaada ka hor inta aan natiijada kama dambaysta ah la soo bandhigin.
+                    <ul style="color: rgba(255,255,255,0.55); font-size: 13.5px; margin-top: 10px;">
+                        <li><strong style="color:#fcd34d;">Xaqiijinta:</strong> Codsigaagu wuxuu ahaanayaa pending ilaa maamulka hubiyo xogta.</li>
+                        <li><strong style="color:#fcd34d;">Natiijada:</strong> Kadib xaqiijinta waxaad arki doontaa natiijada iyo sababta ay u soo baxday.</li>
+                        <li><strong style="color:#fcd34d;">Muhiim:</strong>Natiijada qiimeyntu waa talo caawinaysa habka go’aan qaadashada, halka go’aanka kama dambaysta ah uu leeyahay guddiga deeqaha waxbarasho.
+</li>
+                    </ul>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="d-flex justify-content-center mt-5 mb-5">
+            <a href="/select_faculty" class="action-btn px-5 py-3" style="font-size: 1.1rem; text-decoration: none;"><i
+                    class="fas fa-plus"></i> Dir Codsi Cusub</a>
+        </div>
+
+        <div class="mt-5">
+            <h4 style="color: #e2e8f0; font-weight: 700; margin-bottom: 25px;"><i class="fas fa-history"
+                    style="color: #a78bfa;"></i> Taariikhda Codsiyadaada</h4>
+
+            {% if applications %}
+            {% for app in applications %}
+            <div class="app-card {{ 'accepted' if app.verification_status == 'verified' and app.prediction_result == 1 else ('rejected' if app.verification_status == 'rejected' or (app.verification_status == 'verified' and app.prediction_result == 0) else '') }}">
+                <div class="d-flex justify-content-between align-items-center flex-wrap gap-3">
+                    <div>
+                        <h5 class="mb-1" style="font-weight: 700; color: #e2e8f0;">Codsiga #{{ app.id }}</h5>
+                        <p class="text-muted mb-0" style="font-size: 14px;">
+                            <i class="fas fa-calendar-alt me-1"></i> {{ app.date_applied }} |
+                            <i class="fas fa-graduation-cap me-1"></i> GPA: {{ app.gpa }}% |
+                            <i class="fas fa-wallet me-1"></i> ${{ app.family_income }}
+                        </p>
+                    </div>
+                    <div class="text-center d-flex align-items-center gap-3">
+                        <span class="status-badge {{ 'bg-warning-light' if app.verification_status == 'pending' else ('bg-success-light' if app.verification_status == 'verified' and app.prediction_result == 1 else 'bg-danger-light') }}">
+                            {% if app.verification_status == 'pending' %}
+                            Pending Verification
+                            {% elif app.verification_status == 'rejected' %}
+                            Rejected
+                            {% elif app.prediction_result == 1 %}
+                            Eligible
+                            {% else %}
+                            Not Eligible
+                            {% endif %}
+                        </span>
+                    </div>
+                    <div class="d-flex gap-2 flex-wrap justify-content-end">
+                        <a href="/result/{{ app.id }}"
+                            style="background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.15); color: #fff; font-weight: 600; font-size: 13px; padding: 10px 18px; border-radius: 14px; text-decoration: none; transition: 0.3s; display: inline-flex; align-items: center;"
+                            onmouseover="this.style.background='rgba(255,255,255,0.15)'"
+                            onmouseout="this.style.background='rgba(255,255,255,0.05)'">
+                            <i class="fas fa-file-alt me-2"></i> Eeg Natiijada
+                        </a>
+                        {% if app.is_verified %}
+                        <a href="/shap/{{ app.id }}"
+                            style="background: linear-gradient(135deg, #6366f1 0%, #4f46e5 100%); color: white; font-weight: 600; font-size: 13px; padding: 10px 18px; border-radius: 14px; text-decoration: none; transition: 0.3s; display: inline-flex; align-items: center; box-shadow: 0 4px 12px rgba(79, 70, 229, 0.3);"
+                            onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 6px 16px rgba(79, 70, 229, 0.4)'"
+                            onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 12px rgba(79, 70, 229, 0.3)'">
+                            <i class="fas fa-brain me-2"></i> XGBoost Model Analysis (SHAP)
+                        </a>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+            {% else %}
+            <div class="text-center py-5 rounded-4"
+                style="background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.08);">
+                <i class="fas fa-folder-open fa-3x mb-3" style="color: rgba(255,255,255,0.2);"></i>
+                <p style="color: rgba(255,255,255,0.45); font-weight: 500; margin-bottom: 16px;">Weli ma jiro codsi aad
+                    dirtay.</p>
+                <a href="/select_faculty"
+                    style="background: linear-gradient(135deg,#6b3fff,#9b5de5); color:white; padding: 10px 28px; border-radius: 20px; text-decoration: none; font-weight: 600; box-shadow: 0 6px 20px rgba(107,63,255,0.4);">Bilow
+                    Codsiga Hadda</a>
+            </div>
+            {% endif %}
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

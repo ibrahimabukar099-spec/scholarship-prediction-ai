@@ -1,0 +1,568 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - Scholarship Machine Learning</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <style>
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+        html, body {
+            height: 100%;
+            width: 100%;
+            overflow: hidden;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #060c18 !important;
+            background-image: url('/static/dashboard_bg.jpg') !important;
+            background-size: cover !important;
+            background-position: center !important;
+            background-attachment: fixed !important;
+        }
+        body::before {
+            content: '';
+            position: fixed; inset: 0; z-index: -1;
+            background: rgba(6,12,24,0.80);
+        }
+
+        
+        .scene {
+            position: fixed;
+            inset: 0;
+            z-index: 0;
+            overflow: hidden;
+        }
+
+        .bg-base {
+            position: absolute;
+            inset: 0;
+            background:
+                radial-gradient(ellipse 80% 60% at 20% 40%, rgba(16,185,129,0.25) 0%, transparent 60%),
+                radial-gradient(ellipse 70% 50% at 80% 70%, rgba(56,43,200,0.25) 0%, transparent 60%),
+                radial-gradient(ellipse 90% 80% at 50% 0%,  rgba(10,15,40,0.9)   0%, transparent 70%),
+                linear-gradient(160deg, #060818 0%, #0a1a12 50%, #0d0b2b 100%);
+        }
+
+        .blob {
+            position: absolute;
+            border-radius: 50%;
+            filter: blur(70px);
+            mix-blend-mode: screen;
+            animation: blobMove 12s ease-in-out infinite alternate;
+        }
+        .blob-1 { width:480px; height:480px; background:rgba(16,185,129,0.22); top:-130px;  left:-100px;  animation-duration:13s; }
+        .blob-2 { width:400px; height:400px; background:rgba(99,61,255,0.20);   bottom:-100px; right:-80px; animation-duration:10s; animation-delay:-5s; }
+        .blob-3 { width:280px; height:280px; background:rgba(56,160,255,0.15);  top:40%; left:55%; animation-duration:16s; animation-delay:-3s; }
+        .blob-4 { width:180px; height:180px; background:rgba(52,211,153,0.15);  top:20%; right:20%; animation-duration:9s; animation-delay:-7s; }
+
+        @keyframes blobMove {
+            0%   { transform: translate(0,0)   scale(1); }
+            33%  { transform: translate(30px,-20px) scale(1.05); }
+            66%  { transform: translate(-20px,30px) scale(0.95); }
+            100% { transform: translate(10px,10px)  scale(1.08); }
+        }
+
+        .bg-grid {
+            position: absolute;
+            inset: 0;
+            background-image:
+                linear-gradient(rgba(16,185,129,0.05) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(16,185,129,0.05) 1px, transparent 1px);
+            background-size: 55px 55px;
+        }
+
+        .stars { position: absolute; inset: 0; }
+        .star {
+            position: absolute;
+            border-radius: 50%;
+            background: white;
+            animation: twinkle ease-in-out infinite;
+        }
+        @keyframes twinkle {
+            0%,100% { opacity:0.1; transform:scale(1); }
+            50%      { opacity:0.8; transform:scale(1.4); }
+        }
+
+        .particles { position: absolute; inset: 0; pointer-events: none; }
+        .p-dot {
+            position: absolute;
+            border-radius: 50%;
+            animation: rise linear infinite;
+            opacity: 0;
+        }
+        @keyframes rise {
+            0%   { transform: translateY(100vh) scale(0); opacity: 0; }
+            10%  { opacity: 1; }
+            90%  { opacity: 0.7; }
+            100% { transform: translateY(-120px) scale(1); opacity: 0; }
+        }
+
+        
+        .login-wrapper {
+            position: relative;
+            z-index: 10;
+            width: 100%;
+            max-width: 450px;
+            padding: 16px;
+            animation: cardReveal 0.8s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+        }
+            
+        .card-header { text-align:center; margin-bottom: 28px; }
+
+        .logo-ring {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 72px; height: 72px;
+            border-radius: 20px;
+            background: linear-gradient(135deg, #00b4d8 0%, #0077b6 100%);
+            font-size: 30px;
+            color: white;
+            margin-bottom: 18px;
+            position: relative;
+            box-shadow: 0 12px 40px rgba(0,150,199,0.5), 0 0 0 1px rgba(255,255,255,0.15) inset;
+            animation: ringPulse 3s ease-in-out infinite;
+        }
+        @keyframes ringPulse {
+            0%,100% { box-shadow: 0 12px 40px rgba(0,150,199,0.5), 0 0 0 1px rgba(255,255,255,0.15) inset; }
+            50%      { box-shadow: 0 12px 60px rgba(0,150,199,0.8), 0 0 0 1px rgba(255,255,255,0.25) inset; }
+        }
+        .logo-ring::after {
+            content:'';
+            position: absolute;
+            inset: -4px;
+            border-radius: 24px;
+            border: 2px solid transparent;
+            background: linear-gradient(135deg, rgba(0,150,199,0.6), rgba(0,245,160,0.4), rgba(0,212,255,0.4)) border-box;
+            -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+            -webkit-mask-composite: destination-out;
+            mask-composite: exclude;
+            animation: spinRing 6s linear infinite;
+        }
+        @keyframes spinRing { to { transform: rotate(360deg); } }
+
+        .pill-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 7px;
+            background: rgba(0,150,199,0.15);
+            border: 1px solid rgba(0,150,199,0.4);
+            color: #48cae4;
+            font-size: 10.5px;
+            font-weight: 700;
+            padding: 5px 14px;
+            border-radius: 30px;
+            letter-spacing: 1.2px;
+            text-transform: uppercase;
+            margin-bottom: 14px;
+        }
+        .pill-dot {
+            width: 7px; height: 7px;
+            background: #00b4d8;
+            border-radius: 50%;
+            box-shadow: 0 0 6px rgba(0,180,216,0.9);
+            animation: dotBlink 1.4s ease-in-out infinite;
+        }
+        @keyframes dotBlink {
+            0%,100% { opacity:1; transform:scale(1); }
+            50%     { opacity:0.2; transform:scale(0.7); }
+        }
+
+        .card-header h2 {
+            font-size: 27px;
+            font-weight: 800;
+            color: #fbbf24;
+            letter-spacing: -0.5px;
+            margin-bottom: 6px;
+            text-shadow: 0 2px 10px rgba(251, 191, 36, 0.3);
+        }
+        .card-header p {
+            color: #ffffff;
+            font-size: 14px;
+        }
+
+        .hr-glow {
+            height: 1px;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.12), transparent);
+            margin: 24px 0;
+        }
+
+        
+        .field { margin-bottom: 16px; }
+
+        .field label {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-weight: 600;
+            color: #ffffff;
+            font-size: 11px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 9px;
+        }
+        .field label i { font-size: 12px; color: #00b4d8; }
+
+        .field input {
+            width: 100%;
+            padding: 13px 18px;
+            border-radius: 14px;
+            border: 1px solid rgba(255,255,255,0.1);
+            background: rgba(255,255,255,0.05);
+            font-size: 15px;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            outline: none;
+            transition: border-color 0.3s, background 0.3s, box-shadow 0.3s;
+        }
+        .field input::placeholder { color: rgba(255,255,255,0.22); }
+        .field input:focus {
+            border-color: rgba(0,180,216,0.7);
+            background: rgba(0,180,216,0.09);
+            box-shadow: 0 0 0 4px rgba(0,180,216,0.16);
+        }
+        .field input:hover:not(:focus) {
+            border-color: rgba(255,255,255,0.2);
+            background: rgba(255,255,255,0.07);
+        }
+
+        .password-wrap {
+            position: relative;
+        }
+
+        .password-wrap input {
+            padding-right: 50px;
+        }
+
+        .hint-text {
+            margin-top: 8px;
+            color: #e2e8f0;
+            font-size: 13px;
+            line-height: 1.4;
+        }
+
+        .hint-text i {
+            color: #38bdf8;
+            margin-right: 4px;
+        }
+
+        .toggle-password {
+            position: absolute;
+            top: 50%;
+            right: 12px;
+            transform: translateY(-50%);
+            width: 34px;
+            height: 34px;
+            border: none;
+            border-radius: 10px;
+            background: rgba(255,255,255,0.06);
+            color: rgba(255,255,255,0.72);
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            transition: background-color 0.2s;
+        }
+
+        .toggle-password:hover,
+        .toggle-password:focus {
+            background: rgba(0,180,216,0.16);
+            color: #ffffff;
+            outline: none;
+        }
+
+        
+        .btn-signup {
+            width: 100%;
+            padding: 15px 24px;
+            border-radius: 15px;
+            border: none;
+            cursor: pointer;
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            font-weight: 700;
+            color: #fff;
+            letter-spacing: 0.3px;
+            background: linear-gradient(135deg, #0096c7 0%, #00b4d8 50%, #0077b6 100%);
+            background-size: 200% 200%;
+            box-shadow: 0 8px 30px rgba(0,150,199,0.45);
+            transition: all 0.35s ease;
+            margin-top: 10px;
+            position: relative;
+            overflow: hidden;
+        }
+        .btn-signup::before {
+            content:'';
+            position: absolute;
+            top: 0; left: -100%;
+            width: 100%; height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.18), transparent);
+            transition: 0.55s;
+        }
+        .btn-signup:hover::before { left: 110%; }
+        .btn-signup:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 14px 40px rgba(0,150,199,0.65);
+        }
+        .btn-signup:active { transform: translateY(0); }
+
+        
+        .card-footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 14px;
+            color: #ffffff;
+        }
+        .card-footer a {
+            color: #48cae4;
+            font-weight: 700;
+            text-decoration: none;
+            transition: 0.25s;
+        }
+        .card-footer a:hover { color: #90e0ef; text-decoration: underline; }
+
+        .page-brand {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 11.5px;
+            letter-spacing: 1.8px;
+            text-transform: uppercase;
+            color: rgba(255,255,255,0.18);
+        }
+        .page-brand i { margin-right: 6px; color: rgba(0,180,216,0.5); }
+    </style>
+    <link rel="stylesheet" href="/static/app_background.css">
+    <link rel="stylesheet" href="/static/theme.css">
+    <script src="/static/theme.js" defer></script>
+</head>
+<body>
+
+
+<!-- Using dashboard unified background image -->
+
+
+<div class="login-wrapper">
+    <div class="glass-card">
+
+        <!-- Header -->
+        <div class="card-header">
+            <a href="/" style="text-decoration: none; display: inline-block;">
+                <span class="pill-badge"><span class="pill-dot"></span> ### Diiwaangelinta Codsadaha
+</span>
+                <br>
+                <div class="logo-ring">
+                    <i class="fas fa-user-plus"></i>
+                </div>
+            </a>
+            <h2>Akoon Sameyso</h2>
+            <p>Bilow safarkaaga deeqda waxbarasho</p>
+        </div>
+
+        <div class="hr-glow"></div>
+
+        <!-- Flash Messages -->
+        {% with messages = get_flashed_messages(with_categories=true) %}
+          {% if messages %}
+            <script>
+                document.addEventListener('DOMContentLoaded', function() {
+                    /* {% for category, message in messages %} */
+                    {% if category != 'success' %}
+                    Swal.fire({
+                        icon: '{{ "error" if category == "danger" else "warning" if category == "warning" else "success" }}',
+                        title: '{{ "Khalad!" if category == "danger" else "Digniin!" if category == "warning" else "Guul!" }}',
+                        text: '{{ message }}',
+                        confirmButtonColor: '#10b981',
+                        background: '#071a12',
+                        color: '#ffffff',
+                        backdrop: 'rgba(6,8,24,0.85)'
+                    });
+                    {% endif %}
+                    /* {% endfor %} */
+                });
+            </script>
+          {% endif %}
+        {% endwith %}
+
+        <!-- Form -->
+        <form action="/signup" method="POST" id="signupForm" autocomplete="off">
+            <input type="hidden" name="csrf_token" value="{{ csrf_token }}">
+
+            <div class="field">
+                <label for="full_name"><i class="fas fa-id-card"></i> Magacaaga oo buuxa</label>
+                <input type="text" name="full_name" id="full_name"
+                       placeholder="Tusaale: Ahmed Ali Hassan" required>
+                <div id="nameError" class="text-danger mt-1" style="display: none;"></div>
+            </div>
+
+            <div class="field">
+                <label><i class="fas fa-envelope"></i> Email-ka</label>
+                <input type="email" name="email" id="email"
+                       placeholder="example@gmail.com"
+                       pattern="[A-Za-z0-9._%+-]{3,}@gmail\.com"
+                       title="Fadlan geli Gmail sax ah, tusaale: example@gmail.com"
+                       required>
+            </div>
+
+            <div class="field">
+                <label><i class="fas fa-lock"></i> Furaha (Password)</label>
+                <div class="password-wrap">
+                    <input type="password" name="password" id="password"
+                       placeholder="•••••••••••" required>
+                    <button type="button" class="toggle-password" id="togglePassword"
+                            aria-label="Show password" title="Show password">
+                        <i class="fas fa-eye"></i>
+                    </button>
+                </div>
+                <div class="strength-bar">
+                    <div class="strength-fill" id="strengthFill"></div>
+                </div>
+                <div class="hint-text">
+                    <i class="fas fa-circle-info"></i>
+                    Ugu yaraan 6 xaraf - isugu jira xarfo, tiro, ama calaamado
+                </div>
+            </div>
+
+            <button type="submit" class="btn-signup" id="signupBtn">
+                <i class="fas fa-user-check" style="margin-right:8px;"></i>
+                Diiwaangeli &nbsp;(Sign Up)
+            </button>
+        </form>
+
+        <div class="card-footer">
+            Horey ma u leedahay akoon? <a href="/">Soo Gal</a>
+        </div>
+    </div>
+
+    <div class="page-brand">
+        <i class="fas fa-shield-halved"></i>### Qiimeynta Deeqda Waxbarasho
+ &nbsp;-&nbsp; 2026
+    </div>
+</div>
+
+
+<script>
+/* STARS */
+const starsEl = document.getElementById('stars');
+if (starsEl) {
+    for (let i = 0; i < 120; i++) {
+        const s = document.createElement('div');
+        s.className = 'star';
+        const sz = Math.random() * 2 + 0.5;
+        s.style.cssText = `
+            width:${sz}px; height:${sz}px;
+            top:${Math.random()*100}%;
+            left:${Math.random()*100}%;
+            animation-duration:${Math.random()*4+2}s;
+            animation-delay:${Math.random()*5}s;
+        `;
+        starsEl.appendChild(s);
+    }
+}
+
+/* PARTICLES */
+const particlesEl = document.getElementById('particles');
+const pColors = ['#10b981','#059669','#34d399','#3b82f6','#6b3fff'];
+if (particlesEl) {
+    for (let i = 0; i < 28; i++) {
+        const p = document.createElement('div');
+        p.className = 'p-dot';
+        const sz = Math.random() * 5 + 2;
+        const col = pColors[Math.floor(Math.random() * pColors.length)];
+        p.style.cssText = `
+            width:${sz}px; height:${sz}px;
+            left:${Math.random()*100}%;
+            bottom:-10px;
+            background:${col};
+            box-shadow: 0 0 ${sz*3}px ${col};
+            animation-duration:${Math.random()*14+10}s;
+            animation-delay:${Math.random()*14}s;
+        `;
+        particlesEl.appendChild(p);
+    }
+}
+
+/* PASSWORD STRENGTH BAR */
+const passInput = document.getElementById('password');
+const fill = document.getElementById('strengthFill');
+const togglePassword = document.getElementById('togglePassword');
+
+togglePassword.addEventListener('click', function() {
+    const isHidden = passInput.type === 'password';
+    passInput.type = isHidden ? 'text' : 'password';
+    this.innerHTML = isHidden ? '<i class="fas fa-eye-slash"></i>' : '<i class="fas fa-eye"></i>';
+    this.setAttribute('aria-label', isHidden ? 'Hide password' : 'Show password');
+    this.setAttribute('title', isHidden ? 'Hide password' : 'Show password');
+});
+
+passInput.addEventListener('input', function() {
+    const v = this.value;
+    let score = 0;
+    if (v.length >= 6) score++;
+    if (v.length >= 10) score++;
+    if (/[A-Z]/.test(v)) score++;
+    if (/[0-9]/.test(v)) score++;
+    if (/[^a-zA-Z0-9]/.test(v)) score++;
+    const pct = (score / 5) * 100;
+    const colors = ['#ef4444','#f97316','#eab308','#22c55e','#10b981'];
+    fill.style.width = pct + '%';
+    fill.style.background = colors[score - 1] || '#ef4444';
+});
+
+/* FORM VALIDATION */
+document.getElementById('signupForm').addEventListener('submit', function(e) {
+    const nameInput = document.getElementById('full_name');
+    const nameError = document.getElementById('nameError');
+    const fullName = nameInput.value.trim();
+    const names = fullName.split(/\s+/).filter(Boolean);
+    const email    = document.getElementById('email').value;
+    const password = document.getElementById('password').value;
+    const hasLetter = /[a-zA-Z]/.test(password);
+    const hasDigit  = /[0-9]/.test(password);
+    const hasSymbol = /[^a-zA-Z0-9]/.test(password);
+    
+    const typesCount = (hasLetter ? 1 : 0) + (hasDigit ? 1 : 0) + (hasSymbol ? 1 : 0);
+    const emailRe   = /^[A-Za-z0-9._%+-]{3,}@gmail\.com$/i;
+
+    nameError.style.display = 'none';
+    nameError.textContent = '';
+    nameInput.classList.remove('is-invalid');
+
+    if (fullName === '' || /[0-9]/.test(fullName) || !/^[A-Za-z\s]+$/.test(fullName) || names.length < 3) {
+        e.preventDefault();
+        nameInput.classList.add('is-invalid');
+        nameError.textContent = names.length < 3
+            ? 'Magaca waa inuu ka koobnaadaa ugu yaraan 3 magac.'
+            : 'Magaca waxaa lagu oggol yahay xarfo iyo spaces oo keliya.';
+        nameError.style.display = 'block';
+        nameInput.focus();
+        return;
+    }
+
+    if (!emailRe.test(email)) {
+        e.preventDefault();
+        Swal.fire({ icon:'error', title:'Email-ka waa khaldan!',
+            text:'Fadlan geli Gmail sax ah, tusaale: example@gmail.com.',
+            confirmButtonColor:'#10b981', background:'#071a12', color:'#fff' });
+        return;
+    }
+    if (password.length < 6 || typesCount < 2) {
+        e.preventDefault();
+        Swal.fire({ icon:'error', title:'Password-ka waa daciif!',
+            text:'Password-ka waa inuu ka koobnaadaa ugu yaraan 6 xaraf oo isugu jira labo nooc (xarfo, tiro, ama calaamado).',
+            confirmButtonColor:'#10b981', background:'#071a12', color:'#fff' });
+        return;
+    }
+
+    document.getElementById('signupBtn').innerHTML =
+        '<i class="fas fa-spinner fa-spin" style="margin-right:8px;"></i> Diiwaan gelinta...';
+});
+</script>
+</body>
+</html>

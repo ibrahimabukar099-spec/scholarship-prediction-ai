@@ -1,0 +1,70 @@
+{
+    "accuracy": 0.975,
+    "precision": 0.9384615384615385,
+    "recall": 0.9838709677419355,
+    "f1": 0.9606299212598425,
+    "roc_auc": 0.9976916783543712,
+    "holdout_test": {
+        "accuracy": 0.975,
+        "precision": 0.9384615384615385,
+        "recall": 0.9838709677419355,
+        "f1": 0.9606299212598425,
+        "roc_auc": 0.9976916783543712,
+        "confusion_matrix": [
+            [
+                268,
+                8
+            ],
+            [
+                2,
+                122
+            ]
+        ],
+        "classification_report": {
+            "Not Eligible": {
+                "precision": 0.9925925925925926,
+                "recall": 0.9710144927536232,
+                "f1-score": 0.9816849816849816,
+                "support": 276.0
+            },
+            "Eligible": {
+                "precision": 0.9384615384615385,
+                "recall": 0.9838709677419355,
+                "f1-score": 0.9606299212598425,
+                "support": 124.0
+            },
+            "accuracy": 0.975,
+            "macro avg": {
+                "precision": 0.9655270655270656,
+                "recall": 0.9774427302477793,
+                "f1-score": 0.9711574514724121,
+                "support": 400.0
+            },
+            "weighted avg": {
+                "precision": 0.9758119658119659,
+                "recall": 0.975,
+                "f1-score": 0.9751579129531884,
+                "support": 400.0
+            }
+        }
+    },
+    "cross_validation": {
+        "folds": 5,
+        "accuracy_mean": 0.9924999999999999,
+        "accuracy_std": 0.004238956239453287,
+        "precision_mean": 0.990039203920392,
+        "precision_std": 0.010846285602262844,
+        "recall_mean": 0.9859191919191919,
+        "recall_std": 0.010285506983754664,
+        "f1_mean": 0.9879080015461925,
+        "f1_std": 0.0068245328881249845
+    },
+    "best_parameters": {
+        "classifier__colsample_bytree": 0.8,
+        "classifier__learning_rate": 0.05,
+        "classifier__max_depth": 5,
+        "classifier__n_estimators": 300,
+        "classifier__subsample": 0.7
+    },
+    "algorithm": "XGBoost"
+}

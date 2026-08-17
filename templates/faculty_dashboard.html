@@ -1,0 +1,188 @@
+﻿<!DOCTYPE html>
+<html lang="so">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Xulo Kulliyadda</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        
+        *, *::before, *::after { box-sizing: border-box; }
+        
+        body {
+            font-family: Arial, sans-serif; background: #060c18; color: white;
+            min-height: 100vh;
+            background-image: url('/static/dashboard_bg.jpg'); 
+            background-size: cover; background-position: center; background-attachment: fixed;
+        }
+
+        body::before {
+            content: ''; position: fixed; inset: 0; z-index: -1;
+            background: linear-gradient(to bottom, rgba(6, 12, 24, 0.8), rgba(6, 12, 24, 0.95));
+        }
+
+        
+        .navbar {
+            background: rgba(6,12,24,0.92) !important;
+            backdrop-filter: blur(24px);
+            box-shadow: 0 1px 0 rgba(0,212,255,0.12);
+            padding: 14px 0;
+        }
+        .navbar-brand {
+            background: linear-gradient(135deg, #00d4ff 0%, #00f5a0 100%);
+            -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;
+            font-weight: 800; font-size: 21px;
+        }
+    
+
+        .header { text-align: center; margin-top: 60px; margin-bottom: 50px; }
+        .header h1 { font-size: 44px; font-weight: 800; color: #fff; margin-bottom: 12px; }
+        .header p { color: #94a3b8; font-size: 17px; max-width: 600px; margin: 0 auto; line-height: 1.6; }
+
+        
+        .faculty-grid {
+            display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px; max-width: 1200px; margin: 0 auto 80px; padding: 0 20px;
+        }
+
+        .faculty-card {
+            position: relative; height: 480px; border-radius: 32px; overflow: hidden;
+            display: flex; flex-direction: column; justify-content: flex-end;
+            background: rgba(15, 23, 42, 0.6);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            transition: 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .faculty-card:hover {
+            transform: translateY(-15px);
+            border-color: #00d4ff;
+            box-shadow: 0 30px 60px rgba(0, 0, 0, 0.6);
+        }
+
+        .card-bg {
+            position: absolute; inset: 0; background-size: cover; background-position: center;
+            z-index: -2; 
+            filter: brightness(0.4) grayscale(0.2); /* Mugdi bilowga ah */
+            transition: 0.7s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .faculty-card:hover .card-bg { 
+            filter: brightness(1.1) grayscale(0); /* Iftiin marka mouse-ka la saaro */
+            transform: scale(1.15); 
+        }
+
+        .card-overlay {
+            position: absolute; inset: 0;
+            background: linear-gradient(to bottom, rgba(6, 12, 24, 0.2) 0%, rgba(6, 12, 24, 0.95) 90%);
+            z-index: -1;
+            transition: 0.5s;
+        }
+        
+        .faculty-card:hover .card-overlay {
+            background: linear-gradient(to bottom, transparent 30%, rgba(6, 12, 24, 0.98) 95%);
+        }
+
+        .card-content { padding: 35px; }
+        
+        .gpa-badge {
+            display: inline-flex; align-items: center; gap: 6px;
+            padding: 8px 16px; border-radius: 12px;
+            font-size: 11px; font-weight: 800; margin-bottom: 18px; 
+            letter-spacing: 0.5px; text-transform: uppercase;
+            background: rgba(0, 212, 255, 0.15); color: #00d4ff; border: 1px solid rgba(0, 212, 255, 0.3);
+        }
+
+        .card-content h3 { font-size: 28px; font-weight: 700; margin-bottom: 12px; color: #fff; }
+        .card-content p { font-size: 14px; color: #94a3b8; margin-bottom: 30px; line-height: 1.6; }
+
+        .btn-apply {
+            display: block; width: 100%; padding: 15px; text-align: center;
+            background: linear-gradient(135deg, #0096c7 0%, #0077b6 100%);
+            color: white; border-radius: 16px; font-weight: 700;
+            text-decoration: none; transition: 0.3s;
+            box-shadow: 0 8px 20px rgba(0, 150, 199, 0.3);
+        }
+
+        .btn-apply:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 12px 28px rgba(0, 150, 199, 0.5);
+            background: #fff; color: #060c18;
+        }
+    </style>
+    <link rel="stylesheet" href="/static/app_background.css">
+    <link rel="stylesheet" href="/static/theme.css">
+    <script src="/static/theme.js" defer></script>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="/student_dashboard"><i class="fas fa-graduation-cap"></i>Faculty Selection
+</a>
+            <div class="d-flex">
+                <a href="/student_dashboard" class="btn btn-outline-light btn-sm" style="border-radius: 10px;"><i class="fas fa-arrow-left"></i> Dashboard</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="header">
+        <h1>Xulo Kulliyaddaada</h1>
+        <p>Doorashadaada kowaad waxay go'aaminaysaa shuruudaha lagaa rabo. Xulo maadadda aad sida ugu fiican u taqaano.</p>
+    </div>
+
+    <div class="faculty-grid">
+        <!-- Medicine -->
+        <div class="faculty-card">
+            <div class="card-bg" style="background-image: url('https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&q=80&w=2070');"></div>
+            <div class="card-overlay"></div>
+            <div class="card-content">
+                <div class="gpa-badge"><i class="fas fa-star"></i> GPA 80% REQUIRED</div>
+                <h3>Medicine</h3>
+                <p>Baro cilmiga caafimaadka iyo badbaadinta nolosha bini-aadamka adoo isticmaalaya qalabka casriga ah.</p>
+                <a href="/apply/1" class="btn-apply">Codso Hadda</a>
+            </div>
+        </div>
+
+        <!-- Engineering -->
+        <div class="faculty-card">
+            <div class="card-bg" style="background-image: url('https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&q=80&w=2070');"></div>
+            <div class="card-overlay"></div>
+            <div class="card-content">
+                <div class="gpa-badge"><i class="fas fa-tools"></i> GPA 70% REQUIRED</div>
+                <h3>Engineering</h3>
+                <p>Dhis mustaqbalka adoo baranaya injineernimada casriga ah, qaabaynta dhismaha, iyo farsamada.</p>
+                <a href="/apply/2" class="btn-apply">Codso Hadda</a>
+            </div>
+        </div>
+
+        <!-- Computer Science -->
+        <div class="faculty-card">
+            <div class="card-bg" style="background-image: url('https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80&w=2070');"></div>
+            <div class="card-overlay"></div>
+            <div class="card-content">
+                <div class="gpa-badge" style="background: rgba(16, 185, 129, 0.15); color: #10b981; border-color: rgba(16, 185, 129, 0.3);"><i class="fas fa-code"></i> GPA 60% REQUIRED</div>
+                <h3>Computer Science</h3>
+                <p>Baro Machine Learning, Data Science, Coding, iyo xalinta mashaakilaadka aduunka dhijitaalka ah.</p>
+                <a href="/apply/0" class="btn-apply" style="background: linear-gradient(135deg, #10b981 0%, #059669 100%); box-shadow: 0 8px 20px rgba(16, 185, 129, 0.3);">Codso Hadda</a>
+            </div>
+        </div>
+
+        <!-- Agriculture -->
+        <div class="faculty-card">
+            <div class="card-bg" style="background-image: url('https://images.unsplash.com/photo-1523348837708-15d4a09cfac2?auto=format&fit=crop&q=80&w=2070');"></div>
+            <div class="card-overlay"></div>
+            <div class="card-content">
+                <div class="gpa-badge" style="background: rgba(245, 158, 11, 0.15); color: #f59e0b; border-color: rgba(245, 158, 11, 0.3);"><i class="fas fa-seedling"></i> GPA 55% REQUIRED</div>
+                <h3>Agriculture</h3>
+                <p>Baro hababka casriga ah ee wax-soo-saarka beeraha, deegaanka, iyo haqab-beelka cuntada.</p>
+                <a href="/apply/3" class="btn-apply" style="background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%); box-shadow: 0 8px 20px rgba(245, 158, 11, 0.3);">Codso Hadda</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+

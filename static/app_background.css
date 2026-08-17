@@ -1,0 +1,112 @@
+body {
+    background-color: #07111f !important;
+    background-image:
+        linear-gradient(135deg, rgba(0, 150, 199, 0.30), rgba(16, 185, 129, 0.14) 38%, rgba(15, 23, 42, 0.82) 100%),
+        linear-gradient(rgba(255, 255, 255, 0.035) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255, 255, 255, 0.035) 1px, transparent 1px),
+        url('/static/dashboard_bg1.jpg') !important;
+    background-size: cover, 52px 52px, 52px 52px, cover !important;
+    background-position: center, center, center, center !important;
+    background-attachment: fixed, fixed, fixed, fixed !important;
+}
+
+
+body::before {
+    background:
+        linear-gradient(180deg, rgba(6, 12, 24, 0.50), rgba(6, 12, 24, 0.82)),
+        linear-gradient(90deg, rgba(0, 212, 255, 0.10), rgba(245, 158, 11, 0.08), rgba(16, 185, 129, 0.10)) !important;
+}
+
+.glass-card,
+.form-card,
+.app-card,
+.table-box,
+.card,
+.welcome-card,
+.section-panel,
+.metric-card {
+    box-shadow: 0 24px 70px rgba(0, 0, 0, 0.34), 0 1px 0 rgba(255, 255, 255, 0.05) inset !important;
+}
+
+nav,
+.navbar,
+.sidebar {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08) !important;
+}
+
+.btn,
+.btn-main,
+.btn-login,
+.btn-signup,
+.btn-next,
+.btn-prev,
+.btn-submit,
+.action-btn,
+.btn-apply,
+.btn-custom,
+.btn-view {
+    border-radius: 14px !important;
+    letter-spacing: 0 !important;
+}
+
+input,
+select,
+textarea {
+    border-radius: 12px !important;
+}
+
+.f-card,
+.faculty-card,
+.glass-card,
+.form-card,
+.table-box,
+.section-panel,
+.metric-card,
+.app-card {
+    border-color: rgba(255, 255, 255, 0.12) !important;
+}
+
+.f-card:hover,
+.faculty-card:hover,
+.app-card:hover,
+.card:hover {
+    transform: translateY(-6px) !important;
+}
+
+.page-brand,
+footer {
+    color: rgba(226, 232, 240, 0.58) !important;
+}
+
+@media (max-width: 768px) {
+    body {
+        background-attachment: scroll, scroll, scroll, scroll !important;
+    }
+
+    .hero {
+        min-height: 82vh !important;
+        height: auto !important;
+        padding: 96px 18px 54px !important;
+    }
+
+    .hero h1 {
+        font-size: clamp(40px, 12vw, 58px) !important;
+        line-height: 1.06 !important;
+    }
+
+    .hero p,
+    .header p {
+        font-size: 15px !important;
+    }
+
+    .glass-card,
+    .form-card {
+        padding: 26px 18px !important;
+        border-radius: 18px !important;
+    }
+
+    .faculty-card {
+        height: 390px !important;
+        border-radius: 22px !important;
+    }
+}

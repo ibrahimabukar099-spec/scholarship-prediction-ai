@@ -1,0 +1,473 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Scholarship Machine Learning</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <style>
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+        html, body {
+            height: 100%;
+            width: 100%;
+            overflow: hidden;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #060c18 !important;
+            background-image: url('/static/dashboard_bg.jpg') !important;
+            background-size: cover !important;
+            background-position: center !important;
+            background-attachment: fixed !important;
+        }
+        body::before {
+            content: '';
+            position: fixed; inset: 0; z-index: -1;
+            background: rgba(6,12,24,0.80);
+        }
+
+        
+        .login-wrapper {
+            position: relative;
+            z-index: 10;
+            width: 100%;
+            max-width: 450px;
+            padding: 16px;
+            animation: cardReveal 0.8s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+        }
+        @keyframes cardReveal {
+            from { opacity:0; transform: translateY(50px) scale(0.95); }
+            to   { opacity:1; transform: translateY(0)    scale(1); }
+        }
+
+        
+        .card-header {
+            text-align:center;
+            margin-bottom: 32px;
+            color: #ffffff;
+        }
+
+        .card-header h2 {
+            color: #ffffff;
+            font-weight: 800;
+            text-shadow: 0 2px 12px rgba(0,0,0,0.55);
+        }
+
+        .card-header p {
+            color: rgba(255,255,255,0.86);
+            text-shadow: 0 1px 10px rgba(0,0,0,0.45);
+        }
+
+        .pill-badge {
+            color: #ffffff;
+            text-shadow: 0 1px 8px rgba(0,0,0,0.45);
+        }
+
+        .logo-ring {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 76px; height: 76px;
+            border-radius: 22px;
+            background: linear-gradient(135deg, #00b4d8 0%, #0077b6 100%);
+            font-size: 34px;
+            color: white;
+            margin-bottom: 20px;
+            position: relative;
+            box-shadow:
+                0 12px 40px rgba(0,150,199,0.55),
+                0  0  0  1px rgba(255,255,255,0.15) inset;
+            animation: ringPulse 3s ease-in-out infinite;
+        }
+        @keyframes ringPulse {
+            0%,100% { box-shadow: 0 12px 40px rgba(0,150,199,0.55), 0 0 0 1px rgba(255,255,255,0.15) inset; }
+            50%     { box-shadow: 0 12px 60px rgba(0,150,199,0.85), 0 0 0 1px rgba(255,255,255,0.25) inset; }
+        }
+
+        
+        .field { margin-bottom: 18px; }
+
+        .field label {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-weight: 600;
+            color: #ffffff;
+            font-size: 11px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 9px;
+        }
+        .field label i { font-size: 12px; color: #00b4d8; }
+
+        .field-inner { position: relative; }
+
+        .field input,
+        .field select {
+            width: 100%;
+            padding: 14px 18px;
+            border-radius: 14px;
+            border: 1px solid rgba(255,255,255,0.1);
+            background: rgba(255,255,255,0.05);
+            font-size: 15px;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            outline: none;
+            transition: border-color 0.3s, background 0.3s, box-shadow 0.3s;
+            -webkit-appearance: none;
+        }
+        .field input.has-toggle { padding-right: 52px; }
+        .field select { cursor: pointer; }
+        .field select option { background: #110c2e; color: #fff; }
+
+        .field input::placeholder { color: rgba(255,255,255,0.22); }
+
+        .field input:focus,
+        .field select:focus {
+            border-color: rgba(0,180,216,0.7);
+            background: rgba(0,180,216,0.1);
+            box-shadow: 0 0 0 4px rgba(0,180,216,0.18);
+        }
+
+        .password-toggle {
+            position: absolute;
+            right: 12px;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 34px;
+            height: 34px;
+            border: none;
+            border-radius: 10px;
+            background: transparent;
+            color: rgba(255,255,255,0.72);
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            transition: color 0.25s, background 0.25s;
+        }
+
+        .password-toggle:hover,
+        .password-toggle:focus {
+            color: #ffffff;
+            background: rgba(0,180,216,0.14);
+            outline: none;
+        }
+
+        
+        .btn-login {
+            width: 100%;
+            padding: 15px 24px;
+            border-radius: 15px;
+            border: none;
+            cursor: pointer;
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            font-weight: 700;
+            color: #fff;
+            letter-spacing: 0.3px;
+            background: linear-gradient(135deg, #0096c7 0%, #00b4d8 50%, #0077b6 100%);
+            background-size: 200% 200%;
+            box-shadow: 0 8px 30px rgba(0,150,199,0.5);
+            transition: all 0.35s ease;
+            margin-top: 8px;
+            position: relative;
+            overflow: hidden;
+        }
+        .btn-login::before {
+            content:'';
+            position: absolute;
+            top: 0; left: -100%;
+            width: 100%; height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.18), transparent);
+            transition: 0.55s;
+        }
+        .btn-login:hover::before { left: 110%; }
+        .btn-login:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 14px 40px rgba(0,150,199,0.7);
+            background-position: right center;
+        }
+        .btn-login:active {
+            transform: translateY(0);
+            box-shadow: 0 6px 20px rgba(0,150,199,0.5);
+        }
+
+        
+        .card-footer {
+            text-align: center;
+            margin-top: 22px;
+            font-size: 14px;
+            color: #ffffff;
+        }
+
+        .auth-links {
+            display: flex !important;
+            align-items: center !important;
+            justify-content: center !important;
+            gap: 14px !important;
+            margin-top: 12px !important;
+            width: 100% !important;
+        }
+
+        .auth-link {
+            width: 50% !important;
+            min-height: 46px !important;
+            border-radius: 14px !important;
+            display: inline-flex !important;
+            align-items: center !important;
+            justify-content: center !important;
+            gap: 8px !important;
+            padding: 11px 14px !important;
+            color: #ffffff !important;
+            font-weight: 800 !important;
+            text-decoration: none !important;
+            font-size: 13px !important;
+            border: 1px solid transparent !important;
+            box-shadow: 0 10px 24px rgba(0,0,0,0.24) !important;
+            transition: transform 0.25s, box-shadow 0.25s, filter 0.25s !important;
+            white-space: nowrap !important;
+        }
+
+        .auth-link:hover {
+            color: #ffffff !important;
+            transform: translateY(-2px) !important;
+            box-shadow: 0 14px 30px rgba(0,0,0,0.32) !important;
+            filter: brightness(1.06) !important;
+        }
+
+        .auth-link.reset {
+            background: linear-gradient(135deg, #f59e0b, #ef4444) !important;
+            border-color: rgba(251,191,36,0.45) !important;
+        }
+
+        .auth-link.signup {
+            background: linear-gradient(135deg, #06b6d4, #2563eb) !important;
+            border-color: rgba(125,211,252,0.45) !important;
+        }
+
+        @media (max-width: 380px) {
+            .auth-links {
+                flex-direction: column !important;
+            }
+
+            .auth-link {
+                width: 100% !important;
+            }
+        }
+
+        .page-brand {
+            text-align: center;
+            margin-top: 22px;
+            font-size: 11.5px;
+            letter-spacing: 1.8px;
+            text-transform: uppercase;
+            color: rgba(255,255,255,0.18);
+        }
+        .page-brand i { margin-right: 6px; color: rgba(0,180,216,0.5); }
+
+        .login-wrapper .card-header,
+        .login-wrapper .card-header h2,
+        .login-wrapper .card-header p,
+        .login-wrapper .pill-badge {
+            color: #ffffff !important;
+            text-shadow: 0 2px 12px rgba(0,0,0,0.65) !important;
+        }
+    </style>
+    <link rel="stylesheet" href="/static/app_background.css">
+    <link rel="stylesheet" href="/static/theme.css">
+    <script src="/static/theme.js" defer></script>
+</head>
+<body>
+
+
+<!-- Using dashboard unified background image -->
+
+
+<div class="login-wrapper">
+    <div class="glass-card">
+
+        <!-- Header -->
+        <div class="card-header">
+            <a href="/" style="text-decoration: none; display: inline-block;">
+                <span class="pill-badge"><span class="pill-dot"></span>loging</span>
+                <br>
+                <div class="logo-ring">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+            </a>
+            <h2>is diwan geli</h2>
+           
+        </div>
+
+        <div class="hr-glow"></div>
+
+        <!-- Flash Messages -->
+        {% with messages = get_flashed_messages(with_categories=true) %}
+          {% if messages %}
+            <script>
+                document.addEventListener('DOMContentLoaded', function() {
+                    /* {% for category, message in messages %} */
+                    Swal.fire({
+                        icon: '{{ "error" if category == "danger" else "success" if category == "success" else "info" }}',
+                        title: '{{ "Khalad!" if category == "danger" else "Guul!" if category == "success" else "Wargelin" }}',
+                        text: '{{ message }}',
+                        confirmButtonColor: '#6b3fff',
+                        background: '#110c2e',
+                        color: '#ffffff',
+                        backdrop: 'rgba(6,8,24,0.85)'
+                    });
+                    /* {% endfor %} */
+                });
+            </script>
+          {% endif %}
+        {% endwith %}
+
+        <!-- Form -->
+        <form action="/login" method="POST" id="loginForm" autocomplete="off">
+            <input type="hidden" name="csrf_token" value="{{ csrf_token }}">
+
+            <div class="field">
+                <label><i class="fas fa-envelope"></i> Email-ka</label>
+                <div class="field-inner">
+                    <input type="text" name="username" id="username"
+                           placeholder="name@example.com" required>
+                </div>
+            </div>
+
+            <div class="field">
+                <label><i class="fas fa-lock"></i> Furaha (Password)</label>
+                <div class="field-inner">
+                    <input type="password" name="password" id="password" class="has-toggle"
+                           placeholder="••••••••••" required>
+                    <button type="button" class="password-toggle" id="togglePassword"
+                            aria-label="Muuji password-ka" title="Muuji password-ka">
+                        <i class="fas fa-eye"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="field">
+                <label><i class="fas fa-user-shield"></i> Nooca Isticmaalaha</label>
+                <div class="field-inner">
+                    <select name="role" id="role" required>
+                        <option value="student" selected>Arday (Student)</option>
+                        <option value="admin">Maamule (Admin)</option>
+                    </select>
+                </div>
+            </div>
+
+            <button type="submit" class="btn-login" id="loginBtn">
+                <i class="fas fa-arrow-right-to-bracket" style="margin-right:8px;"></i>
+                Gala &nbsp;(Login)
+            </button>
+        </form>
+
+        <div class="card-footer">
+            <div>Madan lahayn akoon?</div>
+            <div class="auth-links">
+                <a href="/forgot_password" class="auth-link reset">
+                    <i class="fas fa-key"></i> Forgot Password
+                </a>
+                <a href="/signup" class="auth-link signup">
+                    <i class="fas fa-user-plus"></i> Is Diiwaangeli
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="page-brand">
+        <i class="fas fa-shield-halved"></i>Scholarship Machine Learning &nbsp;-&nbsp; 2026
+    </div>
+</div>
+
+
+<script>
+/* STARS */
+const starsEl = document.getElementById('stars');
+if (starsEl) {
+    for (let i = 0; i < 120; i++) {
+        const s = document.createElement('div');
+        s.className = 'star';
+        const sz = Math.random() * 2 + 0.5;
+        s.style.cssText = `
+            width:${sz}px; height:${sz}px;
+            top:${Math.random()*100}%;
+            left:${Math.random()*100}%;
+            animation-duration:${Math.random()*4+2}s;
+            animation-delay:${Math.random()*5}s;
+        `;
+        starsEl.appendChild(s);
+    }
+}
+
+/* PARTICLES */
+const particlesEl = document.getElementById('particles');
+const pColors = ['#6b3fff','#9b5de5','#3b82f6','#b89aff','#ff50c8'];
+if (particlesEl) {
+    for (let i = 0; i < 28; i++) {
+        const p = document.createElement('div');
+        p.className = 'p-dot';
+        const sz = Math.random() * 5 + 2;
+        const col = pColors[Math.floor(Math.random() * pColors.length)];
+        p.style.cssText = `
+            width:${sz}px; height:${sz}px;
+            left:${Math.random()*100}%;
+            bottom:-10px;
+            background:${col};
+            box-shadow: 0 0 ${sz*3}px ${col};
+            animation-duration:${Math.random()*14+10}s;
+            animation-delay:${Math.random()*14}s;
+        `;
+        particlesEl.appendChild(p);
+    }
+}
+
+/* FORM VALIDATION */
+document.getElementById('loginForm').addEventListener('submit', function(e) {
+    const role = document.getElementById('role').value;
+    const email = document.getElementById('username').value;
+    if (role === 'student') {
+        const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        if (!re.test(email)) {
+            e.preventDefault();
+            Swal.fire({
+                icon: 'error',
+                title: 'Email-ka waa khaldan!',
+                text: 'Fadlan geli email sax ah si aad u gasho.',
+                confirmButtonColor: '#6b3fff',
+                background: '#110c2e',
+                color: '#ffffff'
+            });
+        }
+    }
+});
+
+/* PASSWORD VISIBILITY */
+const passwordInput = document.getElementById('password');
+const togglePassword = document.getElementById('togglePassword');
+const togglePasswordIcon = togglePassword.querySelector('i');
+
+togglePassword.addEventListener('click', function() {
+    const isHidden = passwordInput.type === 'password';
+    passwordInput.type = isHidden ? 'text' : 'password';
+    togglePasswordIcon.className = isHidden ? 'fas fa-eye-slash' : 'fas fa-eye';
+    this.setAttribute('aria-label', isHidden ? 'Qari password-ka' : 'Muuji password-ka');
+    this.setAttribute('title', isHidden ? 'Qari password-ka' : 'Muuji password-ka');
+});
+
+/* BUTTON LOADING STATE */
+document.getElementById('loginBtn').addEventListener('click', function() {
+    setTimeout(() => {
+        this.innerHTML = '<i class="fas fa-spinner fa-spin" style="margin-right:8px;"></i> Loading...';
+    }, 50);
+});
+</script>
+</body>
+</html>

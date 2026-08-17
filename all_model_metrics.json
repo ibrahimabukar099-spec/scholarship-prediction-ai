@@ -1,0 +1,267 @@
+{
+    "dataset": "scholarship_dataset.csv",
+    "random_seed": 42,
+    "test_size": 0.2,
+    "number_of_samples": 2000,
+    "number_of_features": 9,
+    "models": {
+        "XGBoost": {
+            "algorithm": "XGBoost",
+            "holdout_test": {
+                "accuracy": 0.975,
+                "precision": 0.9384615384615385,
+                "recall": 0.9838709677419355,
+                "f1": 0.9606299212598425,
+                "roc_auc": 0.9976916783543712,
+                "confusion_matrix": [
+                    [
+                        268,
+                        8
+                    ],
+                    [
+                        2,
+                        122
+                    ]
+                ],
+                "classification_report": {
+                    "Not Eligible": {
+                        "precision": 0.9925925925925926,
+                        "recall": 0.9710144927536232,
+                        "f1-score": 0.9816849816849816,
+                        "support": 276.0
+                    },
+                    "Eligible": {
+                        "precision": 0.9384615384615385,
+                        "recall": 0.9838709677419355,
+                        "f1-score": 0.9606299212598425,
+                        "support": 124.0
+                    },
+                    "accuracy": 0.975,
+                    "macro avg": {
+                        "precision": 0.9655270655270656,
+                        "recall": 0.9774427302477793,
+                        "f1-score": 0.9711574514724121,
+                        "support": 400.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.9758119658119659,
+                        "recall": 0.975,
+                        "f1-score": 0.9751579129531884,
+                        "support": 400.0
+                    }
+                }
+            },
+            "cross_validation": {
+                "folds": 5,
+                "accuracy_mean": 0.9924999999999999,
+                "accuracy_std": 0.004238956239453287,
+                "precision_mean": 0.990039203920392,
+                "precision_std": 0.010846285602262844,
+                "recall_mean": 0.9859191919191919,
+                "recall_std": 0.010285506983754664,
+                "f1_mean": 0.9879080015461925,
+                "f1_std": 0.0068245328881249845
+            },
+            "best_parameters": {
+                "classifier__colsample_bytree": 0.8,
+                "classifier__learning_rate": 0.05,
+                "classifier__max_depth": 5,
+                "classifier__n_estimators": 300,
+                "classifier__subsample": 0.7
+            },
+            "model_file": "c:\\Users\\Ahmed\\Desktop\\scholarship-prediction-ai-main (3)\\scholarship-prediction-ai-main-COMBINED-ready-to-send\\scholarship-prediction-ai-main\\models\\xgboost_scholarship_model.pkl"
+        },
+        "Random Forest": {
+            "algorithm": "Random Forest",
+            "holdout_test": {
+                "accuracy": 0.975,
+                "precision": 0.9453125,
+                "recall": 0.9758064516129032,
+                "f1": 0.9603174603174603,
+                "roc_auc": 0.9960407900888265,
+                "confusion_matrix": [
+                    [
+                        269,
+                        7
+                    ],
+                    [
+                        3,
+                        121
+                    ]
+                ],
+                "classification_report": {
+                    "Not Eligible": {
+                        "precision": 0.9889705882352942,
+                        "recall": 0.9746376811594203,
+                        "f1-score": 0.9817518248175182,
+                        "support": 276.0
+                    },
+                    "Eligible": {
+                        "precision": 0.9453125,
+                        "recall": 0.9758064516129032,
+                        "f1-score": 0.9603174603174603,
+                        "support": 124.0
+                    },
+                    "accuracy": 0.975,
+                    "macro avg": {
+                        "precision": 0.9671415441176471,
+                        "recall": 0.9752220663861617,
+                        "f1-score": 0.9710346425674893,
+                        "support": 400.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.9754365808823529,
+                        "recall": 0.975,
+                        "f1-score": 0.9751071718225003,
+                        "support": 400.0
+                    }
+                }
+            },
+            "cross_validation": {
+                "folds": 5,
+                "accuracy_mean": 0.9893749999999999,
+                "accuracy_std": 0.005077524002897471,
+                "precision_mean": 0.9880181895740595,
+                "precision_std": 0.014538283672165312,
+                "recall_mean": 0.9778989898989898,
+                "recall_std": 0.007538196446955362,
+                "f1_mean": 0.9828625723801604,
+                "f1_std": 0.008110114172255812
+            },
+            "best_parameters": {
+                "classifier__max_depth": null,
+                "classifier__min_samples_leaf": 1,
+                "classifier__min_samples_split": 2,
+                "classifier__n_estimators": 200
+            },
+            "model_file": "c:\\Users\\Ahmed\\Desktop\\scholarship-prediction-ai-main (3)\\scholarship-prediction-ai-main-COMBINED-ready-to-send\\scholarship-prediction-ai-main\\models\\random_forest_scholarship_model.pkl"
+        },
+        "Logistic Regression": {
+            "algorithm": "Logistic Regression",
+            "holdout_test": {
+                "accuracy": 0.965,
+                "precision": 0.9365079365079365,
+                "recall": 0.9516129032258065,
+                "f1": 0.944,
+                "roc_auc": 0.9910296867695185,
+                "confusion_matrix": [
+                    [
+                        268,
+                        8
+                    ],
+                    [
+                        6,
+                        118
+                    ]
+                ],
+                "classification_report": {
+                    "Not Eligible": {
+                        "precision": 0.9781021897810219,
+                        "recall": 0.9710144927536232,
+                        "f1-score": 0.9745454545454545,
+                        "support": 276.0
+                    },
+                    "Eligible": {
+                        "precision": 0.9365079365079365,
+                        "recall": 0.9516129032258065,
+                        "f1-score": 0.944,
+                        "support": 124.0
+                    },
+                    "accuracy": 0.965,
+                    "macro avg": {
+                        "precision": 0.9573050631444793,
+                        "recall": 0.9613136979897148,
+                        "f1-score": 0.9592727272727273,
+                        "support": 400.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.9652079712663655,
+                        "recall": 0.965,
+                        "f1-score": 0.9650763636363635,
+                        "support": 400.0
+                    }
+                }
+            },
+            "cross_validation": {
+                "folds": 5,
+                "accuracy_mean": 0.9637499999999999,
+                "accuracy_std": 0.006731456008918141,
+                "precision_mean": 0.9490444433482959,
+                "precision_std": 0.010690981837898843,
+                "recall_mean": 0.9337777777777777,
+                "recall_std": 0.01842249238543079,
+                "f1_mean": 0.9412363090602002,
+                "f1_std": 0.011250496987866876
+            },
+            "best_parameters": {
+                "classifier__C": 100,
+                "classifier__solver": "liblinear"
+            },
+            "model_file": "c:\\Users\\Ahmed\\Desktop\\scholarship-prediction-ai-main (3)\\scholarship-prediction-ai-main-COMBINED-ready-to-send\\scholarship-prediction-ai-main\\models\\logistic_regression_scholarship_model.pkl"
+        },
+        "SVM": {
+            "algorithm": "SVM",
+            "holdout_test": {
+                "accuracy": 0.9625,
+                "precision": 0.9291338582677166,
+                "recall": 0.9516129032258065,
+                "f1": 0.9402390438247012,
+                "roc_auc": 0.9967566619915849,
+                "confusion_matrix": [
+                    [
+                        267,
+                        9
+                    ],
+                    [
+                        6,
+                        118
+                    ]
+                ],
+                "classification_report": {
+                    "Not Eligible": {
+                        "precision": 0.978021978021978,
+                        "recall": 0.967391304347826,
+                        "f1-score": 0.9726775956284153,
+                        "support": 276.0
+                    },
+                    "Eligible": {
+                        "precision": 0.9291338582677166,
+                        "recall": 0.9516129032258065,
+                        "f1-score": 0.9402390438247012,
+                        "support": 124.0
+                    },
+                    "accuracy": 0.9625,
+                    "macro avg": {
+                        "precision": 0.9535779181448473,
+                        "recall": 0.9595021037868163,
+                        "f1-score": 0.9564583197265583,
+                        "support": 400.0
+                    },
+                    "weighted avg": {
+                        "precision": 0.962866660898157,
+                        "recall": 0.9625,
+                        "f1-score": 0.9626216445692638,
+                        "support": 400.0
+                    }
+                }
+            },
+            "cross_validation": {
+                "folds": 5,
+                "accuracy_mean": 0.974375,
+                "accuracy_std": 0.003644344934278277,
+                "precision_mean": 0.9598723137619884,
+                "precision_std": 0.01063274520753108,
+                "recall_mean": 0.9578383838383839,
+                "recall_std": 0.007496991200032322,
+                "f1_mean": 0.9588018880905802,
+                "f1_std": 0.005818934922586608
+            },
+            "best_parameters": {
+                "classifier__C": 10,
+                "classifier__gamma": "scale",
+                "classifier__kernel": "rbf"
+            },
+            "model_file": "c:\\Users\\Ahmed\\Desktop\\scholarship-prediction-ai-main (3)\\scholarship-prediction-ai-main-COMBINED-ready-to-send\\scholarship-prediction-ai-main\\models\\svm_scholarship_model.pkl"
+        }
+    }
+}

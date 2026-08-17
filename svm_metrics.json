@@ -1,0 +1,68 @@
+{
+    "algorithm": "SVM",
+    "accuracy": 0.9625,
+    "precision": 0.9291338582677166,
+    "recall": 0.9516129032258065,
+    "f1": 0.9402390438247012,
+    "roc_auc": 0.9967566619915849,
+    "holdout_test": {
+        "accuracy": 0.9625,
+        "precision": 0.9291338582677166,
+        "recall": 0.9516129032258065,
+        "f1": 0.9402390438247012,
+        "roc_auc": 0.9967566619915849,
+        "confusion_matrix": [
+            [
+                267,
+                9
+            ],
+            [
+                6,
+                118
+            ]
+        ],
+        "classification_report": {
+            "Not Eligible": {
+                "precision": 0.978021978021978,
+                "recall": 0.967391304347826,
+                "f1-score": 0.9726775956284153,
+                "support": 276.0
+            },
+            "Eligible": {
+                "precision": 0.9291338582677166,
+                "recall": 0.9516129032258065,
+                "f1-score": 0.9402390438247012,
+                "support": 124.0
+            },
+            "accuracy": 0.9625,
+            "macro avg": {
+                "precision": 0.9535779181448473,
+                "recall": 0.9595021037868163,
+                "f1-score": 0.9564583197265583,
+                "support": 400.0
+            },
+            "weighted avg": {
+                "precision": 0.962866660898157,
+                "recall": 0.9625,
+                "f1-score": 0.9626216445692638,
+                "support": 400.0
+            }
+        }
+    },
+    "cross_validation": {
+        "folds": 5,
+        "accuracy_mean": 0.974375,
+        "accuracy_std": 0.003644344934278277,
+        "precision_mean": 0.9598723137619884,
+        "precision_std": 0.01063274520753108,
+        "recall_mean": 0.9578383838383839,
+        "recall_std": 0.007496991200032322,
+        "f1_mean": 0.9588018880905802,
+        "f1_std": 0.005818934922586608
+    },
+    "best_parameters": {
+        "classifier__C": 10,
+        "classifier__gamma": "scale",
+        "classifier__kernel": "rbf"
+    }
+}

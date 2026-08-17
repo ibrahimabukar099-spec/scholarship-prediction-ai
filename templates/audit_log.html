@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="so">
+<head>
+    <meta charset="UTF-8">
+    <title>### Taariikhda Hawlaha Deeqda Waxbarasho
+</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
+
+        body {
+            background: #060c18;
+            background-image: url('/static/dashboard_bg.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: #ffffff;
+            min-height: 100vh;
+        }
+        body::before {
+            content: '';
+            position: fixed;
+            inset: 0;
+            z-index: -1;
+            background: rgba(6, 12, 24, 0.85);
+        }
+
+        /* SIDEBAR */
+        .sidebar {
+            width: 260px;
+            background: rgba(6, 12, 24, 0.85);
+            backdrop-filter: blur(20px);
+            border-right: 1px solid rgba(0, 212, 255, 0.15);
+            padding: 30px 20px;
+            position: fixed;
+            height: 100vh;
+            box-shadow: 4px 0 24px rgba(0,0,0,0.5);
+            z-index: 100;
+            display: flex;
+            flex-direction: column;
+        }
+        .logo {
+            font-weight: 700;
+            margin-bottom: 40px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-size: 22px;
+            background: linear-gradient(135deg, #00d4ff, #00f5a0);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .menu { list-style: none; padding: 0; flex: 1; }
+        .menu li {
+            padding: 12px 16px;
+            margin-bottom: 8px;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            color: #94a3b8;
+            font-weight: 500;
+        }
+        .menu li:hover, .menu li.active {
+            background: rgba(0, 212, 255, 0.1);
+            color: #00d4ff;
+        }
+        .menu li.active { border-left: 3px solid #00d4ff; }
+
+        /* MAIN */
+        .main-content {
+            margin-left: 260px;
+            padding: 30px;
+            min-height: 100vh;
+        }
+
+        /* CUSTOM ALERTS */
+        .custom-alert {
+            display: flex;
+            align-items: center;
+            padding: 14px 20px;
+            border-radius: 14px;
+            margin-bottom: 20px;
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+            animation: slideDown 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+            font-size: 14px;
+            font-weight: 600;
+            gap: 14px;
+            position: relative;
+            overflow: hidden;
+            border: 1px solid rgba(0, 0, 0, 0.08);
+        }
+        .custom-alert::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            width: 6px;
+        }
+        .custom-alert.alert-success {
+            background: #ecfdf5;
+            color: #065f46;
+            border-color: #a7f3d0;
+        }
+        .custom-alert.alert-success::before {
+            background: #10b981;
+        }
+        .custom-alert.alert-danger {
+            background: #fef2f2;
+            color: #991b1b;
+            border-color: #fecaca;
+        }
+        .custom-alert.alert-danger::before {
+            background: #ef4444;
+        }
+        .custom-alert.alert-warning {
+            background: #fffbeb;
+            color: #92400e;
+            border-color: #fde68a;
+        }
+        .custom-alert.alert-warning::before {
+            background: #f59e0b;
+        }
+        .custom-alert.alert-info {
+            background: #e0f2fe;
+            color: #075985;
+            border-color: #bae6fd;
+        }
+        .custom-alert.alert-info::before {
+            background: #0ea5e9;
+        }
+        .alert-icon {
+            font-size: 18px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .alert-content {
+            flex: 1;
+        }
+        .alert-close {
+            background: none;
+            border: none;
+            color: currentColor;
+            font-size: 22px;
+            cursor: pointer;
+            opacity: 0.7;
+            transition: opacity 0.2s, transform 0.2s;
+            line-height: 1;
+            padding: 0 4px;
+        }
+        .alert-close:hover {
+            opacity: 1;
+            transform: scale(1.15);
+        }
+        @keyframes slideDown {
+            from { opacity: 0; transform: translateY(-12px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* HEADER */
+        .page-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 28px;
+        }
+        .page-title {
+            font-size: 26px;
+            font-weight: 700;
+            background: linear-gradient(135deg, #00d4ff, #00f5a0);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        /* FILTER BUTTONS */
+        .filter-bar {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 24px;
+            flex-wrap: wrap;
+        }
+        .filter-btn {
+            padding: 8px 20px;
+            border-radius: 20px;
+            border: 1px solid rgba(0,212,255,0.3);
+            background: rgba(0,212,255,0.08);
+            color: #94a3b8;
+            font-size: 13px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.25s;
+        }
+        .filter-btn:hover { background: rgba(0,212,255,0.18); color: #00d4ff; }
+        .filter-btn.active { background: rgba(0,212,255,0.25); color: #00d4ff; border-color: #00d4ff; }
+        .filter-btn.delete-btn.active  { background: rgba(239,68,68,0.2); color: #ef4444; border-color: #ef4444; }
+        .filter-btn.create-btn.active  { background: rgba(34,197,94,0.2); color: #22c55e; border-color: #22c55e; }
+        .filter-btn.update-btn.active  { background: rgba(234,179,8,0.2);  color: #eab308; border-color: #eab308; }
+        .filter-summary { color: #94a3b8; font-size: 13px; margin: -12px 0 20px; }
+
+        /* TABLE */
+        .glass-card {
+            background: rgba(255,255,255,0.04);
+            backdrop-filter: blur(16px);
+            border: 1px solid rgba(255,255,255,0.08);
+            border-radius: 16px;
+            overflow: hidden;
+        }
+        table { width: 100%; border-collapse: collapse; }
+        thead th {
+            background: rgba(0,212,255,0.08);
+            color: #00d4ff;
+            font-size: 12px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            padding: 14px 18px;
+            border-bottom: 1px solid rgba(0,212,255,0.15);
+        }
+        tbody tr {
+            border-bottom: 1px solid rgba(255,255,255,0.05);
+            transition: background 0.2s;
+        }
+        tbody tr:hover { background: rgba(0,212,255,0.05); }
+        tbody td { padding: 14px 18px; font-size: 14px; color: #cbd5e1; vertical-align: middle; }
+
+        /* BADGES */
+        .badge-action {
+            display: inline-block;
+            padding: 4px 14px;
+            border-radius: 20px;
+            font-size: 11px;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+        }
+        .badge-DELETE { background: rgba(239,68,68,0.2); color: #ef4444; border: 1px solid rgba(239,68,68,0.4); }
+        .badge-CREATE { background: rgba(34,197,94,0.2); color: #22c55e; border: 1px solid rgba(34,197,94,0.4); }
+        .badge-UPDATE { background: rgba(234,179,8,0.2);  color: #eab308; border: 1px solid rgba(234,179,8,0.4); }
+
+        /* EMPTY STATE */
+        .empty-state {
+            text-align: center;
+            padding: 60px 20px;
+            color: #475569;
+        }
+        .empty-state i { font-size: 48px; margin-bottom: 16px; display: block; }
+
+        /* PAGINATION */
+        .pagination-bar {
+            display: flex;
+            justify-content: center;
+            gap: 8px;
+            margin-top: 24px;
+            flex-wrap: wrap;
+        }
+        .page-link-btn {
+            padding: 7px 16px;
+            border-radius: 8px;
+            border: 1px solid rgba(0,212,255,0.25);
+            background: rgba(0,212,255,0.07);
+            color: #94a3b8;
+            text-decoration: none;
+            font-size: 13px;
+            transition: all 0.2s;
+        }
+        .page-link-btn:hover { background: rgba(0,212,255,0.18); color: #00d4ff; }
+        .page-link-btn.current { background: rgba(0,212,255,0.25); color: #00d4ff; border-color: #00d4ff; font-weight: 700; }
+    </style>
+    <link rel="stylesheet" href="/static/theme.css">
+    <script src="/static/theme.js" defer></script>
+</head>
+<body>
+
+<div style="display:flex;">
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+        <h2 class="logo"><i class="fas fa-user-shield"></i> Admin Panel</h2>
+        <ul class="menu">
+            <li onclick="location.href='/admin_database'">
+                <i class="fas fa-th-large me-2"></i> Dashboard
+            </li>
+            <li onclick="location.href='/admin_database'">
+                <i class="fas fa-users me-2"></i> Codsadayaasha
+            </li>
+            <li class="active">
+                <i class="fas fa-history me-2"></i> Taariikhda Ficilada
+            </li>
+            <li onclick="location.href='/admin_database'">
+                <i class="fas fa-sync me-2"></i> Refresh Data
+            </li>
+        </ul>
+        <div style="padding-top:20px; border-top:1px solid rgba(0,212,255,0.1);">
+            <a href="/logout" style="text-decoration:none; color:#ef4444; font-weight:600; display:flex; align-items:center; gap:8px;">
+                <i class="fas fa-sign-out-alt"></i> Logout
+            </a>
+        </div>
+    </aside>
+
+    <!-- MAIN CONTENT -->
+    <main class="main-content">
+        <!-- Flash messages -->
+        {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+            {% for category, message in messages %}
+            <div class="custom-alert alert-{{ category if category in ['success', 'danger', 'warning', 'info'] else 'info' }}">
+                <div class="alert-icon">
+                    {% if category == 'success' %}
+                        <i class="fas fa-check-circle"></i>
+                    {% elif category == 'danger' %}
+                        <i class="fas fa-exclamation-circle"></i>
+                    {% elif category == 'warning' %}
+                        <i class="fas fa-exclamation-triangle"></i>
+                    {% else %}
+                        <i class="fas fa-info-circle"></i>
+                    {% endif %}
+                </div>
+                <div class="alert-content">{{ message }}</div>
+                <button type="button" class="alert-close" onclick="this.parentElement.remove()">&times;</button>
+            </div>
+            {% endfor %}
+        {% endif %}
+        {% endwith %}
+
+        <div class="page-header">
+            <div>
+                <div class="page-title"><i class="fas fa-history" style="margin-right:10px;"></i>Taariikhda Ficilada</div>
+                <div style="color:#64748b; font-size:14px; margin-top:6px;">
+                    Dhammaan CREATE, UPDATE, DELETE ficilada admin-ka
+                </div>
+            </div>
+            <a href="/admin_database" style="padding:10px 20px; border-radius:10px; background:rgba(0,212,255,0.1); color:#00d4ff; text-decoration:none; font-size:13px; border:1px solid rgba(0,212,255,0.3);">
+                <i class="fas fa-arrow-left me-1"></i> Dashboard
+            </a>
+        </div>
+
+        <!-- FILTER BAR -->
+        <div class="filter-bar">
+            <a href="/audit_log" class="filter-btn {% if not action_filter %}active{% endif %}">
+                <i class="fas fa-list me-1"></i> Dhammaan
+            </a>
+            <a href="/audit_log?action=DELETE" class="filter-btn delete-btn {% if action_filter == 'DELETE' %}active{% endif %}">
+                <i class="fas fa-trash me-1"></i> Tirtirka (DELETE) · {{ action_counts['DELETE'] }}
+            </a>
+            <a href="/audit_log?action=CREATE" class="filter-btn create-btn {% if action_filter == 'CREATE' %}active{% endif %}">
+                <i class="fas fa-plus me-1"></i> Kuwa Cusub (CREATE) · {{ action_counts['CREATE'] }}
+            </a>
+            <a href="/audit_log?action=UPDATE" class="filter-btn update-btn {% if action_filter == 'UPDATE' %}active{% endif %}">
+                <i class="fas fa-edit me-1"></i> Wax Beddelka (UPDATE) · {{ action_counts['UPDATE'] }}
+            </a>
+            <a href="/audit_log?action=VERIFY" class="filter-btn create-btn {% if action_filter == 'VERIFY' %}active{% endif %}">
+                <i class="fas fa-check me-1"></i> Xaqiijin (VERIFY) · {{ action_counts['VERIFY'] }}
+            </a>
+
+        </div>
+        {% if action_filter %}
+        <div class="filter-summary">Waxaad hadda arkaysaa: <strong>{{ action_filter }}</strong> · {{ pagination.total }} ficil</div>
+        {% endif %}
+
+        <!-- TABLE -->
+        <div class="glass-card">
+            <table>
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Ficilka</th>
+                        <th>Magaca Admin</th>
+                        <th>Xogta La Saameeyay</th>
+                        <th>Faahfaahin</th>
+                        <th>Taariikhda</th>
+                    </tr>
+                </thead>
+                <tbody>
+                {% if logs %}
+                    {% for log, admin_user in logs %}
+                    <tr>
+                        <td style="color:#475569; font-size:12px;">{{ log.id }}</td>
+                        <td>
+                            <span class="badge-action badge-{{ log.action }}">
+                                {% if log.action == 'DELETE' %}<i class="fas fa-trash me-1"></i>
+                                {% elif log.action == 'CREATE' %}<i class="fas fa-plus me-1"></i>
+                                {% else %}<i class="fas fa-edit me-1"></i>{% endif %}
+                                {{ log.action }}
+                            </span>
+                        </td>
+                        <td>
+                            <div style="color:#e2e8f0; font-weight:600;">{{ admin_user.full_name }}</div>
+                            <div style="color:#64748b; font-size:12px;">{{ admin_user.email }}</div>
+                        </td>
+                        <td>
+                            <span style="color:#94a3b8;">{{ log.target_table }}</span>
+                            <span style="color:#475569; font-size:12px;"> — ID {{ log.target_record_id }}</span>
+                        </td>
+                        <td style="max-width:300px; word-break:break-word;">{{ log.description }}</td>
+                        <td style="color:#64748b; font-size:12px; white-space:nowrap;">
+                            {{ log.timestamp.strftime('%Y-%m-%d %H:%M:%S') if log.timestamp else '—' }}
+                        </td>
+                    </tr>
+                    {% endfor %}
+                {% else %}
+                    <tr>
+                        <td colspan="6">
+                            <div class="empty-state">
+                                <i class="fas fa-history"></i>
+                                <div>Wax ficil ah lagama helin</div>
+                                <div style="font-size:13px; margin-top:8px;">
+                                    Marka admin qof tiriyo, xaqiijiyo, ama ku daro — halkan ayuu ka muuqan doonaa
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                {% endif %}
+                </tbody>
+            </table>
+        </div>
+
+        <!-- PAGINATION -->
+        {% if pagination.pages > 1 %}
+        <div class="pagination-bar">
+            {% if pagination.has_prev %}
+            <a href="/audit_log?page={{ pagination.prev_num }}{% if action_filter %}&action={{ action_filter }}{% endif %}" class="page-link-btn">
+                <i class="fas fa-chevron-left"></i> Hore
+            </a>
+            {% endif %}
+
+            {% for p in pagination.iter_pages(left_edge=1, right_edge=1, left_current=2, right_current=2) %}
+                {% if p %}
+                <a href="/audit_log?page={{ p }}{% if action_filter %}&action={{ action_filter }}{% endif %}"
+                   class="page-link-btn {% if p == pagination.page %}current{% endif %}">{{ p }}</a>
+                {% else %}
+                <span class="page-link-btn" style="cursor:default;">…</span>
+                {% endif %}
+            {% endfor %}
+
+            {% if pagination.has_next %}
+            <a href="/audit_log?page={{ pagination.next_num }}{% if action_filter %}&action={{ action_filter }}{% endif %}" class="page-link-btn">
+                Xiga <i class="fas fa-chevron-right"></i>
+            </a>
+            {% endif %}
+        </div>
+        {% endif %}
+
+    </main>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
